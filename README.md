@@ -7,6 +7,7 @@
 | Skill | 作用 | 依赖 |
 | - | - | - |
 | [`liam-page-writing`](skills/liam-page-writing/) | 按 liam.page 2013-2025 的文风写中文技术文章与科普文，含 405 篇语料与六层分析 | 可选 `less-ai-tone` |
+| [`liam-page-blog`](skills/liam-page-blog/) | 在 blog-source 仓库里新建文章、本地生成、发布上线，含 Node 18 环境准备与无 SSH key 时的凭证注入 | 无 |
 | [`less-ai-tone`](skills/less-ai-tone/) | 按 17 条明确规则清理中文写作里的 AI 痕迹，可单独使用 | 无 |
 | [`writing-dna`](skills/writing-dna/) | 从任意作者的语料蒸馏可复用的写作 DNA，输出六份分析产物 | 可选 `less-ai-tone` |
 
