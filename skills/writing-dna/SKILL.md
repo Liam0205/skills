@@ -1,11 +1,11 @@
 ---
-name: writing-dna-skill
+name: writing-dna
 description: 从至少 20 篇完整文章中蒸馏可复用的写作 DNA，分析语言、文章结构、选题逻辑、素材策略、认知框架和视觉风格，并生成 Writing-DNA.md；按该 DNA 写作时会读取全部蒸馏产物和 5 篇相关原文。用于中英文作者、账号、品牌或出版物的风格分析与一致性写作。内置的去 AI 味规则集也可单独调用，用于清理成稿中的 AI 痕迹。 Distill reusable Writing DNA from at least 20 complete articles for Chinese or English authors, publications, brands, and accounts; use for language, structure, topic logic, source strategy, cognitive-frame, and visual-style analysis. Includes a standalone rule set for removing AI writing tells.
 ---
 
 # 写作蒸馏器.skill
 
-> 英文名：`writing-dna-skill`
+> 英文名：`writing-dna`
 
 ## 本 skill 的两种入口
 
