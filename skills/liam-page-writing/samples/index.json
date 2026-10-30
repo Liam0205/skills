@@ -1,0 +1,7208 @@
+[
+ {
+  "file": "2013-05-18 LaTeX-templates.md",
+  "url": "https://liam.page/2013/05/18/LaTeX-templates/",
+  "date": "2013-05-18",
+  "title": "【LaTeX Tips】LaTeX 模板收集",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Templates"
+  ],
+  "chars": 11872,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-04-13 LaTeX-parallelogram.md",
+  "url": "https://liam.page/2013/04/13/LaTeX-parallelogram/",
+  "date": "2013-04-13",
+  "title": "【LaTeX Tips】绘制平行四边形符号",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Parallelogram"
+  ],
+  "chars": 460,
+  "images": 1,
+  "code_blocks": 1,
+  "code_chars": 298
+ },
+ {
+  "file": "2013-05-12 LaTeX-SDUtemplate.md",
+  "url": "https://liam.page/2013/05/12/LaTeX-SDUtemplate/",
+  "date": "2013-05-12",
+  "title": "【LaTeX Tips】LaTeX 山东大学学位论文模板",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "SDU",
+   "Template"
+  ],
+  "chars": 2038,
+  "images": 1,
+  "code_blocks": 2,
+  "code_chars": 389
+ },
+ {
+  "file": "2013-05-15 LaTeX-Chinese-parindent.md",
+  "url": "https://liam.page/2013/05/15/LaTeX-Chinese-parindent/",
+  "date": "2013-05-15",
+  "title": "【LaTeX Tips】如何正确定义中文段落缩进",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Chinese",
+   "Parindent"
+  ],
+  "chars": 2319,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 972
+ },
+ {
+  "file": "2013-05-14 LaTeX-environ.md",
+  "url": "https://liam.page/2013/05/14/LaTeX-environ/",
+  "date": "2013-05-14",
+  "title": "【LaTeX Tips】定义新环境时，花括号意外匹配的解决",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Environ",
+   "Newenvironment"
+  ],
+  "chars": 2652,
+  "images": 1,
+  "code_blocks": 5,
+  "code_chars": 1776
+ },
+ {
+  "file": "2013-08-25 LaTeX-RuleTillEnd.md",
+  "url": "https://liam.page/2013/08/25/LaTeX-RuleTillEnd/",
+  "date": "2013-08-25",
+  "title": "【LaTeX Tips】画一条自动延伸到行尾的线",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Rule"
+  ],
+  "chars": 210,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-08-25 LaTeX-xcumcmart.md",
+  "url": "https://liam.page/2013/08/25/LaTeX-xcumcmart/",
+  "date": "2013-08-25",
+  "title": "全国大学生数学建模竞赛论文模板",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "XCUMCMART"
+  ],
+  "chars": 905,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-08-26 LaTeX-Footnote-In-Section-Title.md",
+  "url": "https://liam.page/2013/08/26/LaTeX-Footnote-In-Section-Title/",
+  "date": "2013-08-26",
+  "title": "【LaTeX Tips】在 Chapter/Section 等标题中插入脚注",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Footnote",
+   "Section",
+   "Chapter"
+  ],
+  "chars": 157,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 140
+ },
+ {
+  "file": "2013-09-10 LaTeX-RomanNumber.md",
+  "url": "https://liam.page/2013/09/10/LaTeX-RomanNumber/",
+  "date": "2013-09-10",
+  "title": "【LaTeX Tips】输出罗马数字",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Roman",
+   "Number"
+  ],
+  "chars": 262,
+  "images": 1,
+  "code_blocks": 1,
+  "code_chars": 195
+ },
+ {
+  "file": "2013-08-23 LaTeX-Formula-Number.md",
+  "url": "https://liam.page/2013/08/23/LaTeX-Formula-Number/",
+  "date": "2013-08-23",
+  "title": "【LaTeX Tips】LaTeX 中公式编号括号样式及章节关联的方法",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Equation number"
+  ],
+  "chars": 1167,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 707
+ },
+ {
+  "file": "2013-09-26 LaTeX-highlight-text.md",
+  "url": "https://liam.page/2013/09/26/LaTeX-highlight-text/",
+  "date": "2013-09-26",
+  "title": "【LaTeX Tips】How to highlight text.",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Highlight",
+   "Ulem",
+   "Robust"
+  ],
+  "chars": 856,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 271
+ },
+ {
+  "file": "2013-10-04 GRE-Issue.md",
+  "url": "https://liam.page/2013/10/04/GRE-Issue/",
+  "date": "2013-10-04",
+  "title": "【透过例子谈 Issue 思路】Issue 21：法律的弹性",
+  "categories": [
+   "GRE"
+  ],
+  "tags": [
+   "AW",
+   "Issue"
+  ],
+  "chars": 4153,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-10-06 GRE-Argument.md",
+  "url": "https://liam.page/2013/10/06/GRE-Argument/",
+  "date": "2013-10-06",
+  "title": "【透过例子谈 Argument 思路】Argument 41：安全帽与严重受伤",
+  "categories": [
+   "GRE"
+  ],
+  "tags": [
+   "AW",
+   "Argument"
+  ],
+  "chars": 4216,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-10-08 LaTeX-def-subnumber.md",
+  "url": "https://liam.page/2013/10/08/LaTeX-def-subnumber/",
+  "date": "2013-10-08",
+  "title": "【LaTeX Tips】在 LaTeX 中实现「子定理」",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Subnumber",
+   "Definition"
+  ],
+  "chars": 438,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 323
+ },
+ {
+  "file": "2013-08-04 LaTeX-table.md",
+  "url": "https://liam.page/2013/08/04/LaTeX-table/",
+  "date": "2013-08-04",
+  "title": "【LaTeX Tips】各种表格的绘制",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Table"
+  ],
+  "chars": 11115,
+  "images": 0,
+  "code_blocks": 16,
+  "code_chars": 6791
+ },
+ {
+  "file": "2013-10-18 LaTeX-Tsinghua-TW.md",
+  "url": "https://liam.page/2013/10/18/LaTeX-Tsinghua-TW/",
+  "date": "2013-10-18",
+  "title": "【LaTeX Tips】2013 清華大學（臺灣） LaTeX 研習投影片——蔡炎龍",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "LaTeX speech"
+  ],
+  "chars": 602,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-10-15 LaTeX-CCT-template.md",
+  "url": "https://liam.page/2013/10/15/LaTeX-CCT-template/",
+  "date": "2013-10-15",
+  "title": "【LaTeX Tips】国内期刊 CCT 模板编译经验",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Template",
+   "CCT",
+   "SYSENGI"
+  ],
+  "chars": 3604,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 242
+ },
+ {
+  "file": "2013-10-14 LaTeX-Key-to-questions.md",
+  "url": "https://liam.page/2013/10/14/LaTeX-Key-to-questions/",
+  "date": "2013-10-14",
+  "title": "【LaTeX Tips】使用 LaTeX 排版试卷挖空的问题",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Blank",
+   "Exam"
+  ],
+  "chars": 2362,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 1585
+ },
+ {
+  "file": "2013-10-17 LaTeX-Linespace.md",
+  "url": "https://liam.page/2013/10/17/LaTeX-Linespace/",
+  "date": "2013-10-17",
+  "title": "【LaTeX Tips】关于行距的研究",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Linespace",
+   "Baseline",
+   "Baselineskip",
+   "Baselinestretch",
+   "Setspace"
+  ],
+  "chars": 1720,
+  "images": 1,
+  "code_blocks": 2,
+  "code_chars": 36
+ },
+ {
+  "file": "2013-10-18 LaTeX-brace-overlap.md",
+  "url": "https://liam.page/2013/10/18/LaTeX-brace-overlap/",
+  "date": "2013-10-18",
+  "title": "【LaTeX Tips】LaTeX 公式上下花括号的交错",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Overbrace",
+   "Underbrace",
+   "Rlap",
+   "Phantom"
+  ],
+  "chars": 376,
+  "images": 1,
+  "code_blocks": 1,
+  "code_chars": 150
+ },
+ {
+  "file": "2013-10-18 LaTeX-websites.md",
+  "url": "https://liam.page/2013/10/18/LaTeX-websites/",
+  "date": "2013-10-18",
+  "title": "【LaTeX Tips】LaTeX 相关工具网站",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Tool",
+   "Website"
+  ],
+  "chars": 625,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-10-30 GRE-wisest-men.md",
+  "url": "https://liam.page/2013/10/30/GRE-wisest-men/",
+  "date": "2013-10-30",
+  "title": "一道三空题的解释",
+  "categories": [
+   "GRE"
+  ],
+  "tags": [
+   "Text Completion"
+  ],
+  "chars": 2014,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-11-02 Python-tutorial-zh_cn.md",
+  "url": "https://liam.page/2013/11/02/Python-tutorial-zh_cn/",
+  "date": "2013-11-02",
+  "title": "Python 入门中译版",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Tutorial",
+   "Translation"
+  ],
+  "chars": 663,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-11-05 LaTeX-include-path.md",
+  "url": "https://liam.page/2013/11/05/LaTeX-include-path/",
+  "date": "2013-11-05",
+  "title": "【LaTeX Tips】指定 include 的路径",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Path",
+   "Include",
+   "Input"
+  ],
+  "chars": 658,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 182
+ },
+ {
+  "file": "2013-11-04 LaTeX-listings-copy.md",
+  "url": "https://liam.page/2013/11/04/LaTeX-listings-copy/",
+  "date": "2013-11-04",
+  "title": "【LaTeX Tips】复制代码时避免复制行号的正确方法",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Listings",
+   "Line number",
+   "Copy"
+  ],
+  "chars": 1207,
+  "images": 2,
+  "code_blocks": 2,
+  "code_chars": 581
+ },
+ {
+  "file": "2013-11-13 Sublime-with-LaTeX.md",
+  "url": "https://liam.page/2013/11/13/Sublime-with-LaTeX/",
+  "date": "2013-11-13",
+  "title": "将 Sublime Text 作为 LaTeX 前端编辑器",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Sublime",
+   "LaTeXTools"
+  ],
+  "chars": 5101,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 136
+ },
+ {
+  "file": "2013-11-18 pyhardway.md",
+  "url": "https://liam.page/2013/11/18/pyhardway/",
+  "date": "2013-11-18",
+  "title": "笨办法学 Python 中译版",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Translation",
+   "PyHardWay"
+  ],
+  "chars": 501,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-11-20 LaTeX-How-to-find-out-where-a-macro-is-defined.md",
+  "url": "https://liam.page/2013/11/20/LaTeX-How-to-find-out-where-a-macro-is-defined/",
+  "date": "2013-11-20",
+  "title": "【LaTeX Tips】如何确定某个宏定义的位置",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Macro",
+   "Package"
+  ],
+  "chars": 1702,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 1022
+ },
+ {
+  "file": "2013-11-11 Sublime-elegant.md",
+  "url": "https://liam.page/2013/11/11/Sublime-elegant/",
+  "date": "2013-11-11",
+  "title": "极致优雅——Sublime Text 简介/入门/技巧",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Sublime",
+   "Tricks",
+   "Tips"
+  ],
+  "chars": 6863,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 79
+ },
+ {
+  "file": "2013-12-02 LaTeX-How-to-start-itemize-on-same-line-as-text.md",
+  "url": "https://liam.page/2013/12/02/LaTeX-How-to-start-itemize-on-same-line-as-text/",
+  "date": "2013-12-02",
+  "title": "【LaTeX Tips】在文本的同一行开始一个列表环境",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "List"
+  ],
+  "chars": 1838,
+  "images": 2,
+  "code_blocks": 2,
+  "code_chars": 1008
+ },
+ {
+  "file": "2013-12-04 LaTeX-Recalling-a-theorem.md",
+  "url": "https://liam.page/2013/12/04/LaTeX-Recalling-a-theorem/",
+  "date": "2013-12-04",
+  "title": "【LaTeX Tips】如何复写定理",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Theorem",
+   "Tecall",
+   "THM-RESTATE"
+  ],
+  "chars": 2085,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 922
+ },
+ {
+  "file": "2013-12-07 LaTeX-Choose-picture-format.md",
+  "url": "https://liam.page/2013/12/07/LaTeX-Choose-picture-format/",
+  "date": "2013-12-07",
+  "title": "【LaTeX Tips】选择加载的图片类型",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Graphicx",
+   "Images",
+   "Format"
+  ],
+  "chars": 798,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 246
+ },
+ {
+  "file": "2014-01-27 Py-Incise-Images.md",
+  "url": "https://liam.page/2014/01/27/Py-Incise-Images/",
+  "date": "2014-01-27",
+  "title": "【Life on Python】批量切割图片",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Images"
+  ],
+  "chars": 926,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 854
+ },
+ {
+  "file": "2014-04-01 LaTeX-Pro-Git-zh.md",
+  "url": "https://liam.page/2014/04/01/LaTeX-Pro-Git-zh/",
+  "date": "2014-04-01",
+  "title": "【LaTeX】Pro Git 中文版",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Git",
+   "Pro Git"
+  ],
+  "chars": 519,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2013-12-05 LaTeX-Emphasize-color-contents-between-two-delimiters-in-listings-but-not-the-de.md",
+  "url": "https://liam.page/2013/12/05/LaTeX-Emphasize-color-contents-between-two-delimiters-in-listings-but-not-the-delimiters-themselves/",
+  "date": "2013-12-05",
+  "title": "【LaTeX Tips】listings 中高亮定界符内的文本而不高亮定界符本身",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Listings",
+   "Highlight",
+   "Delimiter"
+  ],
+  "chars": 3336,
+  "images": 2,
+  "code_blocks": 6,
+  "code_chars": 1972
+ },
+ {
+  "file": "2014-01-29 Py-Contacts.md",
+  "url": "https://liam.page/2014/01/29/Py-Contacts/",
+  "date": "2014-01-29",
+  "title": "【Life on Python】一个简易的通讯录",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Contact"
+  ],
+  "chars": 3388,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 3273
+ },
+ {
+  "file": "2014-04-22 LaTeX-watermark.md",
+  "url": "https://liam.page/2014/04/22/LaTeX-watermark/",
+  "date": "2014-04-22",
+  "title": "【LaTeX Tips】利用 TikZ 在 LaTeX 文档中制作水印效果",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Watermark"
+  ],
+  "chars": 1373,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 750
+ },
+ {
+  "file": "2014-05-08 float-setting.md",
+  "url": "https://liam.page/2014/05/08/float-setting/",
+  "date": "2014-05-08",
+  "title": "【LaTeX Tips】为所有的浮动体一次性设置浮动选项",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Float"
+  ],
+  "chars": 574,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 284
+ },
+ {
+  "file": "2014-01-18 Py-challenge.md",
+  "url": "https://liam.page/2014/01/18/Py-challenge/",
+  "date": "2014-01-18",
+  "title": "【Life on Python】一个古老闯关游戏",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Game"
+  ],
+  "chars": 14435,
+  "images": 12,
+  "code_blocks": 20,
+  "code_chars": 5680
+ },
+ {
+  "file": "2014-05-08 latex-circled-numbers.md",
+  "url": "https://liam.page/2014/05/08/latex-circled-numbers/",
+  "date": "2014-05-08",
+  "title": "【LaTeX Tips】带圈数字与带圈数字列表",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "TikZ",
+   "Circled"
+  ],
+  "chars": 1689,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 1220
+ },
+ {
+  "file": "2014-05-09 gbt7714-2005-bibtex-style.md",
+  "url": "https://liam.page/2014/05/09/gbt7714-2005-bibtex-style/",
+  "date": "2014-05-09",
+  "title": "【LaTeX Tips】符合 GBT7714-2005 标准的 BibTeX Style",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "BibTeX",
+   "GBT7714-2005"
+  ],
+  "chars": 2515,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 33
+ },
+ {
+  "file": "2014-05-10 hearing-impairment.md",
+  "url": "https://liam.page/2014/05/10/hearing-impairment/",
+  "date": "2014-05-10",
+  "title": "为什么一些种类的听力损失是不可逆转的？",
+  "categories": [
+   "Miscellaneous"
+  ],
+  "tags": [
+   "Hearing",
+   "Damnification"
+  ],
+  "chars": 1188,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2014-05-20 koreader-on-kindle-paperwhite.md",
+  "url": "https://liam.page/2014/05/20/koreader-on-kindle-paperwhite/",
+  "date": "2014-05-20",
+  "title": "使用 Koreader 阅读 PDF 让 Kindle Paperwhite 如虎添翼",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Kindle",
+   "PDF",
+   "Koreader"
+  ],
+  "chars": 2662,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2014-05-23 CamStudio-WaveoutGetSelectControl-Virtual_Audio_Cable.md",
+  "url": "https://liam.page/2014/05/23/CamStudio-WaveoutGetSelectControl-Virtual_Audio_Cable/",
+  "date": "2014-05-23",
+  "title": "使用 Virtual Audio Cable 解决 CamStudio 在部分 ThinkPad 机型上无法内录的问题",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "ThinkPad",
+   "CamStudio",
+   "Virtual Audio Cable",
+   "Vitual Sound Card",
+   "WaveoutGetSelectControl"
+  ],
+  "chars": 2837,
+  "images": 5,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2014-06-21 basic-sentence-and-the-complement.md",
+  "url": "https://liam.page/2014/06/21/basic-sentence-and-the-complement/",
+  "date": "2014-06-21",
+  "title": "英语语法之一：基本句型、动词分类、补语",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Grammar"
+  ],
+  "chars": 4393,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2014-06-22 noun-phrase-and-articles.md",
+  "url": "https://liam.page/2014/06/22/noun-phrase-and-articles/",
+  "date": "2014-06-22",
+  "title": "英语语法之二：名词短语",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Grammar"
+  ],
+  "chars": 4639,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2014-07-22 duoshuo-delay.md",
+  "url": "https://liam.page/2014/07/22/duoshuo-delay/",
+  "date": "2014-07-22",
+  "title": "异步加载多说评论框以加快页面访问速度",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Blog",
+   "Duoshuo",
+   "Async Loading"
+  ],
+  "chars": 1464,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 677
+ },
+ {
+  "file": "2014-08-20 book-review-blindness.md",
+  "url": "https://liam.page/2014/08/20/book-review-blindness/",
+  "date": "2014-08-20",
+  "title": "《失明症漫记》读后感",
+  "categories": [
+   "Literature and Social Sciences"
+  ],
+  "tags": [
+   "Book review",
+   "Blindness",
+   "Humanity"
+  ],
+  "chars": 1324,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2014-08-17 kindle-paperwhite2-stop-slient-updating.md",
+  "url": "https://liam.page/2014/08/17/kindle-paperwhite2-stop-slient-updating/",
+  "date": "2014-08-17",
+  "title": "禁止 Kindle Paperwhite2 在连接 WiFi 的情况下静默升级",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Kindle",
+   "BackDoorLock",
+   "KUAL"
+  ],
+  "chars": 2192,
+  "images": 3,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2014-08-21 bitmap-convert-to-eps-batch.md",
+  "url": "https://liam.page/2014/08/21/bitmap-convert-to-eps-batch/",
+  "date": "2014-08-21",
+  "title": "在 Windows 下批量将位图转为 EPS 格式的图档",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Bitmap",
+   "EPS",
+   "Windows Batch"
+  ],
+  "chars": 569,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 102
+ },
+ {
+  "file": "2014-09-28 review-of-the-continent.md",
+  "url": "https://liam.page/2014/09/28/review-of-the-continent/",
+  "date": "2014-09-28",
+  "title": "后会无期于后会有期的平凡之路",
+  "categories": [
+   "Literature and Social Sciences"
+  ],
+  "tags": [
+   "Movie",
+   "Han Han",
+   "The Continent"
+  ],
+  "chars": 1199,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2014-11-02 latex-mactex-chinese-support.md",
+  "url": "https://liam.page/2014/11/02/latex-mactex-chinese-support/",
+  "date": "2014-11-02",
+  "title": "为 MacTeX 配置中文支持",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "MacTeX",
+   "OS X",
+   "CJK"
+  ],
+  "chars": 1781,
+  "images": 4,
+  "code_blocks": 3,
+  "code_chars": 337
+ },
+ {
+  "file": "2014-12-03 how-to-define-a-proof-like-environment.md",
+  "url": "https://liam.page/2014/12/03/how-to-define-a-proof-like-environment/",
+  "date": "2014-12-03",
+  "title": "在 LaTeX 里定义一个类似 proof 的环境",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Proof",
+   "Environment",
+   "Macros",
+   "AMS"
+  ],
+  "chars": 2222,
+  "images": 1,
+  "code_blocks": 5,
+  "code_chars": 1492
+ },
+ {
+  "file": "2014-11-22 latex-pdf-cjk-bookmarks.md",
+  "url": "https://liam.page/2014/11/22/latex-pdf-cjk-bookmarks/",
+  "date": "2014-11-22",
+  "title": "在 LaTeX 中使用含有中文的 PDF 书签避免乱码的正确姿势",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "PDF",
+   "CJK",
+   "Bookmarks",
+   "Error Codes"
+  ],
+  "chars": 2985,
+  "images": 0,
+  "code_blocks": 9,
+  "code_chars": 1896
+ },
+ {
+  "file": "2014-12-07 ptex-intro-and-tutorial-01.md",
+  "url": "https://liam.page/2014/12/07/ptex-intro-and-tutorial-01/",
+  "date": "2014-12-07",
+  "title": "日文 LaTeX 系统介绍 - 简介",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "pTeX"
+  ],
+  "chars": 2406,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2014-09-11 matplotlib-tutorial-zh-cn.md",
+  "url": "https://liam.page/2014/09/11/matplotlib-tutorial-zh-cn/",
+  "date": "2014-09-11",
+  "title": "Matplotlib 教程",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Tutorial",
+   "Matplotlib"
+  ],
+  "chars": 13324,
+  "images": 7,
+  "code_blocks": 25,
+  "code_chars": 5637
+ },
+ {
+  "file": "2014-12-08 ptex-intro-and-tutorial-02.md",
+  "url": "https://liam.page/2014/12/08/ptex-intro-and-tutorial-02/",
+  "date": "2014-12-08",
+  "title": "日文 LaTeX 系统介绍 - 字符与编码",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "pTeX",
+   "Encoding"
+  ],
+  "chars": 4622,
+  "images": 1,
+  "code_blocks": 5,
+  "code_chars": 433
+ },
+ {
+  "file": "2014-09-08 latex-introduction.md",
+  "url": "https://liam.page/2014/09/08/latex-introduction/",
+  "date": "2014-09-08",
+  "title": "一份其实很短的 LaTeX 入门文档",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Introduction",
+   "ctex",
+   "TeXworks"
+  ],
+  "chars": 21577,
+  "images": 14,
+  "code_blocks": 34,
+  "code_chars": 4268
+ },
+ {
+  "file": "2014-12-30 history-of-europe-01.md",
+  "url": "https://liam.page/2014/12/30/history-of-europe-01/",
+  "date": "2014-12-30",
+  "title": "欧洲史·一：欧洲文明开端的三股力量",
+  "categories": [
+   "Literature and Social Sciences"
+  ],
+  "tags": [
+   "History",
+   "Europe",
+   "Christianity",
+   "Greece",
+   "Rome",
+   "Germanic"
+  ],
+  "chars": 2124,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2015-01-06 history-of-europe-02.md",
+  "url": "https://liam.page/2015/01/06/history-of-europe-02/",
+  "date": "2015-01-06",
+  "title": "欧洲史·二：欧洲的思潮",
+  "categories": [
+   "Literature and Social Sciences"
+  ],
+  "tags": [
+   "History",
+   "Europe",
+   "Christianity",
+   "God",
+   "Reason",
+   "Science",
+   "Romantic"
+  ],
+  "chars": 2765,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2014-12-14 advanced-builder-latextools.md",
+  "url": "https://liam.page/2014/12/14/advanced-builder-latextools/",
+  "date": "2014-12-14",
+  "title": "订制 Sublime Text 下 LaTeXTools 插件的编译脚本",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Python",
+   "LaTeXTools",
+   "Compile"
+  ],
+  "chars": 2459,
+  "images": 0,
+  "code_blocks": 13,
+  "code_chars": 932
+ },
+ {
+  "file": "2014-12-11 ptex-intro-and-tutorial-03.md",
+  "url": "https://liam.page/2014/12/11/ptex-intro-and-tutorial-03/",
+  "date": "2014-12-11",
+  "title": "日文 LaTeX 系统介绍 - 最简示例",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "pTeX",
+   "Japanese",
+   "Demo"
+  ],
+  "chars": 9732,
+  "images": 2,
+  "code_blocks": 15,
+  "code_chars": 4979
+ },
+ {
+  "file": "2015-01-22 history-of-europ-03.md",
+  "url": "https://liam.page/2015/01/22/history-of-europ-03/",
+  "date": "2015-01-22",
+  "title": "欧洲史·三：浪漫主义与古希腊哲学",
+  "categories": [
+   "Literature and Social Sciences"
+  ],
+  "tags": [
+   "History",
+   "Europe",
+   "Romantic",
+   "Greece",
+   "Philosophy"
+  ],
+  "chars": 4212,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2015-03-19 why-i-love-to-share.md",
+  "url": "https://liam.page/2015/03/19/why-i-love-to-share/",
+  "date": "2015-03-19",
+  "title": "为什么我乐于分享？",
+  "categories": [
+   "Life and Human Nature"
+  ],
+  "tags": [
+   "Share"
+  ],
+  "chars": 1319,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2015-03-23 push-articles-to-kindle-from-wechat.md",
+  "url": "https://liam.page/2015/03/23/push-articles-to-kindle-from-wechat/",
+  "date": "2015-03-23",
+  "title": "将微信上的文章推送到 Kindle 上",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "WeChat",
+   "Kindle"
+  ],
+  "chars": 1782,
+  "images": 7,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2015-04-14 using-chinese-templates-in-mactex.md",
+  "url": "https://liam.page/2015/04/14/using-chinese-templates-in-mactex/",
+  "date": "2015-04-14",
+  "title": "在 MacTeX 中使用中文模板",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Template",
+   "Chinese",
+   "MacTeX"
+  ],
+  "chars": 2798,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 538
+ },
+ {
+  "file": "2015-01-23 literate-programming-in-latex.md",
+  "url": "https://liam.page/2015/01/23/literate-programming-in-latex/",
+  "date": "2015-01-23",
+  "title": "在 LaTeX 中进行文学编程",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Macro",
+   "Literate Programming",
+   "dtx"
+  ],
+  "chars": 9070,
+  "images": 0,
+  "code_blocks": 10,
+  "code_chars": 3963
+ },
+ {
+  "file": "2015-04-22 cancle-clearpage-in-chapter.md",
+  "url": "https://liam.page/2015/04/22/cancle-clearpage-in-chapter/",
+  "date": "2015-04-22",
+  "title": "避免 \\chapter 命令分页",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Chapter",
+   "Pagebreak"
+  ],
+  "chars": 1364,
+  "images": 1,
+  "code_blocks": 2,
+  "code_chars": 380
+ },
+ {
+  "file": "2015-04-10 how-to-list-unnumbered-section-in-the-table-of-contents.md",
+  "url": "https://liam.page/2015/04/10/how-to-list-unnumbered-section-in-the-table-of-contents/",
+  "date": "2015-04-10",
+  "title": "在 LaTeX 中将不编号的章节列入目录",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Section",
+   "Sectioning",
+   "Numbering",
+   "Table of Contents"
+  ],
+  "chars": 2822,
+  "images": 0,
+  "code_blocks": 7,
+  "code_chars": 1229
+ },
+ {
+  "file": "2015-04-24 apple-dictionaries-download.md",
+  "url": "https://liam.page/2015/04/24/apple-dictionaries-download/",
+  "date": "2015-04-24",
+  "title": "Apple 词典·再要你命 3000 | 美国传统大辞典 | Merriam Webster Collegiate Dict",
+  "categories": [
+   "GRE"
+  ],
+  "tags": [
+   "3000",
+   "AHD",
+   "Merriam Webster",
+   "Apple Dictionaries"
+  ],
+  "chars": 953,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 23
+ },
+ {
+  "file": "2015-04-22 pil-tutorial-basic-usage.md",
+  "url": "https://liam.page/2015/04/22/pil-tutorial-basic-usage/",
+  "date": "2015-04-22",
+  "title": "PIL 简明教程 - 基本用法",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "PIL",
+   "Image"
+  ],
+  "chars": 4877,
+  "images": 3,
+  "code_blocks": 7,
+  "code_chars": 1952
+ },
+ {
+  "file": "2015-04-29 git-checkout-history-version.md",
+  "url": "https://liam.page/2015/04/29/git-checkout-history-version/",
+  "date": "2015-04-29",
+  "title": "在 Git 中 Checkout 历史版本",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Git"
+  ],
+  "chars": 1387,
+  "images": 0,
+  "code_blocks": 7,
+  "code_chars": 305
+ },
+ {
+  "file": "2015-05-01 open-editor-after-hexo-new-immediately.md",
+  "url": "https://liam.page/2015/05/01/open-editor-after-hexo-new-immediately/",
+  "date": "2015-05-01",
+  "title": "在 hexo new 之后立即打开新建的 Markdown 文稿",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Hexo",
+   "Markdown"
+  ],
+  "chars": 1277,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 425
+ },
+ {
+  "file": "2015-04-30 using-font-fallback-to-enhance-the-appreance-on-windows.md",
+  "url": "https://liam.page/2015/04/30/using-font-fallback-to-enhance-the-appreance-on-windows/",
+  "date": "2015-04-30",
+  "title": "使用合适的字体回退机制（Fallback）改善网页在 Windows 平台的字体显示效果",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Hexo",
+   "Font",
+   "Fallback"
+  ],
+  "chars": 1687,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 348
+ },
+ {
+  "file": "2015-05-03 tense-of-verb.md",
+  "url": "https://liam.page/2015/05/03/tense-of-verb/",
+  "date": "2015-05-03",
+  "title": "英语语法之三：动词时态",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Grammar",
+   "Verb",
+   "Tense"
+  ],
+  "chars": 7315,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2015-05-07 generator-of-invitation-code-in-python.md",
+  "url": "https://liam.page/2015/05/07/generator-of-invitation-code-in-python/",
+  "date": "2015-05-07",
+  "title": "用 Python 生成随机的邀请码",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Invitation Code"
+  ],
+  "chars": 2399,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 1489
+ },
+ {
+  "file": "2015-05-05 pil-tutorial-imagedraw-and-imagefont.md",
+  "url": "https://liam.page/2015/05/05/pil-tutorial-imagedraw-and-imagefont/",
+  "date": "2015-05-05",
+  "title": "PIL 简明教程 - 在现有的图片上涂涂改改",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "PIL",
+   "ImageDraw",
+   "ImageFont"
+  ],
+  "chars": 4379,
+  "images": 4,
+  "code_blocks": 5,
+  "code_chars": 1564
+ },
+ {
+  "file": "2015-05-07 make-every-equations-in-your-document-upright.md",
+  "url": "https://liam.page/2015/05/07/make-every-equations-in-your-document-upright/",
+  "date": "2015-05-07",
+  "title": "让所有的公式都使用正文直立字体",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Font",
+   "Equation",
+   "Upright"
+  ],
+  "chars": 747,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 232
+ },
+ {
+  "file": "2015-05-16 ctex-20-released.md",
+  "url": "https://liam.page/2015/05/16/ctex-20-released/",
+  "date": "2015-05-16",
+  "title": "CTeX 2.0 发布 · 新功能简介",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "CTeX"
+  ],
+  "chars": 1496,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 34
+ },
+ {
+  "file": "2015-05-11 bug-of-the-hyperref-package-with-mu-in-section-heading.md",
+  "url": "https://liam.page/2015/05/11/bug-of-the-hyperref-package-with-mu-in-section-heading/",
+  "date": "2015-05-11",
+  "title": "hyperref 宏包 psdextra 选项的 bug 及其 quick fix",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Bug",
+   "Hyperref",
+   "Psdextra"
+  ],
+  "chars": 973,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 453
+ },
+ {
+  "file": "2015-06-01 returned-exit-code-not-0.md",
+  "url": "https://liam.page/2015/06/01/returned-exit-code-not-0/",
+  "date": "2015-06-01",
+  "title": "驱动选项错误导致「returned exit code (1)」的错误",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Driver",
+   "Exit Code"
+  ],
+  "chars": 2066,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 62
+ },
+ {
+  "file": "2015-06-02 fake-tlpretest-to-update-packages.md",
+  "url": "https://liam.page/2015/06/02/fake-tlpretest-to-update-packages/",
+  "date": "2015-06-02",
+  "title": "在 TeX Live 测试期间跨版本更新宏包",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Fake",
+   "tlpretest",
+   "TeX Live",
+   "Update",
+   "Packages"
+  ],
+  "chars": 2092,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 307
+ },
+ {
+  "file": "2015-06-27 ubuntu-server-packages-can-be-updated.md",
+  "url": "https://liam.page/2015/06/27/ubuntu-server-packages-can-be-updated/",
+  "date": "2015-06-27",
+  "title": "升级 Ubuntu，解决登录时提示有软件包可以更新的问题",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Update",
+   "Ubuntu",
+   "Server",
+   "apt-get",
+   "Upgrade"
+  ],
+  "chars": 1464,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 794
+ },
+ {
+  "file": "2015-07-03 cleardoublepage-this-page-is-intentionally-left-blank.md",
+  "url": "https://liam.page/2015/07/03/cleardoublepage-this-page-is-intentionally-left-blank/",
+  "date": "2015-07-03",
+  "title": "在 LaTeX 的 book 类中实现章节间空白页「This page is intetionally left blank」的效果",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Chapter",
+   "Cleardoublepage"
+  ],
+  "chars": 1062,
+  "images": 2,
+  "code_blocks": 1,
+  "code_chars": 379
+ },
+ {
+  "file": "2015-07-11 mactex-2015-system-font.md",
+  "url": "https://liam.page/2015/07/11/mactex-2015-system-font/",
+  "date": "2015-07-11",
+  "title": "修复 MacTeX 2015 无法按字体文件名调用系统字体的问题",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "MacTeX",
+   "Font",
+   "XeLaTeX",
+   "System"
+  ],
+  "chars": 723,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 120
+ },
+ {
+  "file": "2015-07-21 decompile-android-application.md",
+  "url": "https://liam.page/2015/07/21/decompile-android-application/",
+  "date": "2015-07-21",
+  "title": "反编译 Android 程序小记",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Android",
+   "Decompile"
+  ],
+  "chars": 3196,
+  "images": 2,
+  "code_blocks": 3,
+  "code_chars": 150
+ },
+ {
+  "file": "2015-07-25 mathematics-theory-of-natural-language-processing-1.md",
+  "url": "https://liam.page/2015/07/25/mathematics-theory-of-natural-language-processing-1/",
+  "date": "2015-07-25",
+  "title": "自然语言处理的数学原理（一）",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Statistic Language Model",
+   "Natural Language Processing"
+  ],
+  "chars": 3956,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2015-07-27 using-hypcap-to-justify-the-link-point.md",
+  "url": "https://liam.page/2015/07/27/using-hypcap-to-justify-the-link-point/",
+  "date": "2015-07-27",
+  "title": "用 hypcap 宏包修复图表超链接不准的问题",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Hyperref",
+   "Hypcap"
+  ],
+  "chars": 879,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 390
+ },
+ {
+  "file": "2015-08-12 does-the-result-of-md5-hash-function-uniform.md",
+  "url": "https://liam.page/2015/08/12/does-the-result-of-md5-hash-function-uniform/",
+  "date": "2015-08-12",
+  "title": "MD5 散列函数的结果是均匀分布吗？",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Hash",
+   "MD5",
+   "Uniform Distribution"
+  ],
+  "chars": 2049,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 1218
+ },
+ {
+  "file": "2015-07-26 mathematics-theory-of-natural-language-processing-2.md",
+  "url": "https://liam.page/2015/07/26/mathematics-theory-of-natural-language-processing-2/",
+  "date": "2015-07-26",
+  "title": "自然语言处理的数学原理（二）",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Statistic Language Model",
+   "Natural Language Processing",
+   "Stochastic Process",
+   "Markov Process"
+  ],
+  "chars": 8324,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2015-08-17 width-in-latex.md",
+  "url": "https://liam.page/2015/08/17/width-in-latex/",
+  "date": "2015-08-17",
+  "title": "LaTeX 中的宽度",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Table",
+   "Width",
+   "Figure",
+   "Minipage"
+  ],
+  "chars": 872,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2015-09-07 reverse-proxy-to-get-access-to-gist.md",
+  "url": "https://liam.page/2015/09/07/reverse-proxy-to-get-access-to-gist/",
+  "date": "2015-09-07",
+  "title": "使用 Nginx 搭建反向代理以访问 Gist",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Reverse Proxy",
+   "Nginx",
+   "Gist"
+  ],
+  "chars": 4609,
+  "images": 1,
+  "code_blocks": 9,
+  "code_chars": 1949
+ },
+ {
+  "file": "2015-09-09 fix-conflict-between-mathjax-and-markdown.md",
+  "url": "https://liam.page/2015/09/09/fix-conflict-between-mathjax-and-markdown/",
+  "date": "2015-09-09",
+  "title": "解决 MathJax 与 Markdown 的冲突",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Markdown",
+   "MathJax",
+   "Conflict"
+  ],
+  "chars": 3019,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 1561
+ },
+ {
+  "file": "2015-09-24 color-scheme-for-securecrt.md",
+  "url": "https://liam.page/2015/09/24/color-scheme-for-securecrt/",
+  "date": "2015-09-24",
+  "title": "SecureCRT 配色方案（仿 Solarized）",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Color Scheme",
+   "Solarized",
+   "SecureCRT"
+  ],
+  "chars": 2299,
+  "images": 9,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2015-09-12 primed-theorems.md",
+  "url": "https://liam.page/2015/09/12/primed-theorems/",
+  "date": "2015-09-12",
+  "title": "在 LaTeX 中实现定理的重述",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Theorem",
+   "Numbering",
+   "Restate"
+  ],
+  "chars": 1227,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 515
+ },
+ {
+  "file": "2015-10-02 how-to-get-the-last-1-bit-of-an-integer.md",
+  "url": "https://liam.page/2015/10/02/how-to-get-the-last-1-bit-of-an-integer/",
+  "date": "2015-10-02",
+  "title": "取得一个整型变量二进制表示的最后一个「1」",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Cpp",
+   "Binary System"
+  ],
+  "chars": 2893,
+  "images": 1,
+  "code_blocks": 11,
+  "code_chars": 1495
+ },
+ {
+  "file": "2015-09-28 using-the-endfloat-package-to-delay-floats-to-the-and-of-document.md",
+  "url": "https://liam.page/2015/09/28/using-the-endfloat-package-to-delay-floats-to-the-and-of-document/",
+  "date": "2015-09-28",
+  "title": "使用 endfloat 宏包将浮动的图表放在文章末尾",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Float"
+  ],
+  "chars": 4899,
+  "images": 2,
+  "code_blocks": 7,
+  "code_chars": 2138
+ },
+ {
+  "file": "2015-10-24 using-c++11-with-sublime-text-3-on-os-x.md",
+  "url": "https://liam.page/2015/10/24/using-c++11-with-sublime-text-3-on-os-x/",
+  "date": "2015-10-24",
+  "title": "在 OS X 上使用 Sublime Text 编译 C++11",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Sublime Text",
+   "OS X",
+   "C++",
+   "C++11"
+  ],
+  "chars": 1539,
+  "images": 1,
+  "code_blocks": 3,
+  "code_chars": 839
+ },
+ {
+  "file": "2015-11-21 Python-distribution-Anaconda.md",
+  "url": "https://liam.page/2015/11/21/Python-distribution-Anaconda/",
+  "date": "2015-11-21",
+  "title": "Python 发行版：Anaconda",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Anaconda"
+  ],
+  "chars": 3002,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2015-11-21 using-the-caption-package-to-justify-the-link-anchor.md",
+  "url": "https://liam.page/2015/11/21/using-the-caption-package-to-justify-the-link-anchor/",
+  "date": "2015-11-21",
+  "title": "用 caption 宏包修复浮动体超链接不准的问题",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Hyperref",
+   "Caption"
+  ],
+  "chars": 1937,
+  "images": 2,
+  "code_blocks": 2,
+  "code_chars": 808
+ },
+ {
+  "file": "2016-01-23 using-bibtex-to-generate-reference.md",
+  "url": "https://liam.page/2016/01/23/using-bibtex-to-generate-reference/",
+  "date": "2016-01-23",
+  "title": "使用 BibTeX 生成参考文献列表",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "BibTeX",
+   "Reference"
+  ],
+  "chars": 5820,
+  "images": 1,
+  "code_blocks": 13,
+  "code_chars": 1041
+ },
+ {
+  "file": "2016-03-07 generate-fixed-length-of-empty-list.md",
+  "url": "https://liam.page/2016/03/07/generate-fixed-length-of-empty-list/",
+  "date": "2016-03-07",
+  "title": "Python 中生成包含空列表的特定长度的列表",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "List",
+   "List Comprehensions"
+  ],
+  "chars": 891,
+  "images": 0,
+  "code_blocks": 7,
+  "code_chars": 413
+ },
+ {
+  "file": "2016-01-31 binomial-in-cpp.md",
+  "url": "https://liam.page/2016/01/31/binomial-in-cpp/",
+  "date": "2016-01-31",
+  "title": "组合算法（C++ 实现）",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Combination",
+   "Binomial"
+  ],
+  "chars": 3979,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 2604
+ },
+ {
+  "file": "2016-01-27 how-to-use-mcmthesis.md",
+  "url": "https://liam.page/2016/01/27/how-to-use-mcmthesis/",
+  "date": "2016-01-27",
+  "title": "如何使用美赛模板 mcmthesis",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "mcmthesis"
+  ],
+  "chars": 5932,
+  "images": 4,
+  "code_blocks": 16,
+  "code_chars": 1432
+ },
+ {
+  "file": "2016-03-19 manually-solving-the-square-root.md",
+  "url": "https://liam.page/2016/03/19/manually-solving-the-square-root/",
+  "date": "2016-03-19",
+  "title": "谈谈利用竖式手工开平方",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Square root",
+   "Manually"
+  ],
+  "chars": 2357,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-04-02 something-about-the-oxford-comma.md",
+  "url": "https://liam.page/2016/04/02/something-about-the-oxford-comma/",
+  "date": "2016-04-02",
+  "title": "谈谈牛津逗号",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Punctuation",
+   "Oxford Comma",
+   "Harvard Comma",
+   "Serial Comma"
+  ],
+  "chars": 2625,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-04-03 Hungarian-algorithm-in-the-maximum-matching-problem-of-bigraph.md",
+  "url": "https://liam.page/2016/04/03/Hungarian-algorithm-in-the-maximum-matching-problem-of-bigraph/",
+  "date": "2016-04-03",
+  "title": "二分图最大匹配问题与匈牙利算法的核心思想",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Hungarian Algorithm",
+   "Maximum Matching",
+   "Bigraph"
+  ],
+  "chars": 1824,
+  "images": 6,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-04-21 Introduction-to-Serialization.md",
+  "url": "https://liam.page/2016/04/21/Introduction-to-Serialization/",
+  "date": "2016-04-21",
+  "title": "序列化与反序列化简介",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Serialization",
+   "Deserialization"
+  ],
+  "chars": 2221,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-04-08 an-environment-template-for-multiple-alignment-cases-with-specified-braces.md",
+  "url": "https://liam.page/2016/04/08/an-environment-template-for-multiple-alignment-cases-with-specified-braces/",
+  "date": "2016-04-08",
+  "title": "定义一个支持多列对齐的花式 cases 环境",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "AMS",
+   "mathtools",
+   "Alignment",
+   "Cases"
+  ],
+  "chars": 2010,
+  "images": 1,
+  "code_blocks": 2,
+  "code_chars": 1527
+ },
+ {
+  "file": "2016-05-08 slimming-equipments-are-useless.md",
+  "url": "https://liam.page/2016/05/08/slimming-equipments-are-useless/",
+  "date": "2016-05-08",
+  "title": "健身房常见的抖动式腰带腹部甩脂机有用吗？",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Slimming",
+   "Fat"
+  ],
+  "chars": 1069,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-02-27 The-requests-library-in-Python.md",
+  "url": "https://liam.page/2016/02/27/The-requests-library-in-Python/",
+  "date": "2016-02-27",
+  "title": "Python HTTP 库：requests 快速入门",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Library",
+   "requests",
+   "urllib",
+   "urllib2",
+   "HTTP"
+  ],
+  "chars": 12685,
+  "images": 2,
+  "code_blocks": 31,
+  "code_chars": 7177
+ },
+ {
+  "file": "2016-05-01 Introduction-to-Memory-Addressing.md",
+  "url": "https://liam.page/2016/05/01/Introduction-to-Memory-Addressing/",
+  "date": "2016-05-01",
+  "title": "内存寻址",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "CPU",
+   "Memory",
+   "Addressing",
+   "Architecture",
+   "x86"
+  ],
+  "chars": 11637,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-05-05 best-match-using-sort-and-uniq-to-do-set-operations.md",
+  "url": "https://liam.page/2016/05/05/best-match-using-sort-and-uniq-to-do-set-operations/",
+  "date": "2016-05-05",
+  "title": "最佳搭档：利用 sort 和 uniq 做集合运算",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "sort",
+   "uniq",
+   "Set",
+   "Operation"
+  ],
+  "chars": 2026,
+  "images": 0,
+  "code_blocks": 11,
+  "code_chars": 661
+ },
+ {
+  "file": "2016-05-12 max-subsequence-sum-in-circular-list.md",
+  "url": "https://liam.page/2016/05/12/max-subsequence-sum-in-circular-list/",
+  "date": "2016-05-12",
+  "title": "循环列表中的最大子序列和问题",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Dynamic Programming",
+   "Max Subsequence Sum",
+   "Max Subarray Sum",
+   "Circular List",
+   "Kadane Algorithm"
+  ],
+  "chars": 3453,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 1803
+ },
+ {
+  "file": "2016-05-12 the-hidden-skill-of-the-xeCJK-package-Mapping.md",
+  "url": "https://liam.page/2016/05/12/the-hidden-skill-of-the-xeCJK-package-Mapping/",
+  "date": "2016-05-12",
+  "title": "xeCJK 宏包的隐藏技能：字符映射",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "xeCJK",
+   "Mapping",
+   "Simplified Chinese",
+   "Traditional Chinese",
+   "Stop Sign"
+  ],
+  "chars": 1532,
+  "images": 2,
+  "code_blocks": 2,
+  "code_chars": 374
+ },
+ {
+  "file": "2016-05-29 say-hi-to-docker.md",
+  "url": "https://liam.page/2016/05/29/say-hi-to-docker/",
+  "date": "2016-05-29",
+  "title": "初识 Docker",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Docker",
+   "Operating System",
+   "Virtualization"
+  ],
+  "chars": 5696,
+  "images": 0,
+  "code_blocks": 11,
+  "code_chars": 2810
+ },
+ {
+  "file": "2016-05-13 dynamic-programming-and-state-machine.md",
+  "url": "https://liam.page/2016/05/13/dynamic-programming-and-state-machine/",
+  "date": "2016-05-13",
+  "title": "动态规划与状态机：最大子序列和问题的扩展",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Dynamic Programming",
+   "Max Subsequence Sum",
+   "Max Subarray Sum",
+   "State Machine"
+  ],
+  "chars": 3051,
+  "images": 3,
+  "code_blocks": 3,
+  "code_chars": 841
+ },
+ {
+  "file": "2016-06-11 impossibility-of-trisection-of-arbitrary.md",
+  "url": "https://liam.page/2016/06/11/impossibility-of-trisection-of-arbitrary/",
+  "date": "2016-06-11",
+  "title": "为什么说尺规作图三等分任意角是不可解的？",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Algebra",
+   "Geometry",
+   "Galois"
+  ],
+  "chars": 5658,
+  "images": 3,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-06-10 pseudocode-with-vertical-line.md",
+  "url": "https://liam.page/2016/06/10/pseudocode-with-vertical-line/",
+  "date": "2016-06-10",
+  "title": "排版伪代码时打印垂直的缩进提示线",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Macro",
+   "Pseudocode",
+   "Algorithm"
+  ],
+  "chars": 4597,
+  "images": 2,
+  "code_blocks": 5,
+  "code_chars": 2163
+ },
+ {
+  "file": "2016-06-20 big-O-cheat-sheet.md",
+  "url": "https://liam.page/2016/06/20/big-O-cheat-sheet/",
+  "date": "2016-06-20",
+  "title": "复杂度速查表",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Complexities",
+   "Cheatsheet"
+  ],
+  "chars": 4199,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-06-19 best-match-using-find-and-crontab-to-removed-outdated-files.md",
+  "url": "https://liam.page/2016/06/19/best-match-using-find-and-crontab-to-removed-outdated-files/",
+  "date": "2016-06-19",
+  "title": "最佳搭档：利用 find 和 crontab 命令清理过期文件",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Find",
+   "Crontab"
+  ],
+  "chars": 3012,
+  "images": 1,
+  "code_blocks": 4,
+  "code_chars": 380
+ },
+ {
+  "file": "2016-07-23 speed-up-the-recovering-from-iCloud-for-iPhone-users-in-mainland-China.md",
+  "url": "https://liam.page/2016/07/23/speed-up-the-recovering-from-iCloud-for-iPhone-users-in-mainland-China/",
+  "date": "2016-07-23",
+  "title": "加快 iPhone 从 iCloud 恢复备份的速度",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "iPhone",
+   "iCloud",
+   "DNS"
+  ],
+  "chars": 1580,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-07-10 a-not-so-simple-introduction-to-lambdamart.md",
+  "url": "https://liam.page/2016/07/10/a-not-so-simple-introduction-to-lambdamart/",
+  "date": "2016-07-10",
+  "title": "LambdaMART 不太简短之介绍",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Learning to Rank",
+   "Machine Learning",
+   "Search Engine",
+   "NDCG",
+   "MART",
+   "LambdaMART",
+   "GBDT"
+  ],
+  "chars": 9251,
+  "images": 4,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-07-26 translate-Chinese-digits-to-Arabic-number.md",
+  "url": "https://liam.page/2016/07/26/translate-Chinese-digits-to-Arabic-number/",
+  "date": "2016-07-26",
+  "title": "用 Python 将中文数字转换成阿拉伯数字",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Chinese",
+   "Number",
+   "Python",
+   "Arabic"
+  ],
+  "chars": 2023,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 1723
+ },
+ {
+  "file": "2016-07-31 tense-selection.md",
+  "url": "https://liam.page/2016/07/31/tense-selection/",
+  "date": "2016-07-31",
+  "title": "英语语法之四：时态选择",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Grammar",
+   "Verb",
+   "Tense",
+   "Flow Chart"
+  ],
+  "chars": 3463,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-08-30 LaTeX-template-lpaper.md",
+  "url": "https://liam.page/2016/08/30/LaTeX-template-lpaper/",
+  "date": "2016-08-30",
+  "title": "LaTeX 模板：lpaper",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Template"
+  ],
+  "chars": 289,
+  "images": 2,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-07-30 release-your-own-app-in-Homebrew.md",
+  "url": "https://liam.page/2016/07/30/release-your-own-app-in-Homebrew/",
+  "date": "2016-07-30",
+  "title": "在 Homebrew 上发布自己的 App",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "OS X",
+   "Homebrew",
+   "App",
+   "Mac"
+  ],
+  "chars": 7573,
+  "images": 0,
+  "code_blocks": 10,
+  "code_chars": 3917
+ },
+ {
+  "file": "2016-08-14 copy-control-in-Cpp.md",
+  "url": "https://liam.page/2016/08/14/copy-control-in-Cpp/",
+  "date": "2016-08-14",
+  "title": "C++ 中类的拷贝控制",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Class",
+   "Copy Control"
+  ],
+  "chars": 4704,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 2279
+ },
+ {
+  "file": "2016-08-30 review-of-hardware-development.md",
+  "url": "https://liam.page/2016/08/30/review-of-hardware-development/",
+  "date": "2016-08-30",
+  "title": "程序员的自我修养（一）：计算机硬件架构的发展",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Architecture"
+  ],
+  "chars": 1215,
+  "images": 4,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-09-01 listings-settings-for-MATLAB.md",
+  "url": "https://liam.page/2016/09/01/listings-settings-for-MATLAB/",
+  "date": "2016-09-01",
+  "title": "listings 配置：MATLAB 语法高亮",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Listings",
+   "MATLAB"
+  ],
+  "chars": 1352,
+  "images": 1,
+  "code_blocks": 1,
+  "code_chars": 1131
+ },
+ {
+  "file": "2016-09-03 a-simple-text-block-by-TikZ.md",
+  "url": "https://liam.page/2016/09/03/a-simple-text-block-by-TikZ/",
+  "date": "2016-09-03",
+  "title": "一个用 TikZ 实现的简易文本框",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "TikZ"
+  ],
+  "chars": 2066,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 1225
+ },
+ {
+  "file": "2016-09-10 tmux-plugin-resurrect.md",
+  "url": "https://liam.page/2016/09/10/tmux-plugin-resurrect/",
+  "date": "2016-09-10",
+  "title": "保存和恢复 Tmux 会话",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Tmux",
+   "Resurrect"
+  ],
+  "chars": 2888,
+  "images": 0,
+  "code_blocks": 8,
+  "code_chars": 1092
+ },
+ {
+  "file": "2016-09-23 Python-random.md",
+  "url": "https://liam.page/2016/09/23/Python-random/",
+  "date": "2016-09-23",
+  "title": "Python 中的 random 库速查表",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Cheatsheet",
+   "random"
+  ],
+  "chars": 1396,
+  "images": 0,
+  "code_blocks": 6,
+  "code_chars": 908
+ },
+ {
+  "file": "2016-09-23 using-deque-to-implement-marquee-and-rate-limiter.md",
+  "url": "https://liam.page/2016/09/23/using-deque-to-implement-marquee-and-rate-limiter/",
+  "date": "2016-09-23",
+  "title": "用双向队列实现跑马灯和频率限制器",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Collections",
+   "Marquee",
+   "QPS",
+   "Rate Limiter"
+  ],
+  "chars": 4283,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 2310
+ },
+ {
+  "file": "2016-09-28 tide-influence-on-the-moon.md",
+  "url": "https://liam.page/2016/09/28/tide-influence-on-the-moon/",
+  "date": "2016-09-28",
+  "title": "地球潮汐对地月系统的影响是怎样的",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Tide",
+   "Earth-Moon System",
+   "Einetic Energy",
+   "Gravitation"
+  ],
+  "chars": 2014,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-09-24 TikZ-comment-to-text.md",
+  "url": "https://liam.page/2016/09/24/TikZ-comment-to-text/",
+  "date": "2016-09-24",
+  "title": "用 TikZ 实现带箭头的注释效果",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "TikZ",
+   "Comment"
+  ],
+  "chars": 3330,
+  "images": 3,
+  "code_blocks": 4,
+  "code_chars": 1969
+ },
+ {
+  "file": "2016-10-14 LaTeX-endnotes.md",
+  "url": "https://liam.page/2016/10/14/LaTeX-endnotes/",
+  "date": "2016-10-14",
+  "title": "尾注的处理",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Endnotes"
+  ],
+  "chars": 1866,
+  "images": 2,
+  "code_blocks": 2,
+  "code_chars": 922
+ },
+ {
+  "file": "2016-07-22 using-the-tcolorbox-package-to-create-a-new-theorem-environment.md",
+  "url": "https://liam.page/2016/07/22/using-the-tcolorbox-package-to-create-a-new-theorem-environment/",
+  "date": "2016-07-22",
+  "title": "LaTeX 黑魔法（一）：tcolorbox 宏包简明教程",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Theorem",
+   "tcolorbox"
+  ],
+  "chars": 20309,
+  "images": 18,
+  "code_blocks": 23,
+  "code_chars": 11461
+ },
+ {
+  "file": "2016-10-27 how-to-calc-sin-36.md",
+  "url": "https://liam.page/2016/10/27/how-to-calc-sin-36/",
+  "date": "2016-10-27",
+  "title": "如何计算 sin 36°",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Trigonometric function"
+  ],
+  "chars": 1874,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-09-25 review-of-envoy.md",
+  "url": "https://liam.page/2016/09/25/review-of-envoy/",
+  "date": "2016-09-25",
+  "title": "Python envoy 模块源码剖析",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Library",
+   "Subprocess"
+  ],
+  "chars": 10795,
+  "images": 1,
+  "code_blocks": 12,
+  "code_chars": 3639
+ },
+ {
+  "file": "2016-11-06 Linux-Info-Cheatsheet.md",
+  "url": "https://liam.page/2016/11/06/Linux-Info-Cheatsheet/",
+  "date": "2016-11-06",
+  "title": "Linux 相关信息速查表",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "CPU",
+   "Memory",
+   "Cheatsheet",
+   "Linux",
+   "Disk",
+   "Process"
+  ],
+  "chars": 1491,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 1336
+ },
+ {
+  "file": "2016-11-07 how-to-remove-a-column-from-a-plain-text-file-on-Linux.md",
+  "url": "https://liam.page/2016/11/07/how-to-remove-a-column-from-a-plain-text-file-on-Linux/",
+  "date": "2016-11-07",
+  "title": "一点黑魔法：Linux 中对纯文本文件的列操作",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Linux",
+   "Paste",
+   "Cut",
+   "Column"
+  ],
+  "chars": 3380,
+  "images": 0,
+  "code_blocks": 16,
+  "code_chars": 1683
+ },
+ {
+  "file": "2016-11-08 Shell-variable-reference-and-string-cut-off.md",
+  "url": "https://liam.page/2016/11/08/Shell-variable-reference-and-string-cut-off/",
+  "date": "2016-11-08",
+  "title": "Shell 变量引用和字符串处理",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Shell",
+   "Variable",
+   "String"
+  ],
+  "chars": 2449,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 847
+ },
+ {
+  "file": "2016-11-26 init-vector-from-array.md",
+  "url": "https://liam.page/2016/11/26/init-vector-from-array/",
+  "date": "2016-11-26",
+  "title": "从硬编码的数组中初始化 vector 容器",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Cpp",
+   "Vector",
+   "Array"
+  ],
+  "chars": 227,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 168
+ },
+ {
+  "file": "2016-11-27 brief-think-of-the-last-half-of-Internet-time.md",
+  "url": "https://liam.page/2016/11/27/brief-think-of-the-last-half-of-Internet-time/",
+  "date": "2016-11-27",
+  "title": "互联网下半场对个人而言意味着什么？",
+  "categories": [
+   "Miscellaneous"
+  ],
+  "tags": [
+   "Internet",
+   "Thinking"
+  ],
+  "chars": 708,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-11-26 Introduction-to-CRTP-in-Cpp.md",
+  "url": "https://liam.page/2016/11/26/Introduction-to-CRTP-in-Cpp/",
+  "date": "2016-11-26",
+  "title": "C++ 惯用法 CRTP 简介",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Template",
+   "Cpp",
+   "Class",
+   "Idiom"
+  ],
+  "chars": 3648,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 2171
+ },
+ {
+  "file": "2016-11-11 ways-to-parse-arguments-in-shell-script.md",
+  "url": "https://liam.page/2016/11/11/ways-to-parse-arguments-in-shell-script/",
+  "date": "2016-11-11",
+  "title": "在 Shell 脚本中解析选项",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Argument",
+   "Shell",
+   "Script",
+   "Option",
+   "Flag",
+   "getopts"
+  ],
+  "chars": 5638,
+  "images": 0,
+  "code_blocks": 17,
+  "code_chars": 2529
+ },
+ {
+  "file": "2016-12-11 LaTeX-traditional-font-scheme.md",
+  "url": "https://liam.page/2016/12/11/LaTeX-traditional-font-scheme/",
+  "date": "2016-12-11",
+  "title": "LaTeX 字体机制简介",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Font",
+   "Scheme"
+  ],
+  "chars": 3718,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 364
+ },
+ {
+  "file": "2016-11-19 the-speed-of-reading-files-in-Cpp.md",
+  "url": "https://liam.page/2016/11/19/the-speed-of-reading-files-in-Cpp/",
+  "date": "2016-11-19",
+  "title": "探幽：C++ 的读入速度",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "I/O",
+   "cin",
+   "scanf"
+  ],
+  "chars": 9094,
+  "images": 1,
+  "code_blocks": 10,
+  "code_chars": 2413
+ },
+ {
+  "file": "2016-12-11 move-windows-between-Tmux-sessions.md",
+  "url": "https://liam.page/2016/12/11/move-windows-between-Tmux-sessions/",
+  "date": "2016-12-11",
+  "title": "在 Tmux 的 session 之间移动窗口",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Tmux",
+   "Session",
+   "Window"
+  ],
+  "chars": 923,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 137
+ },
+ {
+  "file": "2016-12-12 review-of-bingmeiguanji.md",
+  "url": "https://liam.page/2016/12/12/review-of-bingmeiguanji/",
+  "date": "2016-12-12",
+  "title": "重读「病梅馆记」",
+  "categories": [
+   "Literature and Social Sciences"
+  ],
+  "tags": [
+   "Review"
+  ],
+  "chars": 1755,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-12-21 XGBoost-idealDCG-and-NDCG.md",
+  "url": "https://liam.page/2016/12/21/XGBoost-idealDCG-and-NDCG/",
+  "date": "2016-12-21",
+  "title": "XGBoost 在计算 NDCG 时的特殊处理",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "NDCG",
+   "LambdaMART",
+   "XGBoost",
+   "Gradient Boosting"
+  ],
+  "chars": 738,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 68
+ },
+ {
+  "file": "2017-01-08 arabic-numbers-or-lowercase-letters-in-blackboard-bold-doublestroke-font.md",
+  "url": "https://liam.page/2017/01/08/arabic-numbers-or-lowercase-letters-in-blackboard-bold-doublestroke-font/",
+  "date": "2017-01-08",
+  "title": "为阿拉伯数字和小写字母实现类似 \\mathbb 的效果",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Font",
+   "mathbb",
+   "Blackboard Bold",
+   "Doublestroke"
+  ],
+  "chars": 1127,
+  "images": 2,
+  "code_blocks": 2,
+  "code_chars": 188
+ },
+ {
+  "file": "2016-12-14 Shunting-Yard-Algorithm.md",
+  "url": "https://liam.page/2016/12/14/Shunting-Yard-Algorithm/",
+  "date": "2016-12-14",
+  "title": "调度场算法",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Shunting Yard Algorithm"
+  ],
+  "chars": 4568,
+  "images": 1,
+  "code_blocks": 4,
+  "code_chars": 92
+ },
+ {
+  "file": "2017-01-10 Times-New-Roman-and-LaTeX.md",
+  "url": "https://liam.page/2017/01/10/Times-New-Roman-and-LaTeX/",
+  "date": "2017-01-10",
+  "title": "Times New Roman 与 LaTeX",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Font",
+   "Times"
+  ],
+  "chars": 2287,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 742
+ },
+ {
+  "file": "2016-12-20 KMP-Algorithm.md",
+  "url": "https://liam.page/2016/12/20/KMP-Algorithm/",
+  "date": "2016-12-20",
+  "title": "字符串匹配：KMP 算法",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "String",
+   "Pattern Match"
+  ],
+  "chars": 6419,
+  "images": 0,
+  "code_blocks": 9,
+  "code_chars": 2632
+ },
+ {
+  "file": "2017-01-31 traps-in-lexical-analysis-of-C.md",
+  "url": "https://liam.page/2017/01/31/traps-in-lexical-analysis-of-C/",
+  "date": "2017-01-31",
+  "title": "记 C 语言词法分析中的贪心法",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C",
+   "Lexical Analysis",
+   "Traps"
+  ],
+  "chars": 1059,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2016-12-11 rvalue-reference-in-Cpp.md",
+  "url": "https://liam.page/2016/12/11/rvalue-reference-in-Cpp/",
+  "date": "2016-12-11",
+  "title": "谈谈 C++ 中的右值引用",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Cpp",
+   "Reference",
+   "rvalue",
+   "move",
+   "move_iterator"
+  ],
+  "chars": 10745,
+  "images": 0,
+  "code_blocks": 24,
+  "code_chars": 5221
+ },
+ {
+  "file": "2017-01-17 fork-safe.md",
+  "url": "https://liam.page/2017/01/17/fork-safe/",
+  "date": "2017-01-17",
+  "title": "程序员的自我修养（三）：fork() 安全",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Process",
+   "Thread",
+   "Fork",
+   "Fork Safe"
+  ],
+  "chars": 5254,
+  "images": 0,
+  "code_blocks": 6,
+  "code_chars": 2263
+ },
+ {
+  "file": "2017-02-20 git-diff-with-cached-files.md",
+  "url": "https://liam.page/2017/02/20/git-diff-with-cached-files/",
+  "date": "2017-02-20",
+  "title": "使用 git diff 查看差异",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Git",
+   "Diff",
+   "Cached"
+  ],
+  "chars": 702,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2017-02-19 implement-template-class-out-of-the-declaration-of-it.md",
+  "url": "https://liam.page/2017/02/19/implement-template-class-out-of-the-declaration-of-it/",
+  "date": "2017-02-19",
+  "title": "在类模板定义的头文件之外实现类模板的成员函数",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Template Class"
+  ],
+  "chars": 2034,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 471
+ },
+ {
+  "file": "2017-02-23 switch-remote-repo-for-git.md",
+  "url": "https://liam.page/2017/02/23/switch-remote-repo-for-git/",
+  "date": "2017-02-23",
+  "title": "为 Git 仓库切换远程仓库",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Git",
+   "GitHub",
+   "CodingNet"
+  ],
+  "chars": 1424,
+  "images": 1,
+  "code_blocks": 3,
+  "code_chars": 698
+ },
+ {
+  "file": "2017-01-17 layers-and-operation-system.md",
+  "url": "https://liam.page/2017/01/17/layers-and-operation-system/",
+  "date": "2017-01-17",
+  "title": "程序员的自我修养（二）：操作系统、进程与线程",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Architecture",
+   "Linux",
+   "Process",
+   "Thread",
+   "Operation System",
+   "Thread Safe"
+  ],
+  "chars": 11305,
+  "images": 2,
+  "code_blocks": 15,
+  "code_chars": 4260
+ },
+ {
+  "file": "2017-03-11 floats-in-LaTeX-basic.md",
+  "url": "https://liam.page/2017/03/11/floats-in-LaTeX-basic/",
+  "date": "2017-03-11",
+  "title": "LaTeX 中的浮动体：基础篇",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Floats",
+   "Vertical"
+  ],
+  "chars": 2836,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 421
+ },
+ {
+  "file": "2017-02-05 pointer-in-C-and-Cpp.md",
+  "url": "https://liam.page/2017/02/05/pointer-in-C-and-Cpp/",
+  "date": "2017-02-05",
+  "title": "C 和 C++ 中的指针",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Cpp",
+   "C",
+   "Pointer"
+  ],
+  "chars": 11141,
+  "images": 0,
+  "code_blocks": 27,
+  "code_chars": 4417
+ },
+ {
+  "file": "2017-03-13 read-substrings-from-paired-delimiters-in-Cpp.md",
+  "url": "https://liam.page/2017/03/13/read-substrings-from-paired-delimiters-in-Cpp/",
+  "date": "2017-03-13",
+  "title": "在 C++ 中读取字符串中成对定界符中的子串",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "String",
+   "Delimiters",
+   "Substring"
+  ],
+  "chars": 1684,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 888
+ },
+ {
+  "file": "2017-03-22 floats-in-LaTeX-handle-overfull-floats.md",
+  "url": "https://liam.page/2017/03/22/floats-in-LaTeX-handle-overfull-floats/",
+  "date": "2017-03-22",
+  "title": "LaTeX 中的浮动体：处理超宽问题",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Floats",
+   "Overfull"
+  ],
+  "chars": 4110,
+  "images": 4,
+  "code_blocks": 7,
+  "code_chars": 2030
+ },
+ {
+  "file": "2017-03-25 bias-variance-tradeoff.md",
+  "url": "https://liam.page/2017/03/25/bias-variance-tradeoff/",
+  "date": "2017-03-25",
+  "title": "谈谈 Bias-Variance Tradeoff",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Machine Learning",
+   "Tradeoff"
+  ],
+  "chars": 6129,
+  "images": 5,
+  "code_blocks": 3,
+  "code_chars": 1434
+ },
+ {
+  "file": "2017-03-30 L1-and-L2-regularizer.md",
+  "url": "https://liam.page/2017/03/30/L1-and-L2-regularizer/",
+  "date": "2017-03-30",
+  "title": "谈谈 L1 与 L2-正则项",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Machine Learning",
+   "Regularization"
+  ],
+  "chars": 5500,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2017-04-04 Python-100-lines-of-PageRank.md",
+  "url": "https://liam.page/2017/04/04/Python-100-lines-of-PageRank/",
+  "date": "2017-04-04",
+  "title": "100 行代码实现 PageRank 算法",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Python",
+   "Search Engine",
+   "PageRank",
+   "Ranking"
+  ],
+  "chars": 3851,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 3109
+ },
+ {
+  "file": "2017-04-03 not-to-link-libstdc-statically-and-why.md",
+  "url": "https://liam.page/2017/04/03/not-to-link-libstdc-statically-and-why/",
+  "date": "2017-04-03",
+  "title": "为什么不能在动态库里静态链接？",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Linking",
+   "Loading",
+   "Static",
+   "Dynamic",
+   "Shared Object"
+  ],
+  "chars": 8076,
+  "images": 0,
+  "code_blocks": 8,
+  "code_chars": 2975
+ },
+ {
+  "file": "2017-04-11 justifying-in-beamer-s-lists.md",
+  "url": "https://liam.page/2017/04/11/justifying-in-beamer-s-lists/",
+  "date": "2017-04-11",
+  "title": "解决 beamer 中列表环境无法两端切齐的问题",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Beamer",
+   "Justifying"
+  ],
+  "chars": 2420,
+  "images": 2,
+  "code_blocks": 4,
+  "code_chars": 1344
+ },
+ {
+  "file": "2017-04-04 get-data-from-World-Bank-in-Python-within-the-wbdata-module.md",
+  "url": "https://liam.page/2017/04/04/get-data-from-World-Bank-in-Python-within-the-wbdata-module/",
+  "date": "2017-04-04",
+  "title": "在 Python 中使用 wbdata 库获取世界银行的数据",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Matplotlib",
+   "World Bank",
+   "wbdata",
+   "Pandas"
+  ],
+  "chars": 7913,
+  "images": 1,
+  "code_blocks": 7,
+  "code_chars": 5938
+ },
+ {
+  "file": "2017-04-29 busuanzi-offset-setting.md",
+  "url": "https://liam.page/2017/04/29/busuanzi-offset-setting/",
+  "date": "2017-04-29",
+  "title": "不蒜子计数器初始化的非官方办法",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Busuanzi"
+  ],
+  "chars": 2723,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 1734
+ },
+ {
+  "file": "2017-04-29 share-plugin-supoort-HTTPS.md",
+  "url": "https://liam.page/2017/04/29/share-plugin-supoort-HTTPS/",
+  "date": "2017-04-29",
+  "title": "支持 HTTPS 协议的分享插件",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Share",
+   "HTTPS",
+   "Plugin"
+  ],
+  "chars": 2651,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 803
+ },
+ {
+  "file": "2017-05-01 the-correct-way-to-use-differential-operator.md",
+  "url": "https://liam.page/2017/05/01/the-correct-way-to-use-differential-operator/",
+  "date": "2017-05-01",
+  "title": "在 LaTeX 中使用微分算子的正确姿势",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Operator",
+   "Differential"
+  ],
+  "chars": 1344,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 147
+ },
+ {
+  "file": "2017-04-30 floats-in-LaTeX-the-positioning-algorithm.md",
+  "url": "https://liam.page/2017/04/30/floats-in-LaTeX-the-positioning-algorithm/",
+  "date": "2017-04-30",
+  "title": "LaTeX 中的浮动体：浮动算法",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Algorithm",
+   "Floats",
+   "Positioning"
+  ],
+  "chars": 5241,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 41
+ },
+ {
+  "file": "2017-05-14 make-text-area-colored-by-TikZ.md",
+  "url": "https://liam.page/2017/05/14/make-text-area-colored-by-TikZ/",
+  "date": "2017-05-14",
+  "title": "使用 TikZ 给版面着色",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "TikZ",
+   "Color"
+  ],
+  "chars": 3135,
+  "images": 1,
+  "code_blocks": 5,
+  "code_chars": 920
+ },
+ {
+  "file": "2017-05-06 cxx-concurrency-multithread-basic-problems.md",
+  "url": "https://liam.page/2017/05/06/cxx-concurrency-multithread-basic-problems/",
+  "date": "2017-05-06",
+  "title": "程序员的自我修养（四）：C++ 与并发的基本问题",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Multithread",
+   "Concurrency"
+  ],
+  "chars": 4791,
+  "images": 2,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2017-04-09 Foundations-of-Cpp.md",
+  "url": "https://liam.page/2017/04/09/Foundations-of-Cpp/",
+  "date": "2017-04-09",
+  "title": "C++ 的几个基本原理和技术",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Foundations"
+  ],
+  "chars": 12360,
+  "images": 6,
+  "code_blocks": 15,
+  "code_chars": 4772
+ },
+ {
+  "file": "2017-05-17 help-the-url-command-from-hyperref-to-break-at-line-wrapping-point.md",
+  "url": "https://liam.page/2017/05/17/help-the-url-command-from-hyperref-to-break-at-line-wrapping-point/",
+  "date": "2017-05-17",
+  "title": "使 LaTeX 文稿中的 URL 正确换行",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "hyperref",
+   "linebreak",
+   "URL"
+  ],
+  "chars": 1443,
+  "images": 1,
+  "code_blocks": 1,
+  "code_chars": 707
+ },
+ {
+  "file": "2017-05-24 switch-between-horizon-and-vertical-split-in-VIM.md",
+  "url": "https://liam.page/2017/05/24/switch-between-horizon-and-vertical-split-in-VIM/",
+  "date": "2017-05-24",
+  "title": "在 VIM 中切换横竖分屏",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Vertical",
+   "VIM",
+   "Split",
+   "Horizon"
+  ],
+  "chars": 456,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2017-05-25 the-mutable-keyword-in-Cxx.md",
+  "url": "https://liam.page/2017/05/25/the-mutable-keyword-in-Cxx/",
+  "date": "2017-05-25",
+  "title": "C++ 中的 mutable 关键字",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Mutable"
+  ],
+  "chars": 1937,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 527
+ },
+ {
+  "file": "2017-05-16 first-step-on-multithread-programming-of-cxx.md",
+  "url": "https://liam.page/2017/05/16/first-step-on-multithread-programming-of-cxx/",
+  "date": "2017-05-16",
+  "title": "程序员的自我修养（五）：C++ 多线程编程初步",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Cpp",
+   "C++11",
+   "Multithread"
+  ],
+  "chars": 8168,
+  "images": 0,
+  "code_blocks": 15,
+  "code_chars": 3067
+ },
+ {
+  "file": "2017-06-30 create-overlayed-symbols-by-ooalign.md",
+  "url": "https://liam.page/2017/06/30/create-overlayed-symbols-by-ooalign/",
+  "date": "2017-06-30",
+  "title": "LaTeX 黑魔法（二）：使用 \\ooalign 命令创建叠加在一起的记号",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "align",
+   "leaders"
+  ],
+  "chars": 2605,
+  "images": 1,
+  "code_blocks": 6,
+  "code_chars": 946
+ },
+ {
+  "file": "2017-07-03 upright-braces-in-italic-mode.md",
+  "url": "https://liam.page/2017/07/03/upright-braces-in-italic-mode/",
+  "date": "2017-07-03",
+  "title": "使斜体中的括号保持直立",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Emphesis",
+   "Italic",
+   "Brace",
+   "Bracket"
+  ],
+  "chars": 1288,
+  "images": 3,
+  "code_blocks": 3,
+  "code_chars": 479
+ },
+ {
+  "file": "2017-06-30 understanding-yield-in-python.md",
+  "url": "https://liam.page/2017/06/30/understanding-yield-in-python/",
+  "date": "2017-06-30",
+  "title": "Python 中的黑暗角落（一）：理解 yield 关键字",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Yield",
+   "Coroutine",
+   "Iterator",
+   "Generator"
+  ],
+  "chars": 4351,
+  "images": 0,
+  "code_blocks": 7,
+  "code_chars": 958
+ },
+ {
+  "file": "2017-06-30 generator-coroutine-in-python-basic-topics.md",
+  "url": "https://liam.page/2017/06/30/generator-coroutine-in-python-basic-topics/",
+  "date": "2017-06-30",
+  "title": "Python 中的黑暗角落（二）：生成器协程的调度问题",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Yield",
+   "Coroutine",
+   "Generator",
+   "Asynchronism"
+  ],
+  "chars": 9797,
+  "images": 0,
+  "code_blocks": 12,
+  "code_chars": 5442
+ },
+ {
+  "file": "2017-07-23 global-scale-for-TikZ-picture.md",
+  "url": "https://liam.page/2017/07/23/global-scale-for-TikZ-picture/",
+  "date": "2017-07-23",
+  "title": "在 LaTeX 中同步缩放 TikZ 与其中的 node",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "TikZ",
+   "Scale"
+  ],
+  "chars": 2572,
+  "images": 3,
+  "code_blocks": 3,
+  "code_chars": 1767
+ },
+ {
+  "file": "2017-07-23 taylor-expansion-and-lop1p-and-expm1.md",
+  "url": "https://liam.page/2017/07/23/taylor-expansion-and-lop1p-and-expm1/",
+  "date": "2017-07-23",
+  "title": "说说泰勒展开、lop1p 及 expm1",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Taylor Expansion",
+   "lop1p",
+   "expm1"
+  ],
+  "chars": 4721,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 1353
+ },
+ {
+  "file": "2017-06-10 protecting-data-sharing-between-threads.md",
+  "url": "https://liam.page/2017/06/10/protecting-data-sharing-between-threads/",
+  "date": "2017-06-10",
+  "title": "程序员的自我修养（六）：保护线程间的共享数据",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++11",
+   "Multithread",
+   "Race Conditions",
+   "Lock",
+   "Mutex"
+  ],
+  "chars": 21431,
+  "images": 0,
+  "code_blocks": 13,
+  "code_chars": 8176
+ },
+ {
+  "file": "2017-07-23 modules-and-packages-of-python.md",
+  "url": "https://liam.page/2017/07/23/modules-and-packages-of-python/",
+  "date": "2017-07-23",
+  "title": "Python 中的黑暗角落（三）：模块与包",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Packages",
+   "Modules"
+  ],
+  "chars": 6978,
+  "images": 0,
+  "code_blocks": 14,
+  "code_chars": 2090
+ },
+ {
+  "file": "2017-07-27 convolutions-and-convolution-neural-network.md",
+  "url": "https://liam.page/2017/07/27/convolutions-and-convolution-neural-network/",
+  "date": "2017-07-27",
+  "title": "谈谈离散卷积和卷积神经网络",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Convolutions",
+   "CNN",
+   "Neural Network",
+   "Deep Learning"
+  ],
+  "chars": 11881,
+  "images": 9,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2017-07-30 define-a-new-command-with-different-amount-of-parameters-in-LaTeX.md",
+  "url": "https://liam.page/2017/07/30/define-a-new-command-with-different-amount-of-parameters-in-LaTeX/",
+  "date": "2017-07-30",
+  "title": "LaTeX 黑魔法（三）：定义参数变长的命令",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Macro",
+   "TeX",
+   "LaTeX2e",
+   "LaTeX3"
+  ],
+  "chars": 3375,
+  "images": 1,
+  "code_blocks": 6,
+  "code_chars": 1059
+ },
+ {
+  "file": "2017-08-03 split-a-string-in-Cpp.md",
+  "url": "https://liam.page/2017/08/03/split-a-string-in-Cpp/",
+  "date": "2017-08-03",
+  "title": "在 C++ 中分割字符串",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "String",
+   "Split"
+  ],
+  "chars": 2687,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 1617
+ },
+ {
+  "file": "2017-05-27 tutorial-to-GDB-taking-ncurses-as-an-example.md",
+  "url": "https://liam.page/2017/05/27/tutorial-to-GDB-taking-ncurses-as-an-example/",
+  "date": "2017-05-27",
+  "title": "GDB 入门教程：调试 ncurses 相关 bug 的完整范例",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "GDB"
+  ],
+  "chars": 61208,
+  "images": 0,
+  "code_blocks": 59,
+  "code_chars": 49175
+ },
+ {
+  "file": "2017-08-06 pil-tutorial-pixel-operations-and-image-filter.md",
+  "url": "https://liam.page/2017/08/06/pil-tutorial-pixel-operations-and-image-filter/",
+  "date": "2017-08-06",
+  "title": "PIL 简明教程 - 像素操作与图像滤镜",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "PIL",
+   "ImageFilter"
+  ],
+  "chars": 5579,
+  "images": 3,
+  "code_blocks": 6,
+  "code_chars": 3026
+ },
+ {
+  "file": "2017-09-01 page-fault.md",
+  "url": "https://liam.page/2017/09/01/page-fault/",
+  "date": "2017-09-01",
+  "title": "程序员的自我修养（七）：内存缺页错误",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Memory",
+   "Linux",
+   "Page Fault"
+  ],
+  "chars": 5930,
+  "images": 1,
+  "code_blocks": 3,
+  "code_chars": 1089
+ },
+ {
+  "file": "2017-08-10 importing-animate-in-LaTeX.md",
+  "url": "https://liam.page/2017/08/10/importing-animate-in-LaTeX/",
+  "date": "2017-08-10",
+  "title": "LaTeX 黑魔法（四）：插入动画（animate 宏包教程）",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "GIF",
+   "Animate"
+  ],
+  "chars": 9833,
+  "images": 2,
+  "code_blocks": 8,
+  "code_chars": 3467
+ },
+ {
+  "file": "2017-09-12 rescue-your-life-with-SSH-config-file.md",
+  "url": "https://liam.page/2017/09/12/rescue-your-life-with-SSH-config-file/",
+  "date": "2017-09-12",
+  "title": "最佳搭档：利用 SSH 及其配置文件节省你的生命",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Linux",
+   "SSH",
+   "Config"
+  ],
+  "chars": 10795,
+  "images": 0,
+  "code_blocks": 15,
+  "code_chars": 3683
+ },
+ {
+  "file": "2017-08-27 mojibake-in-Windows-Notepad-due-to-wrong-encoding-detect.md",
+  "url": "https://liam.page/2017/08/27/mojibake-in-Windows-Notepad-due-to-wrong-encoding-detect/",
+  "date": "2017-08-27",
+  "title": "从 Windows 记事本的乱码问题说起",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "Encoding",
+   "C",
+   "Mojibake",
+   "Windows",
+   "Notepad"
+  ],
+  "chars": 12336,
+  "images": 2,
+  "code_blocks": 4,
+  "code_chars": 7057
+ },
+ {
+  "file": "2017-09-17 LaTeX-multi-lingual.md",
+  "url": "https://liam.page/2017/09/17/LaTeX-multi-lingual/",
+  "date": "2017-09-17",
+  "title": "LaTeX 黑魔法（五）：在 LaTeX 中输出多国语言",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Multi-lingual"
+  ],
+  "chars": 2621,
+  "images": 1,
+  "code_blocks": 3,
+  "code_chars": 1524
+ },
+ {
+  "file": "2017-11-03 numbering-thebibliography-in-LaTeX.md",
+  "url": "https://liam.page/2017/11/03/numbering-thebibliography-in-LaTeX/",
+  "date": "2017-11-03",
+  "title": "在 LaTeX 中为参考文献的标题编号",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Section",
+   "Numbering",
+   "Bibliography"
+  ],
+  "chars": 1127,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 206
+ },
+ {
+  "file": "2017-09-21 local-search-engine-in-Hexo-site.md",
+  "url": "https://liam.page/2017/09/21/local-search-engine-in-Hexo-site/",
+  "date": "2017-09-21",
+  "title": "为 Hexo 博客创建本地搜索引擎",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Hexo",
+   "Search Engine",
+   "JavaScript",
+   "jQuery",
+   "CSS"
+  ],
+  "chars": 5513,
+  "images": 0,
+  "code_blocks": 8,
+  "code_chars": 863
+ },
+ {
+  "file": "2017-11-30 recovery-crontab-tasks.md",
+  "url": "https://liam.page/2017/11/30/recovery-crontab-tasks/",
+  "date": "2017-11-30",
+  "title": "crontab 任务误删恢复",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Crontab",
+   "Recovery"
+  ],
+  "chars": 546,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 296
+ },
+ {
+  "file": "2017-11-02 credit-card-installment-repayment-is-not-worthwhile.md",
+  "url": "https://liam.page/2017/11/02/credit-card-installment-repayment-is-not-worthwhile/",
+  "date": "2017-11-02",
+  "title": "利息、贷款、按揭以及信用卡分期",
+  "categories": [
+   "Economics and Investment"
+  ],
+  "tags": [
+   "Banking",
+   "Accounting",
+   "Credit Card",
+   "Loan"
+  ],
+  "chars": 7392,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2017-11-22 SVD-for-Human-Beings.md",
+  "url": "https://liam.page/2017/11/22/SVD-for-Human-Beings/",
+  "date": "2017-11-22",
+  "title": "谈谈矩阵的 SVD 分解",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Matrix",
+   "SVD"
+  ],
+  "chars": 12017,
+  "images": 8,
+  "code_blocks": 1,
+  "code_chars": 1320
+ },
+ {
+  "file": "2017-11-26 surrogate-in-Cpp.md",
+  "url": "https://liam.page/2017/11/26/surrogate-in-Cpp/",
+  "date": "2017-11-26",
+  "title": "谈谈代理类",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Class",
+   "Surrogate",
+   "Handler"
+  ],
+  "chars": 7832,
+  "images": 0,
+  "code_blocks": 8,
+  "code_chars": 4920
+ },
+ {
+  "file": "2017-12-27 motivation-to-blogs.md",
+  "url": "https://liam.page/2017/12/27/motivation-to-blogs/",
+  "date": "2017-12-27",
+  "title": "写博客的动机",
+  "categories": [
+   "Life and Human Nature"
+  ],
+  "tags": [
+   "Blog",
+   "Motivation"
+  ],
+  "chars": 1404,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2017-12-14 the-missing-starts-with-and-ends-with-in-Cpp-for-std-string.md",
+  "url": "https://liam.page/2017/12/14/the-missing-starts-with-and-ends-with-in-Cpp-for-std-string/",
+  "date": "2017-12-14",
+  "title": "C++ 标准库中缺少的字符串函数：`starts_with` 和 `ends_with`",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Cpp",
+   "String",
+   "Starts With",
+   "Ends With"
+  ],
+  "chars": 1775,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 1618
+ },
+ {
+  "file": "2017-12-14 std-transform-and-converting-string-to-upper-or-lower-case.md",
+  "url": "https://liam.page/2017/12/14/std-transform-and-converting-string-to-upper-or-lower-case/",
+  "date": "2017-12-14",
+  "title": "利用 std::transform 对字符串进行大小写转换",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Transform",
+   "Lower Case",
+   "Upper Case"
+  ],
+  "chars": 4556,
+  "images": 0,
+  "code_blocks": 6,
+  "code_chars": 2613
+ },
+ {
+  "file": "2017-12-13 set-intersection-and-union-in-Cpp.md",
+  "url": "https://liam.page/2017/12/13/set-intersection-and-union-in-Cpp/",
+  "date": "2017-12-13",
+  "title": "谈谈 C++ 中集合的交集和并集",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Set",
+   "Intersection",
+   "Union"
+  ],
+  "chars": 8541,
+  "images": 0,
+  "code_blocks": 8,
+  "code_chars": 5167
+ },
+ {
+  "file": "2018-01-10 a-customized-offsetof-in-Cpp.md",
+  "url": "https://liam.page/2018/01/10/a-customized-offsetof-in-Cpp/",
+  "date": "2018-01-10",
+  "title": "谈谈 C/C++ 中的 offsetof",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Macro",
+   "C++",
+   "C",
+   "offsetof"
+  ],
+  "chars": 2208,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 709
+ },
+ {
+  "file": "2017-12-17 validating-sudoku-in-a-efficient-way.md",
+  "url": "https://liam.page/2017/12/17/validating-sudoku-in-a-efficient-way/",
+  "date": "2017-12-17",
+  "title": "利用位运算验证数独正确性",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Sudoku",
+   "Bitwise"
+  ],
+  "chars": 6798,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 4285
+ },
+ {
+  "file": "2017-12-31 buffer-of-stream-in-Cpp.md",
+  "url": "https://liam.page/2017/12/31/buffer-of-stream-in-Cpp/",
+  "date": "2017-12-31",
+  "title": "谈谈 C++ 中流的缓冲区",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Stream",
+   "Buffer"
+  ],
+  "chars": 5283,
+  "images": 0,
+  "code_blocks": 7,
+  "code_chars": 1697
+ },
+ {
+  "file": "2018-01-15 AppleID-transfer-to-US.md",
+  "url": "https://liam.page/2018/01/15/AppleID-transfer-to-US/",
+  "date": "2018-01-15",
+  "title": "将 Apple ID 迁移转区到美国",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "iCloud",
+   "Credit Card",
+   "Apple",
+   "Apple ID",
+   "PayPal"
+  ],
+  "chars": 631,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-01-12 Mersenne-twister.md",
+  "url": "https://liam.page/2018/01/12/Mersenne-twister/",
+  "date": "2018-01-12",
+  "title": "谈谈梅森旋转：算法及其爆破",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Random",
+   "PRNG"
+  ],
+  "chars": 13424,
+  "images": 3,
+  "code_blocks": 7,
+  "code_chars": 3843
+ },
+ {
+  "file": "2018-01-23 crack-private-member-function-by-vtable.md",
+  "url": "https://liam.page/2018/01/23/crack-private-member-function-by-vtable/",
+  "date": "2018-01-23",
+  "title": "通过虚函数表访问私有函数",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Class",
+   "Virtual"
+  ],
+  "chars": 1922,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 1110
+ },
+ {
+  "file": "2018-01-11 floats-in-LaTeX-multiple-elements-in-a-single-float.md",
+  "url": "https://liam.page/2018/01/11/floats-in-LaTeX-multiple-elements-in-a-single-float/",
+  "date": "2018-01-11",
+  "title": "LaTeX 中的浮动体：摆放多个子元素",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Caption",
+   "Floats",
+   "Subcaption"
+  ],
+  "chars": 12080,
+  "images": 12,
+  "code_blocks": 12,
+  "code_chars": 4283
+ },
+ {
+  "file": "2018-01-24 ssh-keyscan.md",
+  "url": "https://liam.page/2018/01/24/ssh-keyscan/",
+  "date": "2018-01-24",
+  "title": "利用 ssh-keyscan 获取集群机器 SSH 公钥指纹",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "SSH",
+   "FingerPrint"
+  ],
+  "chars": 2190,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 1468
+ },
+ {
+  "file": "2018-01-18 volatile-in-C-and-Cpp.md",
+  "url": "https://liam.page/2018/01/18/volatile-in-C-and-Cpp/",
+  "date": "2018-01-18",
+  "title": "谈谈 C/C++ 中的 volatile",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "C",
+   "volatile"
+  ],
+  "chars": 9211,
+  "images": 0,
+  "code_blocks": 6,
+  "code_chars": 2570
+ },
+ {
+  "file": "2018-02-02 mega-access.md",
+  "url": "https://liam.page/2018/02/02/mega-access/",
+  "date": "2018-02-02",
+  "title": "个人博客百万访问纪念",
+  "categories": [
+   "Miscellaneous"
+  ],
+  "tags": [
+   "Million",
+   "Access",
+   "Commemoration"
+  ],
+  "chars": 195,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-01-31 TeX-by-Topic-the-Structure-of-the-TeX-processor.md",
+  "url": "https://liam.page/2018/01/31/TeX-by-Topic-the-Structure-of-the-TeX-processor/",
+  "date": "2018-01-31",
+  "title": "TeX 主题选讲：TeX 处理器的结构",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Input",
+   "TeX",
+   "Engine",
+   "Expansion",
+   "Execution",
+   "Visual"
+  ],
+  "chars": 5740,
+  "images": 0,
+  "code_blocks": 22,
+  "code_chars": 510
+ },
+ {
+  "file": "2018-02-02 generate-uniformly-distinctly-random-integers-in-Cpp.md",
+  "url": "https://liam.page/2018/02/02/generate-uniformly-distinctly-random-integers-in-Cpp/",
+  "date": "2018-02-02",
+  "title": "产生不重复的均匀随机整数",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Random",
+   "Dinstinct",
+   "Uniform"
+  ],
+  "chars": 2866,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 1914
+ },
+ {
+  "file": "2018-02-08 difference-between-calling-a-question-and-vilification.md",
+  "url": "https://liam.page/2018/02/08/difference-between-calling-a-question-and-vilification/",
+  "date": "2018-02-08",
+  "title": "质疑与污蔑的区别",
+  "categories": [
+   "Miscellaneous"
+  ],
+  "tags": [
+   "Question",
+   "Vilification",
+   "Difference"
+  ],
+  "chars": 1900,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-01-13 smart-pointer.md",
+  "url": "https://liam.page/2018/01/13/smart-pointer/",
+  "date": "2018-01-13",
+  "title": "谈谈智能指针：原理及其实现",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Pointer",
+   "Surrogate",
+   "Handler"
+  ],
+  "chars": 11770,
+  "images": 0,
+  "code_blocks": 11,
+  "code_chars": 6506
+ },
+ {
+  "file": "2018-02-26 Monty-Hall-problem.md",
+  "url": "https://liam.page/2018/02/26/Monty-Hall-problem/",
+  "date": "2018-02-26",
+  "title": "三门问题的数学原理及模拟实验",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Three Gates",
+   "Monty Hall",
+   "Probability"
+  ],
+  "chars": 3702,
+  "images": 4,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-03-16 keywords-typename-and-class-in-Cxx.md",
+  "url": "https://liam.page/2018/03/16/keywords-typename-and-class-in-Cxx/",
+  "date": "2018-03-16",
+  "title": "C++ 中的 typename 及 class 关键字的区别",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Cpp",
+   "Keywords"
+  ],
+  "chars": 2025,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 430
+ },
+ {
+  "file": "2018-04-17 zero-centered-active-function.md",
+  "url": "https://liam.page/2018/04/17/zero-centered-active-function/",
+  "date": "2018-04-17",
+  "title": "谈谈激活函数以零为中心的问题",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Zero-centered",
+   "Active Function"
+  ],
+  "chars": 3662,
+  "images": 4,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-04-11 break-firewall-by-the-use-of-SSH-tunnel.md",
+  "url": "https://liam.page/2018/04/11/break-firewall-by-the-use-of-SSH-tunnel/",
+  "date": "2018-04-11",
+  "title": "最佳搭档：利用正反 SSH 隧道穿透防火墙访问内网服务器",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "SSH",
+   "Tunnel"
+  ],
+  "chars": 3264,
+  "images": 3,
+  "code_blocks": 6,
+  "code_chars": 300
+ },
+ {
+  "file": "2018-04-09 pitch-interval-and-harmonic.md",
+  "url": "https://liam.page/2018/04/09/pitch-interval-and-harmonic/",
+  "date": "2018-04-09",
+  "title": "乐理漫谈：音高、音程、泛音",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Music",
+   "Pitch",
+   "Interval",
+   "Harmonic"
+  ],
+  "chars": 5092,
+  "images": 3,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-04-10 Raw-Linux-Threads-via-System-Calls.md",
+  "url": "https://liam.page/2018/04/10/Raw-Linux-Threads-via-System-Calls/",
+  "date": "2018-04-10",
+  "title": "借由系统调用实现 Linux 原生线程",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Tutorial",
+   "x86",
+   "Linux",
+   "C",
+   "Thread",
+   "System Call"
+  ],
+  "chars": 7648,
+  "images": 2,
+  "code_blocks": 10,
+  "code_chars": 966
+ },
+ {
+  "file": "2018-04-24 Working-with-VSCode-on-macOS-configuration-LaTeX-workshop-and-Skim.md",
+  "url": "https://liam.page/2018/04/24/Working-with-VSCode-on-macOS-configuration-LaTeX-workshop-and-Skim/",
+  "date": "2018-04-24",
+  "title": "在 macOS 上配置 VSCode 与 Skim 的 LaTeX 正反跳转",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "OS X",
+   "macOS",
+   "VSCode",
+   "Skim",
+   "LaTeX workshop"
+  ],
+  "chars": 3831,
+  "images": 0,
+  "code_blocks": 6,
+  "code_chars": 2026
+ },
+ {
+  "file": "2018-05-03 ctex-2-4-14-update-for-the-fontset-for-macOS.md",
+  "url": "https://liam.page/2018/05/03/ctex-2-4-14-update-for-the-fontset-for-macOS/",
+  "date": "2018-05-03",
+  "title": "CTeX 2.4.14：macOS 字体配置升级",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "macOS",
+   "Yosemite",
+   "El Capitan",
+   "PingFang"
+  ],
+  "chars": 2587,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 961
+ },
+ {
+  "file": "2018-04-28 debug-in-Linux-kernel-jprobe.md",
+  "url": "https://liam.page/2018/04/28/debug-in-Linux-kernel-jprobe/",
+  "date": "2018-04-28",
+  "title": "程序员的自我修养（八）：使用 JProbe 调试 Linux 内核",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Linux",
+   "Kernel",
+   "JProbe",
+   "Debug"
+  ],
+  "chars": 8577,
+  "images": 0,
+  "code_blocks": 11,
+  "code_chars": 5110
+ },
+ {
+  "file": "2018-05-12 TeX-by-Topic-Fonts.md",
+  "url": "https://liam.page/2018/05/12/TeX-by-Topic-Fonts/",
+  "date": "2018-05-12",
+  "title": "TeX 主题选讲：字体",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Fonts",
+   "Kerning",
+   "Ligature"
+  ],
+  "chars": 5021,
+  "images": 4,
+  "code_blocks": 11,
+  "code_chars": 313
+ },
+ {
+  "file": "2018-05-29 Fuse-QRCodes-together-Alipay-WeChat-and-QQ-wallet.md",
+  "url": "https://liam.page/2018/05/29/Fuse-QRCodes-together-Alipay-WeChat-and-QQ-wallet/",
+  "date": "2018-05-29",
+  "title": "生成聚合收款二维码：支付宝、微信、QQ 钱包",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "WeChat",
+   "JavaScript",
+   "QRCode",
+   "HTML",
+   "Alipay",
+   "QQ"
+  ],
+  "chars": 3661,
+  "images": 1,
+  "code_blocks": 3,
+  "code_chars": 333
+ },
+ {
+  "file": "2018-05-09 TeX-by-Topic-Characters.md",
+  "url": "https://liam.page/2018/05/09/TeX-by-Topic-Characters/",
+  "date": "2018-05-09",
+  "title": "TeX 主题选讲：字符",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "String",
+   "Character",
+   "Code"
+  ],
+  "chars": 8866,
+  "images": 1,
+  "code_blocks": 33,
+  "code_chars": 1330
+ },
+ {
+  "file": "2018-05-05 TeX-by-Topic-Category-Codes-and-Internal-States.md",
+  "url": "https://liam.page/2018/05/05/TeX-by-Topic-Category-Codes-and-Internal-States/",
+  "date": "2018-05-05",
+  "title": "TeX 主题选讲：分类码与内部状态",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Input",
+   "TeX",
+   "Engine",
+   "Catcode"
+  ],
+  "chars": 15248,
+  "images": 2,
+  "code_blocks": 45,
+  "code_chars": 1404
+ },
+ {
+  "file": "2018-08-28 lower-bound-of-comparation-based-sort-algorithm.md",
+  "url": "https://liam.page/2018/08/28/lower-bound-of-comparation-based-sort-algorithm/",
+  "date": "2018-08-28",
+  "title": "谈谈基于比较的排序算法的复杂度下界",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Algorithm",
+   "Complexity",
+   "Sort"
+  ],
+  "chars": 1785,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-05-29 Python-HTTP-header-echo-service.md",
+  "url": "https://liam.page/2018/05/29/Python-HTTP-header-echo-service/",
+  "date": "2018-05-29",
+  "title": "Python 实现的 HTTP 报文头回声服务",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "HTTP",
+   "Headers"
+  ],
+  "chars": 3844,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 3070
+ },
+ {
+  "file": "2018-08-29 introspective-sort.md",
+  "url": "https://liam.page/2018/08/29/introspective-sort/",
+  "date": "2018-08-29",
+  "title": "谈谈内省式排序算法",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Introspective Sort",
+   "Heap Sort",
+   "Quick Sort",
+   "Insertion Sort"
+  ],
+  "chars": 3715,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-08-29 colored-progress-bar-in-LaTeX.md",
+  "url": "https://liam.page/2018/08/29/colored-progress-bar-in-LaTeX/",
+  "date": "2018-08-29",
+  "title": "在 LaTeX 中实现一个简易的进度条",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Progress Bar",
+   "Resume"
+  ],
+  "chars": 780,
+  "images": 1,
+  "code_blocks": 1,
+  "code_chars": 438
+ },
+ {
+  "file": "2018-09-18 classification-of-colds.md",
+  "url": "https://liam.page/2018/09/18/classification-of-colds/",
+  "date": "2018-09-18",
+  "title": "谈谈感冒的分类及治疗",
+  "categories": [
+   "Miscellaneous"
+  ],
+  "tags": [
+   "Cold",
+   "Virus",
+   "Bacterium",
+   "Antibiotic"
+  ],
+  "chars": 1326,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-10-12 Lagrange-Multiplier-Method.md",
+  "url": "https://liam.page/2018/10/12/Lagrange-Multiplier-Method/",
+  "date": "2018-10-12",
+  "title": "谈谈拉格朗日乘数法",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Mathematical Optimization"
+  ],
+  "chars": 3106,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-10-10 logistic-regression.md",
+  "url": "https://liam.page/2018/10/10/logistic-regression/",
+  "date": "2018-10-10",
+  "title": "谈谈逻辑回归模型",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Logistic Regression",
+   "Classification",
+   "Likelihood"
+  ],
+  "chars": 4737,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-10-15 website-revise-domain-name.md",
+  "url": "https://liam.page/2018/10/15/website-revise-domain-name/",
+  "date": "2018-10-15",
+  "title": "网站改版之域名迁移的一些经验",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Search Engine",
+   "Domain Name"
+  ],
+  "chars": 1085,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-10-29 easy-slides-template.md",
+  "url": "https://liam.page/2018/10/29/easy-slides-template/",
+  "date": "2018-10-29",
+  "title": "LaTeX 幻灯片模板：easy_slides",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Template",
+   "Slides"
+  ],
+  "chars": 572,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-05-21 TeX-by-Topic-boxes.md",
+  "url": "https://liam.page/2018/05/21/TeX-by-Topic-boxes/",
+  "date": "2018-05-21",
+  "title": "TeX 主题选讲：盒子",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "List",
+   "Vertical",
+   "Box",
+   "Mode",
+   "Horizontal"
+  ],
+  "chars": 17782,
+  "images": 13,
+  "code_blocks": 62,
+  "code_chars": 3314
+ },
+ {
+  "file": "2018-09-18 std-sort-in-STL.md",
+  "url": "https://liam.page/2018/09/18/std-sort-in-STL/",
+  "date": "2018-09-18",
+  "title": "谈谈 STL 中的 std::sort",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Sort",
+   "STL"
+  ],
+  "chars": 11552,
+  "images": 2,
+  "code_blocks": 13,
+  "code_chars": 4891
+ },
+ {
+  "file": "2018-11-07 pirates-and-golds-and-president-Trump.md",
+  "url": "https://liam.page/2018/11/07/pirates-and-golds-and-president-Trump/",
+  "date": "2018-11-07",
+  "title": "博弈论通俗演义：海盗分金问题与特朗普当选",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Game Theory"
+  ],
+  "chars": 2294,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-11-08 Expectation-Maximization-Algorithm.md",
+  "url": "https://liam.page/2018/11/08/Expectation-Maximization-Algorithm/",
+  "date": "2018-11-08",
+  "title": "谈谈期望最大算法",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "EM"
+  ],
+  "chars": 10356,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-11-05 apply-C-style-string-in-switch-case-clause.md",
+  "url": "https://liam.page/2018/11/05/apply-C-style-string-in-switch-case-clause/",
+  "date": "2018-11-05",
+  "title": "在 C++ 中的 switch-case 语句中使用 C 风格字符串",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "constexpr",
+   "user-defined suffix"
+  ],
+  "chars": 3176,
+  "images": 0,
+  "code_blocks": 7,
+  "code_chars": 2046
+ },
+ {
+  "file": "2018-11-14 game-of-beauty-and-stock-market.md",
+  "url": "https://liam.page/2018/11/14/game-of-beauty-and-stock-market/",
+  "date": "2018-11-14",
+  "title": "博弈论通俗演义：美女的硬币游戏与为啥你炒股总亏",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Game Theory"
+  ],
+  "chars": 3444,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-11-20 turn-off-touchpad-of-ThinkPad.md",
+  "url": "https://liam.page/2018/11/20/turn-off-touchpad-of-ThinkPad/",
+  "date": "2018-11-20",
+  "title": "彻底关闭 ThinkPad 的触控板",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "ThinkPad",
+   "TouchPad"
+  ],
+  "chars": 378,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 76
+ },
+ {
+  "file": "2018-11-21 replace-the-background-of-login-page.md",
+  "url": "https://liam.page/2018/11/21/replace-the-background-of-login-page/",
+  "date": "2018-11-21",
+  "title": "更换 Windows 7 锁屏界面的背景",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Background",
+   "Windows 7",
+   "Login"
+  ],
+  "chars": 551,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-11-09 the-bigger-than-bigger-delimiter-in-LaTeX.md",
+  "url": "https://liam.page/2018/11/09/the-bigger-than-bigger-delimiter-in-LaTeX/",
+  "date": "2018-11-09",
+  "title": "LaTeX 黑魔法（六）：使用比逼格更逼格的定界符",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Delimiter",
+   "amsmath"
+  ],
+  "chars": 2849,
+  "images": 1,
+  "code_blocks": 5,
+  "code_chars": 1832
+ },
+ {
+  "file": "2018-11-22 execute-command-or-executables-on-Windows-login-page.md",
+  "url": "https://liam.page/2018/11/22/execute-command-or-executables-on-Windows-login-page/",
+  "date": "2018-11-22",
+  "title": "在 Windows 7 的锁屏界面上执行命令/程序",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Screenshot",
+   "PsExec"
+  ],
+  "chars": 1545,
+  "images": 2,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-11-23 GIF-aminate-recoder-and-viewer-on-Windows.md",
+  "url": "https://liam.page/2018/11/23/GIF-aminate-recoder-and-viewer-on-Windows/",
+  "date": "2018-11-23",
+  "title": "Windows 上的 GIF 动画录像机和浏览器",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "GIF",
+   "Recoder",
+   "Viewer"
+  ],
+  "chars": 486,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-11-26 introduction-to-TeX-engine-format-and-distribution.md",
+  "url": "https://liam.page/2018/11/26/introduction-to-TeX-engine-format-and-distribution/",
+  "date": "2018-11-26",
+  "title": "TeX 引擎、格式、发行版之介绍",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Format",
+   "System",
+   "Engine",
+   "Distribution",
+   "Compiler",
+   "Suite"
+  ],
+  "chars": 2929,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-11-30 vanishing-gradient-of-ReLU-due-to-unusual-input.md",
+  "url": "https://liam.page/2018/11/30/vanishing-gradient-of-ReLU-due-to-unusual-input/",
+  "date": "2018-11-30",
+  "title": "谈谈由异常输入导致的 ReLU 神经元死亡的问题",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "ReLU",
+   "Dead",
+   "Gradient",
+   "Vanishing"
+  ],
+  "chars": 1699,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-12-10 dimen-and-skip-as-argument-in-TeX.md",
+  "url": "https://liam.page/2018/12/10/dimen-and-skip-as-argument-in-TeX/",
+  "date": "2018-12-10",
+  "title": "LaTeX 黑魔法（七）：TeX 中作为参数的 dimen 和 skip",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Arguments",
+   "TeX-core"
+  ],
+  "chars": 1944,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 110
+ },
+ {
+  "file": "2018-11-23 binary-search-and-its-variants.md",
+  "url": "https://liam.page/2018/11/23/binary-search-and-its-variants/",
+  "date": "2018-11-23",
+  "title": "谈谈二分搜索及其变体",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Binary Search"
+  ],
+  "chars": 4714,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 3322
+ },
+ {
+  "file": "2018-12-11 logo-of-CTeXUG.md",
+  "url": "https://liam.page/2018/12/11/logo-of-CTeXUG/",
+  "date": "2018-12-11",
+  "title": "CTeXUG 的 LOGO",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "LOGO",
+   "CTeXUG"
+  ],
+  "chars": 160,
+  "images": 2,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2018-12-13 disallow-tmux-to-rename-window.md",
+  "url": "https://liam.page/2018/12/13/disallow-tmux-to-rename-window/",
+  "date": "2018-12-13",
+  "title": "禁止 Tmux 自动修改 window 的名字",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Tmux"
+  ],
+  "chars": 320,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 31
+ },
+ {
+  "file": "2018-12-12 writing-modular-codes.md",
+  "url": "https://liam.page/2018/12/12/writing-modular-codes/",
+  "date": "2018-12-12",
+  "title": "谈谈代码的模块化",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Modular"
+  ],
+  "chars": 2590,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 298
+ },
+ {
+  "file": "2018-12-10 mklink-in-Windows.md",
+  "url": "https://liam.page/2018/12/10/mklink-in-Windows/",
+  "date": "2018-12-10",
+  "title": "Windows 中的 mklink 命令",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Symbolic Link"
+  ],
+  "chars": 5145,
+  "images": 5,
+  "code_blocks": 5,
+  "code_chars": 2549
+ },
+ {
+  "file": "2018-12-28 fixing-icon-missing-on-Windows-7.md",
+  "url": "https://liam.page/2018/12/28/fixing-icon-missing-on-Windows-7/",
+  "date": "2018-12-28",
+  "title": "解决 Windows 7 上的图标异常",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Windows",
+   "Windows 7",
+   "BAT"
+  ],
+  "chars": 720,
+  "images": 1,
+  "code_blocks": 1,
+  "code_chars": 123
+ },
+ {
+  "file": "2019-01-13 virtual-member-function-declaration-and-definition-in-Cxx.md",
+  "url": "https://liam.page/2019/01/13/virtual-member-function-declaration-and-definition-in-Cxx/",
+  "date": "2019-01-13",
+  "title": "C++ 中虚函数的声明与定义",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Virtual Member Function"
+  ],
+  "chars": 1580,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 708
+ },
+ {
+  "file": "2019-01-04 Excel-Personal-Income-Tax-Calculator.md",
+  "url": "https://liam.page/2019/01/04/Excel-Personal-Income-Tax-Calculator/",
+  "date": "2019-01-04",
+  "title": "2018 个税新法计征算法及 Excel 个税计算器",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Tax",
+   "Excel"
+  ],
+  "chars": 4366,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-01-16 manage-daemons-and-agents-on-macOS.md",
+  "url": "https://liam.page/2019/01/16/manage-daemons-and-agents-on-macOS/",
+  "date": "2019-01-16",
+  "title": "管理 macOS 系统上的启动项",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "macOS",
+   "Daemons",
+   "Agents"
+  ],
+  "chars": 3326,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 404
+ },
+ {
+  "file": "2019-01-17 how-does-economic-machine-work.md",
+  "url": "https://liam.page/2019/01/17/how-does-economic-machine-work/",
+  "date": "2019-01-17",
+  "title": "经济机器是如何运行的",
+  "categories": [
+   "Economics and Investment"
+  ],
+  "tags": [
+   "Ray Dalio",
+   "Economics"
+  ],
+  "chars": 7899,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-01-18 fix-missing-headers-fatal-errors-after-upgraded-to-Mojave.md",
+  "url": "https://liam.page/2019/01/18/fix-missing-headers-fatal-errors-after-upgraded-to-Mojave/",
+  "date": "2019-01-18",
+  "title": "解决升级 Mojave 后 g++ 找不到头文件的问题",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "C++",
+   "macOS",
+   "Mojave",
+   "XCode"
+  ],
+  "chars": 593,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 296
+ },
+ {
+  "file": "2019-01-27 keep-single-dot-in-image-filename-for-LaTeX.md",
+  "url": "https://liam.page/2019/01/27/keep-single-dot-in-image-filename-for-LaTeX/",
+  "date": "2019-01-27",
+  "title": "LaTeX 插图时对文件扩展名的处理",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Graphicx"
+  ],
+  "chars": 2187,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 877
+ },
+ {
+  "file": "2019-01-27 remove-consecutive-duplicates-in-Cxx.md",
+  "url": "https://liam.page/2019/01/27/remove-consecutive-duplicates-in-Cxx/",
+  "date": "2019-01-27",
+  "title": "在 C++ 中移除序列中连续重复的特定值",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Consecutive",
+   "Duplicate"
+  ],
+  "chars": 3596,
+  "images": 0,
+  "code_blocks": 7,
+  "code_chars": 1841
+ },
+ {
+  "file": "2019-02-12 default-flags-for-xDVIPDFMx.md",
+  "url": "https://liam.page/2019/02/12/default-flags-for-xDVIPDFMx/",
+  "date": "2019-02-12",
+  "title": "为 XeLaTeX 所调用时 xDVIPDFMx 的默认参数",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Drivers",
+   "xDVIPDFMx"
+  ],
+  "chars": 1839,
+  "images": 1,
+  "code_blocks": 4,
+  "code_chars": 490
+ },
+ {
+  "file": "2019-01-25 reduced-print-in-LaTeX.md",
+  "url": "https://liam.page/2019/01/25/reduced-print-in-LaTeX/",
+  "date": "2019-01-25",
+  "title": "在 LaTeX 中实现缩印效果",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "PGF",
+   "Reduce Print"
+  ],
+  "chars": 4911,
+  "images": 1,
+  "code_blocks": 6,
+  "code_chars": 2976
+ },
+ {
+  "file": "2019-02-14 find-smallest-power-of-2-that-is-not-less-than-a-given-integer.md",
+  "url": "https://liam.page/2019/02/14/find-smallest-power-of-2-that-is-not-less-than-a-given-integer/",
+  "date": "2019-02-14",
+  "title": "寻找不小于给定整数的最小的 2 的幂方",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++"
+  ],
+  "chars": 746,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 383
+ },
+ {
+  "file": "2019-02-19 recursive-like-function-template-calling.md",
+  "url": "https://liam.page/2019/02/19/recursive-like-function-template-calling/",
+  "date": "2019-02-19",
+  "title": "像递归一样的函数模板调用",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Template",
+   "C++"
+  ],
+  "chars": 756,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 277
+ },
+ {
+  "file": "2019-03-03 Queqiaoxian-Xianyunnongqiao.md",
+  "url": "https://liam.page/2019/03/03/Queqiaoxian-Xianyunnongqiao/",
+  "date": "2019-03-03",
+  "title": "古诗词文赏析：鹊桥仙·纤云弄巧",
+  "categories": [
+   "Literature and Social Sciences"
+  ],
+  "tags": [
+   "Poetry"
+  ],
+  "chars": 1564,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-02-26 appreciate-and-analyze-Tan-Jing-s-Jiuer-on-Singers.md",
+  "url": "https://liam.page/2019/02/26/appreciate-and-analyze-Tan-Jing-s-Jiuer-on-Singers/",
+  "date": "2019-02-26",
+  "title": "赏析谭晶在歌手 2018 上演唱的九儿",
+  "categories": [
+   "Music"
+  ],
+  "tags": [
+   "Tan Jing",
+   "Jiuer"
+  ],
+  "chars": 105,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-03-07 execute-command-after-create-new-window-or-pane-in-Tmux.md",
+  "url": "https://liam.page/2019/03/07/execute-command-after-create-new-window-or-pane-in-Tmux/",
+  "date": "2019-03-07",
+  "title": "在 Tmux 创建 window 或 pane 之后执行命令",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Tmux"
+  ],
+  "chars": 723,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 227
+ },
+ {
+  "file": "2019-03-18 separation-of-content-and-presentation.md",
+  "url": "https://liam.page/2019/03/18/separation-of-content-and-presentation/",
+  "date": "2019-03-18",
+  "title": "到底什么是「内容与样式分离」",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Content",
+   "Presentation",
+   "Style"
+  ],
+  "chars": 2562,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 359
+ },
+ {
+  "file": "2019-03-19 compile-and-install-Python-3-7-2-on-CentOS-7.md",
+  "url": "https://liam.page/2019/03/19/compile-and-install-Python-3-7-2-on-CentOS-7/",
+  "date": "2019-03-19",
+  "title": "于 CentOS 7 上编译安装 Python 3.7.2",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Python",
+   "OpenSSL",
+   "UUID",
+   "yum"
+  ],
+  "chars": 2904,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 1994
+ },
+ {
+  "file": "2019-03-27 reuse-active-window-for-inverse-search-SumatraPDF-and-LaTeXworkshop-on-VSCode.md",
+  "url": "https://liam.page/2019/03/27/reuse-active-window-for-inverse-search-SumatraPDF-and-LaTeXworkshop-on-VSCode/",
+  "date": "2019-03-27",
+  "title": "在 SumatraPDF 反向搜索时复用 VSCode 窗口",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "VSCode",
+   "SumatraPDF",
+   "Inverse Search"
+  ],
+  "chars": 802,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 442
+ },
+ {
+  "file": "2019-05-10 Setting-App-crash-when-changing-default-browswer-to-Chrome-due-to-Edge.md",
+  "url": "https://liam.page/2019/05/10/Setting-App-crash-when-changing-default-browswer-to-Chrome-due-to-Edge/",
+  "date": "2019-05-10",
+  "title": "修复 Win10 变更默认浏览器时设置 App 崩溃的问题",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Edge",
+   "Chrome",
+   "Windows 10"
+  ],
+  "chars": 485,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-03-25 Factorization-Machine.md",
+  "url": "https://liam.page/2019/03/25/Factorization-Machine/",
+  "date": "2019-03-25",
+  "title": "谈谈因子分解机模型（FM）",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Ranking",
+   "Logistic Regression",
+   "Factorization Machine",
+   "SVM",
+   "CTR"
+  ],
+  "chars": 6391,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-05-17 markdown-convert-to-docx-batch.md",
+  "url": "https://liam.page/2019/05/17/markdown-convert-to-docx-batch/",
+  "date": "2019-05-17",
+  "title": "在 Windows 下批量将 Markdown 文档转为 Word 文档",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Markdown",
+   "Pandoc",
+   "Word"
+  ],
+  "chars": 516,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 160
+ },
+ {
+  "file": "2019-06-18 OCD-needs-stochastic-gradient-descent.md",
+  "url": "https://liam.page/2019/06/18/OCD-needs-stochastic-gradient-descent/",
+  "date": "2019-06-18",
+  "title": "强迫症患者也需要随机梯度下降",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Optimizer",
+   "Gradient Descent",
+   "Stochastic Gradient Descent"
+  ],
+  "chars": 2990,
+  "images": 4,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-07-27 difference-between-recommendation-system-and-computational-advertising.md",
+  "url": "https://liam.page/2019/07/27/difference-between-recommendation-system-and-computational-advertising/",
+  "date": "2019-07-27",
+  "title": "推荐系统与计算广告差别之我见",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "RecSys",
+   "CaclAd"
+  ],
+  "chars": 1030,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-06-28 variants-of-FM.md",
+  "url": "https://liam.page/2019/06/28/variants-of-FM/",
+  "date": "2019-06-28",
+  "title": "谈谈因子分解机模型的各种变体",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Ranking",
+   "Factorization Machine",
+   "CTR",
+   "Variants"
+  ],
+  "chars": 6506,
+  "images": 2,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-07-22 crash-title-cheat.md",
+  "url": "https://liam.page/2019/07/22/crash-title-cheat/",
+  "date": "2019-07-22",
+  "title": "为网页标题添加「崩溃了」彩蛋",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "JavaScript"
+  ],
+  "chars": 1598,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 826
+ },
+ {
+  "file": "2019-07-27 the-paradox-of-red-eyes.md",
+  "url": "https://liam.page/2019/07/27/the-paradox-of-red-eyes/",
+  "date": "2019-07-27",
+  "title": "谈谈红眼睛悖论",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Paradox",
+   "Knowledge"
+  ],
+  "chars": 3159,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-07-30 figures-in-scitech-papers.md",
+  "url": "https://liam.page/2019/07/30/figures-in-scitech-papers/",
+  "date": "2019-07-30",
+  "title": "科技论文中的图片",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Graphics"
+  ],
+  "chars": 2101,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-08-06 ignnore-white-space-differences-when-using-vimdiff.md",
+  "url": "https://liam.page/2019/08/06/ignnore-white-space-differences-when-using-vimdiff/",
+  "date": "2019-08-06",
+  "title": "使用 vimdiff 时忽略白空格的修改",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "VIM"
+  ],
+  "chars": 638,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 282
+ },
+ {
+  "file": "2019-08-23 mount-and-unmount-disk-in-Linux.md",
+  "url": "https://liam.page/2019/08/23/mount-and-unmount-disk-in-Linux/",
+  "date": "2019-08-23",
+  "title": "在 Linux 上挂载/卸载磁盘",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Linux",
+   "Disk"
+  ],
+  "chars": 2512,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 1387
+ },
+ {
+  "file": "2019-08-26 verbatim-environments-and-frame-in-beamer.md",
+  "url": "https://liam.page/2019/08/26/verbatim-environments-and-frame-in-beamer/",
+  "date": "2019-08-26",
+  "title": "Beamer frame 中的抄录环境",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Beamer",
+   "Verbatim",
+   "Fragile"
+  ],
+  "chars": 4273,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 280
+ },
+ {
+  "file": "2019-08-22 find-median-of-two-sorted-arrays.md",
+  "url": "https://liam.page/2019/08/22/find-median-of-two-sorted-arrays/",
+  "date": "2019-08-22",
+  "title": "找到两个有序数组的中位数",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "LeetCode",
+   "bsearch"
+  ],
+  "chars": 3658,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 2041
+ },
+ {
+  "file": "2019-07-04 unpack-vector-as-parameters-for-functions.md",
+  "url": "https://liam.page/2019/07/04/unpack-vector-as-parameters-for-functions/",
+  "date": "2019-07-04",
+  "title": "在 C++ 中解包 std::vector 作为函数参数",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Function",
+   "std::vector",
+   "unpack"
+  ],
+  "chars": 10667,
+  "images": 0,
+  "code_blocks": 8,
+  "code_chars": 9189
+ },
+ {
+  "file": "2019-08-29 rebuild-a-binary-search-tree-from-its-preorder-traversal-result.md",
+  "url": "https://liam.page/2019/08/29/rebuild-a-binary-search-tree-from-its-preorder-traversal-result/",
+  "date": "2019-08-29",
+  "title": "从前序遍历结果中重建二叉搜索树",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "BST",
+   "Preorder Traversal"
+  ],
+  "chars": 4327,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 920
+ },
+ {
+  "file": "2019-09-16 safe-clean-all-data-on-disks-in-Windows.md",
+  "url": "https://liam.page/2019/09/16/safe-clean-all-data-on-disks-in-Windows/",
+  "date": "2019-09-16",
+  "title": "在 Windows 中抹除磁盘上所有已删除文件的痕迹",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Windows",
+   "Disks",
+   "Cipher"
+  ],
+  "chars": 1438,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 162
+ },
+ {
+  "file": "2019-10-18 0x80092004-error-on-Windows-7.md",
+  "url": "https://liam.page/2019/10/18/0x80092004-error-on-Windows-7/",
+  "date": "2019-10-18",
+  "title": "解决公司 Win7 更新时的 0x80092004 错误",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Windows 7",
+   "Windows Update"
+  ],
+  "chars": 1354,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-08-31 a-not-so-simple-introduction-to-FTRL.md",
+  "url": "https://liam.page/2019/08/31/a-not-so-simple-introduction-to-FTRL/",
+  "date": "2019-08-31",
+  "title": "FTRL 不太简短之介绍",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Logistic Regression",
+   "FTRL",
+   "Online Optimization"
+  ],
+  "chars": 21057,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-11-05 connect-HDFS-data-into-Hive-external-table-without-redundant-movement.md",
+  "url": "https://liam.page/2019/11/05/connect-HDFS-data-into-Hive-external-table-without-redundant-movement/",
+  "date": "2019-11-05",
+  "title": "将 HDFS 上的目录作为 Hive 外表分区同时避免数据拷贝",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "HDFS",
+   "Hive"
+  ],
+  "chars": 2332,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 1136
+ },
+ {
+  "file": "2019-10-29 How-to-fix-This-is-an-application-downloaded-from-the-Internet.md",
+  "url": "https://liam.page/2019/10/29/How-to-fix-This-is-an-application-downloaded-from-the-Internet/",
+  "date": "2019-10-29",
+  "title": "在 macOS 上对单个文件取消「来自互联网的应用」之限制",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "macOS",
+   "xattr",
+   "quarantine"
+  ],
+  "chars": 2103,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 1502
+ },
+ {
+  "file": "2019-10-24 underscore-magic-in-Scala.md",
+  "url": "https://liam.page/2019/10/24/underscore-magic-in-Scala/",
+  "date": "2019-10-24",
+  "title": "Scala 中下划线的一些魔法",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Scala",
+   "Underscore"
+  ],
+  "chars": 2506,
+  "images": 0,
+  "code_blocks": 8,
+  "code_chars": 1295
+ },
+ {
+  "file": "2019-11-06 a-Beta-Distribution-based-recommendation-realia-method.md",
+  "url": "https://liam.page/2019/11/06/a-Beta-Distribution-based-recommendation-realia-method/",
+  "date": "2019-11-06",
+  "title": "一种基于 Beta 分布的推荐方法示例",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Beta Distribution",
+   "Recommendation System",
+   "Realia"
+  ],
+  "chars": 2600,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-11-05 thoughts-on-the-low-efficiency-of-large-companies.md",
+  "url": "https://liam.page/2019/11/05/thoughts-on-the-low-efficiency-of-large-companies/",
+  "date": "2019-11-05",
+  "title": "一篇关于大公司病的魔幻现实主义文章的读后感",
+  "categories": [
+   "Life and Human Nature"
+  ],
+  "tags": [
+   "Efficiency",
+   "Magical Realist"
+  ],
+  "chars": 5986,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-11-06 writing-marketing-articles-based-on-the-theory-of-poor-but-happy.md",
+  "url": "https://liam.page/2019/11/06/writing-marketing-articles-based-on-the-theory-of-poor-but-happy/",
+  "date": "2019-11-06",
+  "title": "利用穷人乐理论撰写精准营销类文章",
+  "categories": [
+   "Life and Human Nature"
+  ],
+  "tags": [
+   "Writing",
+   "Marketing Articles",
+   "Poor but Happy"
+  ],
+  "chars": 1613,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-11-07 another-blossom-of-pear-flower.md",
+  "url": "https://liam.page/2019/11/07/another-blossom-of-pear-flower/",
+  "date": "2019-11-07",
+  "title": "梨花又开放",
+  "categories": [
+   "Music"
+  ],
+  "tags": [
+   "Lyrics"
+  ],
+  "chars": 1193,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-11-11 cross-release-update-TeX-Live-on-macOS.md",
+  "url": "https://liam.page/2019/11/11/cross-release-update-TeX-Live-on-macOS/",
+  "date": "2019-11-11",
+  "title": "在 macOS 上跨版本更新 TeX Live",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "TeX Live"
+  ],
+  "chars": 1057,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 300
+ },
+ {
+  "file": "2019-11-11 value-too-great-for-base-in-shell.md",
+  "url": "https://liam.page/2019/11/11/value-too-great-for-base-in-shell/",
+  "date": "2019-11-11",
+  "title": "踩坑：value to great for base",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Shell",
+   "Integer"
+  ],
+  "chars": 571,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 180
+ },
+ {
+  "file": "2019-11-24 option-and-hedge.md",
+  "url": "https://liam.page/2019/11/24/option-and-hedge/",
+  "date": "2019-11-24",
+  "title": "期权和风险对冲",
+  "categories": [
+   "Economics and Investment"
+  ],
+  "tags": [
+   "Option",
+   "Hedge"
+  ],
+  "chars": 1710,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-12-06 record-keyboard-events-by-python.md",
+  "url": "https://liam.page/2019/12/06/record-keyboard-events-by-python/",
+  "date": "2019-12-06",
+  "title": "使用 Python 记录键盘事件",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Python",
+   "Keyboard"
+  ],
+  "chars": 1146,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 745
+ },
+ {
+  "file": "2020-01-07 fix-incompatiblities-between-git-2-24-1-and-openssl-1-1-1b.md",
+  "url": "https://liam.page/2020/01/07/fix-incompatiblities-between-git-2-24-1-and-openssl-1-1-1b/",
+  "date": "2020-01-07",
+  "title": "解决 Git 2.24.1 与 OpenSSL 1.1.1b 的冲突",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Git",
+   "OpenSSL",
+   "Imcompatibilities",
+   "Symbol"
+  ],
+  "chars": 3037,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 1547
+ },
+ {
+  "file": "2020-01-09 git-push-to-a-non-bare-repository-with-checked-out-branch.md",
+  "url": "https://liam.page/2020/01/09/git-push-to-a-non-bare-repository-with-checked-out-branch/",
+  "date": "2020-01-09",
+  "title": "向 non-bare 仓库的检出分支推送提交",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Git",
+   "SVN"
+  ],
+  "chars": 518,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 170
+ },
+ {
+  "file": "2019-12-05 evaluation-of-binary-classification.md",
+  "url": "https://liam.page/2019/12/05/evaluation-of-binary-classification/",
+  "date": "2019-12-05",
+  "title": "二分类的评价指标",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Classification",
+   "Binary",
+   "Evaluation"
+  ],
+  "chars": 7550,
+  "images": 3,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-01-09 speed-up-git-svn-fetch-by-skipping-reduntant-revisions.md",
+  "url": "https://liam.page/2020/01/09/speed-up-git-svn-fetch-by-skipping-reduntant-revisions/",
+  "date": "2020-01-09",
+  "title": "跳过冗余 revisions 以加速 git svn fetch",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Git",
+   "SVN"
+  ],
+  "chars": 1507,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2019-12-02 non-uniform-random-choice-in-constant-time-complexity.md",
+  "url": "https://liam.page/2019/12/02/non-uniform-random-choice-in-constant-time-complexity/",
+  "date": "2019-12-02",
+  "title": "Alias Method: 在常数时间复杂度内非均匀地随机抽取元素",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Random",
+   "Choice"
+  ],
+  "chars": 6849,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 5659
+ },
+ {
+  "file": "2020-01-10 the-states-of-processes-on-Linux.md",
+  "url": "https://liam.page/2020/01/10/the-states-of-processes-on-Linux/",
+  "date": "2020-01-10",
+  "title": "程序员的自我修养（⑨）：Linux 系统里的进程状态",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Linux",
+   "Process"
+  ],
+  "chars": 6364,
+  "images": 0,
+  "code_blocks": 9,
+  "code_chars": 1137
+ },
+ {
+  "file": "2020-01-19 struggle-with-Glibc-and-Linuxbrew.md",
+  "url": "https://liam.page/2020/01/19/struggle-with-Glibc-and-Linuxbrew/",
+  "date": "2020-01-19",
+  "title": "泥潭挣扎记：Linuxbrew 里的 Glibc",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Homebrew",
+   "Linuxbrew",
+   "brwe",
+   "Glibc"
+  ],
+  "chars": 1952,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 440
+ },
+ {
+  "file": "2020-01-19 USB-3-0-Radio-Frequency-Interference-Impact-on-2-4-GHz-Wireless-Devices.md",
+  "url": "https://liam.page/2020/01/19/USB-3-0-Radio-Frequency-Interference-Impact-on-2-4-GHz-Wireless-Devices/",
+  "date": "2020-01-19",
+  "title": "USB 3.0 射频噪声对 2.4GHz 无线设备的干扰",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "USB",
+   "USB3.0",
+   "Wireless"
+  ],
+  "chars": 2175,
+  "images": 3,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-02-12 pray-for-the-nation-against-COVID-19.md",
+  "url": "https://liam.page/2020/02/12/pray-for-the-nation-against-COVID-19/",
+  "date": "2020-02-12",
+  "title": "SARS-CoV-2 莫自牢，千病万疫避白袍",
+  "categories": [
+   "Miscellaneous"
+  ],
+  "tags": [
+   "2019-nCoV",
+   "SARS-CoV-2",
+   "COVID-19"
+  ],
+  "chars": 194,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-03-09 LATERAL-VIEW-in-Hive-SQL.md",
+  "url": "https://liam.page/2020/03/09/LATERAL-VIEW-in-Hive-SQL/",
+  "date": "2020-03-09",
+  "title": "Hive SQL 中的 LATERAL VIEW",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Hive",
+   "SQL"
+  ],
+  "chars": 1394,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 528
+ },
+ {
+  "file": "2020-03-13 the-WITH-AS-clause-in-Hive-SQL.md",
+  "url": "https://liam.page/2020/03/13/the-WITH-AS-clause-in-Hive-SQL/",
+  "date": "2020-03-13",
+  "title": "使用 WITH ... AS ... 语句增强 SQL 查询的可读性",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Hive",
+   "SQL"
+  ],
+  "chars": 902,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 471
+ },
+ {
+  "file": "2020-03-29 five-step-training-method-for-English-listening.md",
+  "url": "https://liam.page/2020/03/29/five-step-training-method-for-English-listening/",
+  "date": "2020-03-29",
+  "title": "英语听力之五步精听法",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "English",
+   "Listening"
+  ],
+  "chars": 981,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-04-04 thoughts-on-work-surplus.md",
+  "url": "https://liam.page/2020/04/04/thoughts-on-work-surplus/",
+  "date": "2020-04-04",
+  "title": "关于劳动剩余的一些思考",
+  "categories": [
+   "Economics and Investment"
+  ],
+  "tags": [
+   "Thoughts",
+   "Work-Surplus"
+  ],
+  "chars": 2258,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-02-27 nonfinite-verb.md",
+  "url": "https://liam.page/2020/02/27/nonfinite-verb/",
+  "date": "2020-02-27",
+  "title": "英语语法之五：非谓语动词",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Verb",
+   "Grammer",
+   "Nonfinte",
+   "Infinitives",
+   "Gerunds",
+   "Participles"
+  ],
+  "chars": 15054,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-04-08 enable-NTFS-writing-access-by-NTFS-3G.md",
+  "url": "https://liam.page/2020/04/08/enable-NTFS-writing-access-by-NTFS-3G/",
+  "date": "2020-04-08",
+  "title": "使用 NTFS-3G 在 macOS 上激活对 NTFS 磁盘的读写功能",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "NTFS",
+   "NTFS-3G"
+  ],
+  "chars": 2839,
+  "images": 0,
+  "code_blocks": 7,
+  "code_chars": 497
+ },
+ {
+  "file": "2020-04-09 match-and-xlookup-in-excel.md",
+  "url": "https://liam.page/2020/04/09/match-and-xlookup-in-excel/",
+  "date": "2020-04-09",
+  "title": "利用 Excel 当中的 MATCH 和 XLOOKUP 函数实现集合与字典（映射）访问",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Excel",
+   "MATCH",
+   "XLOOKUP"
+  ],
+  "chars": 1508,
+  "images": 5,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-04-18 dual-distribution-by-the-markdown-package.md",
+  "url": "https://liam.page/2020/04/18/dual-distribution-by-the-markdown-package/",
+  "date": "2020-04-18",
+  "title": "利用 markdown 宏包实现手稿的双线发布",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Markdown",
+   "PDF"
+  ],
+  "chars": 1996,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-04-17 using-CJK-on-macTeX-step-by-step.md",
+  "url": "https://liam.page/2020/04/17/using-CJK-on-macTeX-step-by-step/",
+  "date": "2020-04-17",
+  "title": "手把手教你在 MacTeX 上使用 CJK",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "CJK",
+   "step-by-step",
+   "macTeX"
+  ],
+  "chars": 2275,
+  "images": 6,
+  "code_blocks": 2,
+  "code_chars": 522
+ },
+ {
+  "file": "2020-04-22 Open-in-VSCode-on-macOS.md",
+  "url": "https://liam.page/2020/04/22/Open-in-VSCode-on-macOS/",
+  "date": "2020-04-22",
+  "title": "在 Finder 的右键菜单中添加「Open in VSCode」",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "VSCode",
+   "Automator"
+  ],
+  "chars": 688,
+  "images": 5,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-03-30 writing-manuscript-in-Markdown-and-typesetting-with-LaTeX.md",
+  "url": "https://liam.page/2020/03/30/writing-manuscript-in-Markdown-and-typesetting-with-LaTeX/",
+  "date": "2020-03-30",
+  "title": "以 Markdown 撰写文稿，以 LaTeX 排版",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Package",
+   "Markdown"
+  ],
+  "chars": 10772,
+  "images": 18,
+  "code_blocks": 18,
+  "code_chars": 4766
+ },
+ {
+  "file": "2020-04-27 hostname-on-BASH-in-macOS.md",
+  "url": "https://liam.page/2020/04/27/hostname-on-BASH-in-macOS/",
+  "date": "2020-04-27",
+  "title": "macOS 上 Bash 中的主机名",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "macOS",
+   "Bash"
+  ],
+  "chars": 745,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-04-21 managing-FILE-pointer-by-std-unique-ptr.md",
+  "url": "https://liam.page/2020/04/21/managing-FILE-pointer-by-std-unique-ptr/",
+  "date": "2020-04-21",
+  "title": "使用 std::unique_ptr 管理 FILE 指针",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Cpp",
+   "C",
+   "unique_ptr",
+   "FILE"
+  ],
+  "chars": 3560,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 2029
+ },
+ {
+  "file": "2020-04-28 hhh-explodes-TeX.md",
+  "url": "https://liam.page/2020/04/28/hhh-explodes-TeX/",
+  "date": "2020-04-28",
+  "title": "嘿嘿嘿使 TeX 爆炸",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "Mode"
+  ],
+  "chars": 1169,
+  "images": 1,
+  "code_blocks": 4,
+  "code_chars": 463
+ },
+ {
+  "file": "2020-04-24 using-LaTeXmk-with-LaTeXworkshop-with-VSCode.md",
+  "url": "https://liam.page/2020/04/24/using-LaTeXmk-with-LaTeXworkshop-with-VSCode/",
+  "date": "2020-04-24",
+  "title": "在 VSCode 的 LaTeXworkshop 插件中使用 LaTeXmk",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "VSCode",
+   "LaTeXmk",
+   "LaTeXworkshop"
+  ],
+  "chars": 2688,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 1916
+ },
+ {
+  "file": "2020-04-30 switch-between-CTeX-and-TeX-Live-in-WinEdt.md",
+  "url": "https://liam.page/2020/04/30/switch-between-CTeX-and-TeX-Live-in-WinEdt/",
+  "date": "2020-04-30",
+  "title": "在 CTeX 套装附带的 WinEdt 中自由切换发行版",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "CTeX",
+   "TeX Live",
+   "MiKTeX",
+   "WinEdt"
+  ],
+  "chars": 1177,
+  "images": 3,
+  "code_blocks": 1,
+  "code_chars": 22
+ },
+ {
+  "file": "2020-05-05 using-oneof-to-generate-has-xxx-in-pb3.md",
+  "url": "https://liam.page/2020/05/05/using-oneof-to-generate-has-xxx-in-pb3/",
+  "date": "2020-05-05",
+  "title": "利用 Protobuf 中 oneof 的特性生成 has_xxx 接口",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Protobuf",
+   "Protobuf 3"
+  ],
+  "chars": 1274,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 252
+ },
+ {
+  "file": "2020-05-11 TRANSFORM-in-Hive.md",
+  "url": "https://liam.page/2020/05/11/TRANSFORM-in-Hive/",
+  "date": "2020-05-11",
+  "title": "使用 TRANSFORM 在 Hive 中调用用户自定义的脚本",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Hive"
+  ],
+  "chars": 1616,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 260
+ },
+ {
+  "file": "2020-05-14 remove-duplicate-entries-in-Hive-SQL.md",
+  "url": "https://liam.page/2020/05/14/remove-duplicate-entries-in-Hive-SQL/",
+  "date": "2020-05-14",
+  "title": "删除 Hive SQL 查询结果中的重复内容",
+  "categories": [
+   "Big Data and Machine Learning"
+  ],
+  "tags": [
+   "Hive",
+   "SQL"
+  ],
+  "chars": 1626,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 356
+ },
+ {
+  "file": "2020-04-29 combine-minted-and-its-layout-as-example.md",
+  "url": "https://liam.page/2020/04/29/combine-minted-and-its-layout-as-example/",
+  "date": "2020-04-29",
+  "title": "用 minted 构建 example 环境",
+  "categories": [
+   "LaTeX"
+  ],
+  "tags": [
+   "minted",
+   "example"
+  ],
+  "chars": 6148,
+  "images": 1,
+  "code_blocks": 12,
+  "code_chars": 3755
+ },
+ {
+  "file": "2020-05-30 denian-xiangnian-and-xiangshou.md",
+  "url": "https://liam.page/2020/05/30/denian-xiangnian-and-xiangshou/",
+  "date": "2020-05-30",
+  "title": "得年、享年、享寿",
+  "categories": [
+   "Miscellaneous"
+  ],
+  "tags": [
+   "Death"
+  ],
+  "chars": 243,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-06-22 CPU-Profiler-in-gperftools-not-working.md",
+  "url": "https://liam.page/2020/06/22/CPU-Profiler-in-gperftools-not-working/",
+  "date": "2020-06-22",
+  "title": "gperftools 中 CPU Profiler 不工作问题的解法",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "gperftools",
+   "CPU Profiler"
+  ],
+  "chars": 1191,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 52
+ },
+ {
+  "file": "2020-06-29 Dynamic-Get-Fields-in-Protobuf-by-Their-Name-in-Cpp.md",
+  "url": "https://liam.page/2020/06/29/Dynamic-Get-Fields-in-Protobuf-by-Their-Name-in-Cpp/",
+  "date": "2020-06-29",
+  "title": "在 C++ 中利用反射，动态获取 Protobuf 结构中的字段",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Protobuf",
+   "Reflection"
+  ],
+  "chars": 2758,
+  "images": 0,
+  "code_blocks": 9,
+  "code_chars": 985
+ },
+ {
+  "file": "2020-06-29 Issues-of-Dingtalk-on-macOS.md",
+  "url": "https://liam.page/2020/06/29/Issues-of-Dingtalk-on-macOS/",
+  "date": "2020-06-29",
+  "title": "解决钉钉（DingTalk）在 macOS 上的权限问题",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "macOS",
+   "DingTalk",
+   "tccutil",
+   "Privacy Control"
+  ],
+  "chars": 1398,
+  "images": 1,
+  "code_blocks": 2,
+  "code_chars": 178
+ },
+ {
+  "file": "2020-07-10 Making-Network-Faster-by-SSH-Reverse-Tunel.md",
+  "url": "https://liam.page/2020/07/10/Making-Network-Faster-by-SSH-Reverse-Tunel/",
+  "date": "2020-07-10",
+  "title": "最佳搭档：利用 SSH 反向隧道和本地转发工具加速内网服务器的外网访问",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "SSH",
+   "Socks5"
+  ],
+  "chars": 492,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 49
+ },
+ {
+  "file": "2020-05-17 Implementing-a-Thread-safe-Rate-Limiter-in-C.md",
+  "url": "https://liam.page/2020/05/17/Implementing-a-Thread-safe-Rate-Limiter-in-C/",
+  "date": "2020-05-17",
+  "title": "在 C++ 中实现一个线程安全的频率限制器",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "QPS",
+   "Rate Limiter",
+   "Thread-safe"
+  ],
+  "chars": 7428,
+  "images": 0,
+  "code_blocks": 6,
+  "code_chars": 4317
+ },
+ {
+  "file": "2020-07-12 Fixing-Flaws-on-Face-by-Frequency-Seperation.md",
+  "url": "https://liam.page/2020/07/12/Fixing-Flaws-on-Face-by-Frequency-Seperation/",
+  "date": "2020-07-12",
+  "title": "PS 技巧：分频磨皮法",
+  "categories": [
+   "Photoshop"
+  ],
+  "tags": [
+   "Flaw",
+   "Retouch"
+  ],
+  "chars": 2761,
+  "images": 13,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-07-22 what-is-involution.md",
+  "url": "https://liam.page/2020/07/22/what-is-involution/",
+  "date": "2020-07-22",
+  "title": "何谓「内卷化」",
+  "categories": [
+   "Miscellaneous"
+  ],
+  "tags": [
+   "Involution"
+  ],
+  "chars": 2366,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-07-29 tools-for-generating-HTML-table.md",
+  "url": "https://liam.page/2020/07/29/tools-for-generating-HTML-table/",
+  "date": "2020-07-29",
+  "title": "快速生成 HTML 表格代码",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Markdown",
+   "HTML"
+  ],
+  "chars": 181,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-07-26 change-hibernatemode-to-save-battery-on-macOS.md",
+  "url": "https://liam.page/2020/07/26/change-hibernatemode-to-save-battery-on-macOS/",
+  "date": "2020-07-26",
+  "title": "修改休眠模式以节省 macOS 睡眠时的电池电量",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "macOS",
+   "Hibernate"
+  ],
+  "chars": 3037,
+  "images": 1,
+  "code_blocks": 3,
+  "code_chars": 1390
+ },
+ {
+  "file": "2020-07-17 memory-stat-in-TOP.md",
+  "url": "https://liam.page/2020/07/17/memory-stat-in-TOP/",
+  "date": "2020-07-17",
+  "title": "Linux top 命令里的内存相关字段（VIRT, RES, SHR, CODE, DATA）",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Linux",
+   "Kernel",
+   "VIRT",
+   "RES",
+   "SHR",
+   "CODE",
+   "DATA"
+  ],
+  "chars": 4861,
+  "images": 1,
+  "code_blocks": 4,
+  "code_chars": 968
+ },
+ {
+  "file": "2020-10-13 install-XCode-Command-Line-Tools-manually.md",
+  "url": "https://liam.page/2020/10/13/install-XCode-Command-Line-Tools-manually/",
+  "date": "2020-10-13",
+  "title": "手动安装 XCode Command Line Tools",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Apple",
+   "XCode",
+   "CLT"
+  ],
+  "chars": 460,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-02-20 expenditure-receipt-credit.md",
+  "url": "https://liam.page/2021/02/20/expenditure-receipt-credit/",
+  "date": "2021-02-20",
+  "title": "Dalio 经济学 ①：支出、收入和信贷",
+  "categories": [
+   "Economics and Investment"
+  ],
+  "tags": [
+   "Dalio",
+   "Expenditure",
+   "Receipt",
+   "Credit",
+   "Cycle"
+  ],
+  "chars": 1783,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2020-10-14 implement-a-timed-looper-in-cxx.md",
+  "url": "https://liam.page/2020/10/14/implement-a-timed-looper-in-cxx/",
+  "date": "2020-10-14",
+  "title": "在 C++ 中实现一个正确的时间循环器",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Mutex",
+   "Threading",
+   "ConditionVariable"
+  ],
+  "chars": 3447,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 2795
+ },
+ {
+  "file": "2020-11-04 Vim-auto-format-codes-on-save.md",
+  "url": "https://liam.page/2020/11/04/Vim-auto-format-codes-on-save/",
+  "date": "2020-11-04",
+  "title": "让 Vim 在保存文件时自动格式化代码",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Format",
+   "Vim",
+   "Clang-format"
+  ],
+  "chars": 1500,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 1108
+ },
+ {
+  "file": "2020-10-27 implement-a-singleton-class-template-in-cxx.md",
+  "url": "https://liam.page/2020/10/27/implement-a-singleton-class-template-in-cxx/",
+  "date": "2020-10-27",
+  "title": "在 C++ 中实现一个单例类模板",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "Mutex",
+   "Threading",
+   "Singleton"
+  ],
+  "chars": 3367,
+  "images": 0,
+  "code_blocks": 6,
+  "code_chars": 1706
+ },
+ {
+  "file": "2021-02-24 central-bank-and-monetary-policy.md",
+  "url": "https://liam.page/2021/02/24/central-bank-and-monetary-policy/",
+  "date": "2021-02-24",
+  "title": "Dalio 经济学 ②：中央银行与货币政策",
+  "categories": [
+   "Economics and Investment"
+  ],
+  "tags": [
+   "Dalio",
+   "Cycle",
+   "Central Bank",
+   "Monetary Policy",
+   "Interest Rate",
+   "Exchange Rate"
+  ],
+  "chars": 2285,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-03-15 price-of-option-and-the-collar-strategy.md",
+  "url": "https://liam.page/2021/03/15/price-of-option-and-the-collar-strategy/",
+  "date": "2021-03-15",
+  "title": "期权价格与领口策略",
+  "categories": [
+   "Economics and Investment"
+  ],
+  "tags": [
+   "Option",
+   "Collar Strategy"
+  ],
+  "chars": 2335,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-01-03 design-a-thread-safe-data-reloader-in-cxx.md",
+  "url": "https://liam.page/2021/01/03/design-a-thread-safe-data-reloader-in-cxx/",
+  "date": "2021-01-03",
+  "title": "设计一个线程安全的数据重载器",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Thread",
+   "Thread-safe",
+   "Data",
+   "Dict",
+   "Reloader"
+  ],
+  "chars": 7169,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 2492
+ },
+ {
+  "file": "2021-03-16 the-extended-callar-strategy.md",
+  "url": "https://liam.page/2021/03/16/the-extended-callar-strategy/",
+  "date": "2021-03-16",
+  "title": "扩展版领口策略",
+  "categories": [
+   "Economics and Investment"
+  ],
+  "tags": [
+   "Option",
+   "Collar Strategy"
+  ],
+  "chars": 3172,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-03-17 using-this-pointer-in-ctor.md",
+  "url": "https://liam.page/2021/03/17/using-this-pointer-in-ctor/",
+  "date": "2021-03-17",
+  "title": "在 C++ 中类的构造函数中使用 this 指针",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "C++",
+   "this",
+   "Constructor"
+  ],
+  "chars": 476,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-04-27 autopsy-structure-of-throat-and-vocal-folds.md",
+  "url": "https://liam.page/2021/04/27/autopsy-structure-of-throat-and-vocal-folds/",
+  "date": "2021-04-27",
+  "title": "喉咙和声带的结构",
+  "categories": [
+   "Mathematics and Natural Sciences"
+  ],
+  "tags": [
+   "Vocal",
+   "Autopsy"
+  ],
+  "chars": 615,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-04-21 adjectives.md",
+  "url": "https://liam.page/2021/04/21/adjectives/",
+  "date": "2021-04-21",
+  "title": "英语语法之六：形容词",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Adjectives"
+  ],
+  "chars": 5622,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-03-17 do-not-reinventing-the-wheel-again.md",
+  "url": "https://liam.page/2021/03/17/do-not-reinventing-the-wheel-again/",
+  "date": "2021-03-17",
+  "title": "Again：不要重新造轮子",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Python",
+   "JavaScript",
+   "Software Engineering"
+  ],
+  "chars": 5086,
+  "images": 0,
+  "code_blocks": 2,
+  "code_chars": 4380
+ },
+ {
+  "file": "2021-05-06 model-verbs-and-moods-in-English.md",
+  "url": "https://liam.page/2021/05/06/model-verbs-and-moods-in-English/",
+  "date": "2021-05-06",
+  "title": "英语语法之八：情态动词与虚拟语气",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Model Verbs",
+   "Moods"
+  ],
+  "chars": 3849,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-05-07 introduction-to-compound-sentence-and-complex-sentence.md",
+  "url": "https://liam.page/2021/05/07/introduction-to-compound-sentence-and-complex-sentence/",
+  "date": "2021-05-07",
+  "title": "英语语法之⑨：忘记长难句，欢迎来到复合句的世界",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Complex Sentence",
+   "Single Sentence",
+   "Compound Sentence"
+  ],
+  "chars": 1518,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-04-29 adverbs.md",
+  "url": "https://liam.page/2021/04/29/adverbs/",
+  "date": "2021-04-29",
+  "title": "英语语法之七：副词",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Adverbs"
+  ],
+  "chars": 4558,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-05-09 noun-subordinate-clauses.md",
+  "url": "https://liam.page/2021/05/09/noun-subordinate-clauses/",
+  "date": "2021-05-09",
+  "title": "英语语法之十：名词性从句",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Complex Sentence",
+   "Subordinate Clause",
+   "Subjective Clause",
+   "Predicative Clause",
+   "Objective Clause",
+   "Appositive Clause"
+  ],
+  "chars": 7575,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-05-23 feature-engineering-in-pxtr-tasks.md",
+  "url": "https://liam.page/2021/05/23/feature-engineering-in-pxtr-tasks/",
+  "date": "2021-05-23",
+  "title": "xTR 预估任务中的特征工程",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "xTR"
+  ],
+  "chars": 1155,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-06-17 discussion-on-kind.md",
+  "url": "https://liam.page/2021/06/17/discussion-on-kind/",
+  "date": "2021-06-17",
+  "title": "论善良",
+  "categories": [
+   "Miscellaneous"
+  ],
+  "tags": [
+   "Kind"
+  ],
+  "chars": 1603,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-06-05 memory-model-cpp.md",
+  "url": "https://liam.page/2021/06/05/memory-model-cpp/",
+  "date": "2021-06-05",
+  "title": "程序员的自我修养（十）：C++ 的内存模型",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Atomics",
+   "Memory Model"
+  ],
+  "chars": 4339,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 776
+ },
+ {
+  "file": "2021-06-06 memory-order-cpp-01.md",
+  "url": "https://liam.page/2021/06/06/memory-order-cpp-01/",
+  "date": "2021-06-06",
+  "title": "程序员的自我修养（⑪）：C++ 的内存顺序·上",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Atomics",
+   "Memory Model"
+  ],
+  "chars": 4754,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2022-04-01 fix-missing-Python2-7-on-macOS-Monterey-12-3.md",
+  "url": "https://liam.page/2022/04/01/fix-missing-Python2-7-on-macOS-Monterey-12-3/",
+  "date": "2022-04-01",
+  "title": "解决 macOS Monterey 12.3 上因缺失 Python 2.7 导致的问题",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Python",
+   "macOS",
+   "Monterey"
+  ],
+  "chars": 908,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 370
+ },
+ {
+  "file": "2022-05-07 speed-up-time-machine-backup.md",
+  "url": "https://liam.page/2022/05/07/speed-up-time-machine-backup/",
+  "date": "2022-05-07",
+  "title": "提升时间机器（Time Machine）的备份速度",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Apple",
+   "Time Machine"
+  ],
+  "chars": 447,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 126
+ },
+ {
+  "file": "2022-06-19 Email-Closing-Lines.md",
+  "url": "https://liam.page/2022/06/19/Email-Closing-Lines/",
+  "date": "2022-06-19",
+  "title": "为英文信件选用合适的结束语",
+  "categories": [
+   "English"
+  ],
+  "tags": [
+   "Mail",
+   "E-Mail",
+   "Closing"
+  ],
+  "chars": 613,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2022-10-29 Yonex-AX100zz.md",
+  "url": "https://liam.page/2022/10/29/Yonex-AX100zz/",
+  "date": "2022-10-29",
+  "title": "Yonex AX100zz 打感自测",
+  "categories": [
+   "Sports"
+  ],
+  "tags": [
+   "Evaluation",
+   "Badminton",
+   "Yonex",
+   "Racket"
+  ],
+  "chars": 1395,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2022-11-02 open-two-wechat-instances-on-macOS.md",
+  "url": "https://liam.page/2022/11/02/open-two-wechat-instances-on-macOS/",
+  "date": "2022-11-02",
+  "title": "在 macOS 上双开微信",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "WeChat",
+   "macOS"
+  ],
+  "chars": 319,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 198
+ },
+ {
+  "file": "2021-12-11 memory-order-cpp-02.md",
+  "url": "https://liam.page/2021/12/11/memory-order-cpp-02/",
+  "date": "2021-12-11",
+  "title": "程序员的自我修养（⑫）：C++ 的内存顺序·中",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Atomics",
+   "Memory Model",
+   "Memory Order"
+  ],
+  "chars": 10573,
+  "images": 0,
+  "code_blocks": 9,
+  "code_chars": 4132
+ },
+ {
+  "file": "2022-11-20 badminton-footwork-the-start-step.md",
+  "url": "https://liam.page/2022/11/20/badminton-footwork-the-start-step/",
+  "date": "2022-11-20",
+  "title": "羽毛球步伐①：启动步",
+  "categories": [
+   "Sports"
+  ],
+  "tags": [
+   "Badminton",
+   "Footwork",
+   "Start Step"
+  ],
+  "chars": 3681,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2021-12-14 memory-order-cpp-03.md",
+  "url": "https://liam.page/2021/12/14/memory-order-cpp-03/",
+  "date": "2021-12-14",
+  "title": "程序员的自我修养（⑬）：C++ 的内存顺序·下",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Atomics",
+   "Memory Model",
+   "Memory Order"
+  ],
+  "chars": 12716,
+  "images": 0,
+  "code_blocks": 7,
+  "code_chars": 4627
+ },
+ {
+  "file": "2022-11-24 clean-the-scale-on-the-vibrating-plate-of-the-humidifier-to-reduce-its-noise.md",
+  "url": "https://liam.page/2022/11/24/clean-the-scale-on-the-vibrating-plate-of-the-humidifier-to-reduce-its-noise/",
+  "date": "2022-11-24",
+  "title": "清理加湿器振动片上的水垢以减小其噪声",
+  "categories": [
+   "Life and Human Nature"
+  ],
+  "tags": [
+   "Scale",
+   "Noise",
+   "Humidifier"
+  ],
+  "chars": 888,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2022-05-05 design-a-thread-pool.md",
+  "url": "https://liam.page/2022/05/05/design-a-thread-pool/",
+  "date": "2022-05-05",
+  "title": "设计一个线程池",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Thread",
+   "Threadpool"
+  ],
+  "chars": 7400,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 4277
+ },
+ {
+  "file": "2023-01-19 Build-an-iOS-Jailbreak-Tweak-Install-Theos.md",
+  "url": "https://liam.page/2023/01/19/Build-an-iOS-Jailbreak-Tweak-Install-Theos/",
+  "date": "2023-01-19",
+  "title": "编写 iOS 越狱插件：安装 Theos",
+  "categories": [
+   "Jailbreak and Reverse Engineering"
+  ],
+  "tags": [
+   "Jailbreak",
+   "Development",
+   "Tweak",
+   "Theos"
+  ],
+  "chars": 1053,
+  "images": 0,
+  "code_blocks": 6,
+  "code_chars": 442
+ },
+ {
+  "file": "2023-01-19 Tweaks-that-I-ve-installed-on-my-iPhone.md",
+  "url": "https://liam.page/2023/01/19/Tweaks-that-I-ve-installed-on-my-iPhone/",
+  "date": "2023-01-19",
+  "title": "iOS 越狱后插件推荐",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "iPhone",
+   "Jailbreak",
+   "iOS",
+   "Tweaks"
+  ],
+  "chars": 5273,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2023-01-20 Build-an-iOS-Jailbreak-Tweak-init-project-from-NIC.md",
+  "url": "https://liam.page/2023/01/20/Build-an-iOS-Jailbreak-Tweak-init-project-from-NIC/",
+  "date": "2023-01-20",
+  "title": "编写 iOS 越狱插件：从 NIC 中创建项目",
+  "categories": [
+   "Jailbreak and Reverse Engineering"
+  ],
+  "tags": [
+   "Jailbreak",
+   "Development",
+   "Tweak",
+   "Theos"
+  ],
+  "chars": 2412,
+  "images": 0,
+  "code_blocks": 4,
+  "code_chars": 1519
+ },
+ {
+  "file": "2023-01-20 different-PATH-env-in-VSCode-macOS.md",
+  "url": "https://liam.page/2023/01/20/different-PATH-env-in-VSCode-macOS/",
+  "date": "2023-01-20",
+  "title": "解决 macOS 上 VSCode 当中终端环境变量重复问题",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Shell",
+   "VSCode",
+   "Terminal"
+  ],
+  "chars": 984,
+  "images": 0,
+  "code_blocks": 3,
+  "code_chars": 642
+ },
+ {
+  "file": "2023-01-21 Build-an-iOS-Jailbreak-Tweak-dumpdecrypted-IPA.md",
+  "url": "https://liam.page/2023/01/21/Build-an-iOS-Jailbreak-Tweak-dumpdecrypted-IPA/",
+  "date": "2023-01-21",
+  "title": "编写 iOS 越狱插件：给 App 砸壳",
+  "categories": [
+   "Jailbreak and Reverse Engineering"
+  ],
+  "tags": [
+   "Jailbreak",
+   "Development",
+   "Dumpdecrypting"
+  ],
+  "chars": 1041,
+  "images": 0,
+  "code_blocks": 5,
+  "code_chars": 263
+ },
+ {
+  "file": "2023-01-21 fix-the-CPU-hogging-of-cisco-anyconnect-macos-acsockext.md",
+  "url": "https://liam.page/2023/01/21/fix-the-CPU-hogging-of-cisco-anyconnect-macos-acsockext/",
+  "date": "2023-01-21",
+  "title": "解决 cisco.anyconnect.macos.acsockext 大量消耗 CPU 资源的问题",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "CPU",
+   "Cisco",
+   "VPN"
+  ],
+  "chars": 485,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2023-02-08 TrollStore-and-useful-IPA-files.md",
+  "url": "https://liam.page/2023/02/08/TrollStore-and-useful-IPA-files/",
+  "date": "2023-02-08",
+  "title": "TrollStore 及常用 IPA 官方下载",
+  "categories": [
+   "Jailbreak and Reverse Engineering"
+  ],
+  "tags": [
+   "TrollStore"
+  ],
+  "chars": 890,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2023-02-12 fix-battery-usage-graph-on-iOS-14-5-1-unc0ver-8-0-2.md",
+  "url": "https://liam.page/2023/02/12/fix-battery-usage-graph-on-iOS-14-5-1-unc0ver-8-0-2/",
+  "date": "2023-02-12",
+  "title": "在 iOS 14.5.1/unc0ver 8.0.2 上解决电池用量信息无法载入的问题",
+  "categories": [
+   "Jailbreak and Reverse Engineering"
+  ],
+  "tags": [
+   "Fixing"
+  ],
+  "chars": 1385,
+  "images": 0,
+  "code_blocks": 1,
+  "code_chars": 535
+ },
+ {
+  "file": "2023-03-17 difference-between-reboot-reboot-userspace-ldrestart-respring-and-unicache.md",
+  "url": "https://liam.page/2023/03/17/difference-between-reboot-reboot-userspace-ldrestart-respring-and-unicache/",
+  "date": "2023-03-17",
+  "title": "越狱后 iDevice 的重启、重启用户空间、软重启、注销、重建图标之间的关系",
+  "categories": [
+   "Jailbreak and Reverse Engineering"
+  ],
+  "tags": [
+   "Reboot",
+   "Userspace",
+   "LDRestart",
+   "Respring",
+   "UICache"
+  ],
+  "chars": 1792,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2023-01-21 Build-an-iOS-Jailbreak-Tweak-Objective-C-the-quick-start.md",
+  "url": "https://liam.page/2023/01/21/Build-an-iOS-Jailbreak-Tweak-Objective-C-the-quick-start/",
+  "date": "2023-01-21",
+  "title": "编写 iOS 越狱插件：速览 Objective-C",
+  "categories": [
+   "Jailbreak and Reverse Engineering"
+  ],
+  "tags": [
+   "Language",
+   "Objective-C"
+  ],
+  "chars": 5248,
+  "images": 0,
+  "code_blocks": 12,
+  "code_chars": 1472
+ },
+ {
+  "file": "2023-04-04 Install-TrollStore-by-Apple-Configurator.md",
+  "url": "https://liam.page/2023/04/04/Install-TrollStore-by-Apple-Configurator/",
+  "date": "2023-04-04",
+  "title": "通过 Apple Configurator 安装 TrollStore",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "Apple",
+   "TrollStore",
+   "Configurator"
+  ],
+  "chars": 761,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2023-04-21 Toturial-how-to-bind-and-mount-folders-on-a-jailbroken-device.md",
+  "url": "https://liam.page/2023/04/21/Toturial-how-to-bind-and-mount-folders-on-a-jailbroken-device/",
+  "date": "2023-04-21",
+  "title": "教程：如何在越狱设备上映射目录？",
+  "categories": [
+   "Computer Skills"
+  ],
+  "tags": [
+   "iPhone",
+   "Jailbreak",
+   "iOS"
+  ],
+  "chars": 2750,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2024-01-04 legacy-experience-of-Baidu-search.md",
+  "url": "https://liam.page/2024/01/04/legacy-experience-of-Baidu-search/",
+  "date": "2024-01-04",
+  "title": "百度大搜的一些历史经验",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Search",
+   "Baidu"
+  ],
+  "chars": 3566,
+  "images": 1,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2024-03-17 book-review-tanrensheng.md",
+  "url": "https://liam.page/2024/03/17/book-review-tanrensheng/",
+  "date": "2024-03-17",
+  "title": "《谈人生》读后感",
+  "categories": [
+   "Literature and Social Sciences"
+  ],
+  "tags": [
+   "Book review",
+   "季羡林",
+   "谈人生"
+  ],
+  "chars": 2793,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2024-04-21 VO2-Max.md",
+  "url": "https://liam.page/2024/04/21/VO2-Max/",
+  "date": "2024-04-21",
+  "title": "最大摄氧量是什么？",
+  "categories": [
+   "Sports"
+  ],
+  "tags": [
+   "Apple Watch",
+   "最大摄氧量",
+   "有氧适能水平"
+  ],
+  "chars": 597,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2024-04-21 book-review-a-general-narration-of-math-physics-and-chemistry.md",
+  "url": "https://liam.page/2024/04/21/book-review-a-general-narration-of-math-physics-and-chemistry/",
+  "date": "2024-04-21",
+  "title": "这书有点甜——《数理化通俗演义》读后感",
+  "categories": [
+   "Literature and Social Sciences"
+  ],
+  "tags": [
+   "Book review",
+   "数理化通俗演义"
+  ],
+  "chars": 781,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2024-10-04 notes-on-Exercise-Physiology-chap-02-Exercise-physiology-and-sports-training-fro.md",
+  "url": "https://liam.page/2024/10/04/notes-on-Exercise-Physiology-chap-02-Exercise-physiology-and-sports-training-from-a-microscopic-perspective/",
+  "date": "2024-10-04",
+  "title": "运动生理学读书笔记：微观视角下的运动生理学与运动训练",
+  "categories": [
+   "Sports"
+  ],
+  "tags": [
+   "Exercise",
+   "Physilogy"
+  ],
+  "chars": 1972,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2024-10-04 notes-on-Exercise-Physiology-chap-01-Aerobic-and-anaerobic-exercise.md",
+  "url": "https://liam.page/2024/10/04/notes-on-Exercise-Physiology-chap-01-Aerobic-and-anaerobic-exercise/",
+  "date": "2024-10-04",
+  "title": "运动生理学读书笔记：有氧与无氧运动",
+  "categories": [
+   "Sports"
+  ],
+  "tags": [
+   "Exercise",
+   "Physilogy",
+   "Aerobic",
+   "Anaerobic"
+  ],
+  "chars": 4516,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2025-12-07 The-Magic-of-Light-and-Shadow-Fundamentals-of-Flash-Photography-and-the-Intrinsi.md",
+  "url": "https://liam.page/2025/12/07/The-Magic-of-Light-and-Shadow-Fundamentals-of-Flash-Photography-and-the-Intrinsic-Connection-Between-Three-Speeds/",
+  "date": "2025-12-07",
+  "title": "光与影的魔术①：闪光灯的基础知识；以及三个速度之间的深刻联系",
+  "categories": [
+   "Magic of Light and Shadow"
+  ],
+  "tags": [
+   "Flash"
+  ],
+  "chars": 4952,
+  "images": 0,
+  "code_blocks": 0,
+  "code_chars": 0
+ },
+ {
+  "file": "2025-06-28 fdwm.md",
+  "url": "https://liam.page/2025/06/28/fdwm/",
+  "date": "2025-06-28",
+  "title": "FDWM: 一个实现「不可见」水印的 Python 库",
+  "categories": [
+   "Algorithm and Computer Science"
+  ],
+  "tags": [
+   "Watermark",
+   "Steganography",
+   "Image processing",
+   "Frequency domain",
+   "FFT"
+  ],
+  "chars": 3846,
+  "images": 0,
+  "code_blocks": 8,
+  "code_chars": 2578
+ }
+]
