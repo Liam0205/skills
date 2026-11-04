@@ -1,6 +1,6 @@
 ---
 name: liam-page-blog
-description: 在 Liam Huang 的博客源码仓库（Liam0205/blog-source，zh 与 en 两个 Hexo 站点）里新建文章、本地生成验证、发布上线。含递归子模块、被包装脚本钉死的 Node 18、中文标题的 slug 处理、frontmatter 与十六个既有分类、hexod 的九步流程、无 SSH key 时的凭证注入、GitHub Pages 的构建延迟。 Use when publishing a post to liam.page, deploying the site, or maintaining the blog-source repo.
+description: 在 Liam Huang 的博客源码仓库（Liam0205/blog-source，zh 与 en 两个 Hexo 站点）里新建文章、本地生成验证、发布上线。含递归子模块、被包装脚本按 .nvmrc 钉死的 Node 版本、中文标题的 slug 处理、frontmatter 与十六个既有分类、hexod 的九步流程、无 SSH key 时的凭证注入、GitHub Pages 的构建延迟。 Use when publishing a post to liam.page, deploying the site, or maintaining the blog-source repo.
 ---
 
 # liam.page 博客发布

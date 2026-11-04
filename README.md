@@ -7,11 +7,12 @@
 | Skill | 作用 | 依赖 |
 | - | - | - |
 | [`liam-page-writing`](skills/liam-page-writing/) | 按 liam.page 2013-2025 的文风写中文技术文章与科普文，含 405 篇语料与六层分析 | 可选 `less-ai-tone` |
-| [`liam-page-blog`](skills/liam-page-blog/) | 在 blog-source 仓库里新建文章、本地生成、发布上线，含 Node 18 环境准备与无 SSH key 时的凭证注入 | 无 |
+| [`liam-page-blog`](skills/liam-page-blog/) | 在 blog-source 仓库里新建文章、本地生成、发布上线，含按 .nvmrc 钉死 Node 版本的构建环境与无 SSH key 时的凭证注入 | 无 |
 | [`less-ai-tone`](skills/less-ai-tone/) | 按 17 条明确规则清理中文写作里的 AI 痕迹，可单独使用 | 无 |
 | [`writing-dna`](skills/writing-dna/) | 从任意作者的语料蒸馏可复用的写作 DNA，输出六份分析产物 | 可选 `less-ai-tone` |
+| [`style-guided-writing`](skills/style-guided-writing/) | 按指定文风写长文时的生产流程：立意先行、分节交付、返工止损、交稿前检查；不含风格规则 | 配合 `liam-page-writing` 或 `writing-dna`，可选 `less-ai-tone` |
 
-三个 skill 相互平级，可以单独安装。`liam-page-writing` 和 `writing-dna` 在收尾阶段会引用 `less-ai-tone`，同仓一起装时按相对路径能找到，单独装则跳过该步骤。
+这些 skill 相互平级，可以单独安装。`liam-page-writing` 和 `writing-dna` 在收尾阶段会引用 `less-ai-tone`，同仓一起装时按相对路径能找到，单独装则跳过该步骤。`style-guided-writing` 只管流程，风格规则由前两者提供，三者同时加载时规则归它们、流程归它。
 
 ## 安装
 
@@ -19,7 +20,7 @@
 git clone https://github.com/Liam0205/skills.git
 cd skills
 ./install.sh --target claude              # 只装 liam-page-writing
-./install.sh --target claude --all        # 三个都装
+./install.sh --target claude --all        # 全部安装
 ./install.sh --target hermes --all        # 装到 ~/.hermes/skills
 ```
 
