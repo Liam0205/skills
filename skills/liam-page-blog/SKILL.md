@@ -151,7 +151,7 @@ done
 ## 检查清单
 
 - [ ] clone 带 `--recursive`，`git submodule status` 三个子模块都非空
-- [ ] `node -v` 是 18.x，`which -a node` 第一位是 nvm 装的那个
+- [ ] `./hexo version` 打印的 `node:` 大版本等于站点 `.nvmrc`（2026-11 起是 24）
 - [ ] 文件名是英文 slug，与站内既有文章一致
 - [ ] frontmatter 字段齐，分类在十六个既有分类里，正文没有重复的 H1
 - [ ] `hexo g` 之后能打开该页，标题正确，正文有内容，首页和归档都有链接
