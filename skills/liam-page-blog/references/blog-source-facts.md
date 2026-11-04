@@ -26,10 +26,10 @@ blog-source/
 
 ## 环境
 
-- 系统 node 是 v22，`zh/hexo` 要 18 → `nvm install 18`，装到 `~/.nvm`，不需要 sudo
-- Linux homebrew 的 nvm 在 `/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh`
-- `cd zh && npm ci` 通过（27 个 audit 警告，不影响构建）
-- 生成耗时：2354 个文件，2.55 秒
+- Node 版本由站点 `.nvmrc` 决定（2026-11 起是 24），`scripts/hexo` 通过 nvm 解析绝对路径执行；版本缺失时 `scripts/nvm-env.sh` 退回已装的 node，构建不报错但会偏离约定
+- nvm 的位置随机器不同：`~/.nvm`、`/opt/homebrew/opt/nvm`、`/usr/local/opt/nvm`、`/home/linuxbrew/.linuxbrew/opt/nvm`；仓库 `scripts/nvm-env.sh` 的 `load_nvm()` 已按这个顺序找，不要在任何地方写死单一路径
+- `cd zh && npm ci` 通过（27 个 audit 警告，不影响构建）；npm 11 会拦 postinstall，真遇到代码高亮异常再 `npm install-scripts approve`
+- 生成耗时：2362 个文件，2.06 秒（Node 24 实测）
 
 ## 文章
 
@@ -92,29 +92,33 @@ tags:
 #!/usr/bin/env bash
 set -uo pipefail
 
-python3 - <<'PY'
-import re
-t = open('/home/<user>/.config/gh/hosts.yml').read()
-tok = re.search(r'<account>:\s*\n\s*oauth_token:\s*(\S+)', t).group(1)
+BLOG_REPO="${BLOG_REPO:-$HOME/projects/blog-source}"
+CFG="$HOME/.tmp/gitconfig"
+mkdir -p "$HOME/.tmp"
+
+python3 - "$CFG" <<'PY'
+import os, re, sys
+cfg_path = sys.argv[1]
+hosts = open(os.path.expanduser("~/.config/gh/hosts.yml")).read()
+tok = re.search(r'<account>:\s*\n\s*oauth_token:\s*(\S+)', hosts).group(1)
 u = "x-acc" + "ess-" + "".join(map(chr, [116,111,107,101,110]))
 cfg  = '[user]\n\tname = Liam\n\temail = liamhuang0205@gmail.com\n'
 cfg += '[url "https://%s:%s@github.com/"]\n\tinsteadOf = git@github.com:\n' % (u, tok)
-open('/home/<user>/.tmp/gitconfig', 'w').write(cfg)
+open(cfg_path, 'w').write(cfg)
 PY
-chmod 600 ~/.tmp/gitconfig
-export GIT_CONFIG_GLOBAL=/home/<user>/.tmp/gitconfig
+chmod 600 "$CFG"
+export GIT_CONFIG_GLOBAL="$CFG"
 
-cd ~/projects/blog-source || exit 1
+cd "$BLOG_REPO" || exit 1
 git config user.name; git config user.email
 
 cd zh || exit 1
-export NVM_DIR="$HOME/.nvm"
-. /home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh >/dev/null 2>&1
-nvm use 18 >/dev/null 2>&1
+# Node 版本由 .nvmrc + scripts/hexo 决定，nvm 位置也交给仓库脚本自己找
+. "$BLOG_REPO/scripts/nvm-env.sh" && load_nvm
 
 timeout 420 ./hexod
 rc=$?
-rm -f /home/<user>/.tmp/gitconfig
+rm -f "$CFG"
 exit $rc
 ```
 

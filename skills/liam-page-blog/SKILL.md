@@ -26,17 +26,18 @@ clone 之后用 `git submodule status` 检查，三个子模块都不该带 `-` 
 
 ## 环境
 
-站点脚本第一行执行 `nvm use 18`，系统自带的 Node 22 不能直接用。
+站点不自己管 Node 版本。根目录的 `scripts/hexo` 读站点 `.nvmrc`（2026-11 起是 **24**），通过 nvm 解析成绝对路径再执行，PATH 上更靠前的 node 抢不走构建；`zh/hexo`、`zh/hexod`、`en/hexo`、`en/hexod` 只是转发壳，真逻辑在根目录 `scripts/`。
 
 ```bash
-export NVM_DIR="$HOME/.nvm"
-. /home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh
-nvm install 18        # 只装一次，落在 ~/.nvm，不需要 sudo
-nvm use 18
-node -v               # 必须是 18.x 才算数
+# nvm 的位置随机器不同（~/.nvm、/opt/homebrew、/usr/local、/home/linuxbrew），
+# 不要写死某一条路径：复用仓库自带的 scripts/nvm-env.sh，它的 load_nvm() 已按这些前缀依次查找
+. "${BLOG_REPO:-$HOME/projects/blog-source}/scripts/nvm-env.sh"
+load_nvm
+
+nvm install "$(cat "${BLOG_REPO:-$HOME/projects/blog-source}/zh/.nvmrc")"   # 只装一次，落在 ~/.nvm，不需要 sudo
 ```
 
-判断标准是 `node -v` 的输出，不是 `nvm use` 打印的那行成功信息。PATH 上可能还有别的 node（比如 `~/.hermes/node/bin/node`），用 `which -a node` 确认排第一位的是 `~/.nvm/versions/node/v18.*/bin/node`。
+版本没装时 `scripts/nvm-env.sh` 会退回已装的 node，构建照样跑通，所以**别用「能不能构建」判断环境对不对**，要看 `./hexo version` 里打印的 `node:` 行是不是 `.nvmrc` 要求的那个大版本。
 
 装依赖时用 `npm ci`，仓库带了 lock 文件。安装过程会报二十多个 audit 警告，不影响构建。
 
@@ -81,7 +82,7 @@ Photoshop                         Sports
 cd ~/projects/blog-source/zh && ./hexo g
 ```
 
-全站约 2354 个文件，两三秒跑完。`INFO Generated` 打出不代表页面正确，抽查四项：
+全站约 2360 个文件，两三秒跑完（2026-11 在 Node 24 下实测 2362 个、2.06 秒）。`INFO Generated` 打出不代表页面正确，抽查四项：
 
 ```bash
 F=public/2026/10/30/ai-tone-removal/index.html
@@ -111,9 +112,9 @@ grep -l "ai-tone-removal" public/index.html public/archives/index.html
 
 三个注意点：
 
-- `hexod` 里每条命令都包在 `while ! (...)` 里，认证失败不会退出，会无限重试。一定用 `timeout 420 ./hexod` 包住，否则看起来在跑，实际卡死
+- 2026-11 起 `hexod` 不再无限重试：普通步骤走 `run`（失败即 `die`），只有 fetch / rebase / push 这类瞬时故障用 `retry 5`（退避 5→60 秒）。`timeout` 仍建议包一层兜底，但超时不再等于卡死在某一行 `while !` 里
 - `hexo d` 会先清空 `public/` 再重新生成，本地验证的结果不会带过去，每次都是全量
-- 顶层还有一个 `hexod_all`，本意是两站一起发，但里面写成了 `while ! (HEXO clean)`，少一个 `$`，实际会循环失败。别用它，分别跑 zh 和 en
+- 顶层 `hexod_all` 已经修好了（旧的 `while ! (HEXO clean)` 少个 `$` 那个 bug 没了），两站一起发可以用，但它只在最后 push 一次根仓库；分别跑 zh / en 仍然更可控
 
 ## 凭证
 

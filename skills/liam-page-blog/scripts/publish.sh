@@ -21,12 +21,19 @@ fi
 
 # 生成临时 gitconfig：提交身份 + SSH 地址重写到带 token 的 HTTPS
 python3 - "$CFG" <<'PY'
+import os
 import re
 import sys
 
 cfg_path = sys.argv[1]
-hosts = open('/home/liam-hermes/.config/gh/hosts.yml').read()
-tok = re.search(r'Liam0205:\s*\n\s*oauth_token:\s*(\S+)', hosts).group(1)
+hosts_path = os.path.expanduser(os.environ.get("GH_HOSTS_FILE", "~/.config/gh/hosts.yml"))
+hosts = open(hosts_path).read()
+if "Liam0205" not in hosts:
+    sys.exit("hosts.yml 里没有 Liam0205 这个账号，先 gh auth login")
+m = re.search(r'Liam0205:\s*\n\s*oauth_token:\s*(\S+)', hosts)
+if not m:
+    sys.exit("hosts.yml 里 Liam0205 段没有 oauth_token")
+tok = m.group(1)
 u = "x-acc" + "ess-" + "".join(map(chr, [116, 111, 107, 101, 110]))
 cfg = '[user]\n\tname = Liam\n\temail = liamhuang0205@gmail.com\n'
 cfg += '[url "https://%s:%s@github.com/"]\n\tinsteadOf = git@github.com:\n' % (u, tok)
@@ -48,13 +55,11 @@ if [ -d "$REPO/$SITE/.deploy_git" ]; then
 fi
 
 cd "$REPO/$SITE" || exit 1
-export NVM_DIR="$HOME/.nvm"
-# shellcheck disable=SC1091
-. /home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh >/dev/null 2>&1
-nvm use 18 >/dev/null 2>&1
-echo "node: $(node -v)"
+# Node 版本由站点 .nvmrc 加根目录 scripts/hexo 决定（2026-11 起是 Node 24），
+# hexod 内部也走那套包装，这里不再强制 nvm use 某个固定版本。
 
-# hexod 内部是 while ! (...) 循环，认证失败会无限重试，必须限时
+# hexod 现在每一步都有边界（run 失败即停，fetch/push 用 retry 5 退避），
+# timeout 只是兜底，防止网络卡住时整条流水线挂着不退。
 timeout 420 ./hexod
 rc=$?
 
