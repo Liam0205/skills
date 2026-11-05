@@ -59,6 +59,8 @@ frontmatter 照 `scaffolds/post.md` 补齐。`quicklink` 和 `reward_settings` �
 
 **正文里不要再写一遍一级标题**，Hexo 会用 frontmatter 的 title 渲染 `<h1>`，重复写会出现两个标题。
 
+导语之后、第一个 `##` 之前必须补一行 `<!-- more -->`，前后各留一个空行。少了它，首页会把整篇文章铺开，也不出现「阅读全文」链接。2026-11 的 gist 那篇就漏了这一行，首页直接展开全文，补上才恢复。
+
 `categories` 从下面十六个里选一个，不要新造：
 
 ```
@@ -90,9 +92,10 @@ ls -la $F                                     # 页面存在
 grep -o "<title>[^<]*</title>" $F             # 标题渲染正确
 grep -o "正文里的某个特征词" $F               # Markdown 真的转成了 HTML
 grep -l "ai-tone-removal" public/index.html public/archives/index.html
+grep -c "阅读全文" public/index.html                 # 首页每篇都该有一条摘要链接
 ```
 
-最后一条确认文章进了首页和归档。没有出现说明日期或 draft 状态有问题。
+最后两条确认文章进了首页和归档，且首页只显示摘要。没有出现说明日期、draft 状态有问题，或者正文漏了 `<!-- more -->`。
 
 ## 发布
 
@@ -154,6 +157,7 @@ done
 - [ ] `./hexo version` 打印的 `node:` 大版本等于站点 `.nvmrc`（2026-11 起是 24）
 - [ ] 文件名是英文 slug，与站内既有文章一致
 - [ ] frontmatter 字段齐，分类在十六个既有分类里，正文没有重复的 H1
+- [ ] 导语与第一个 `##` 之间有 `<!-- more -->`，首页只显示摘要、「阅读全文」在
 - [ ] `hexo g` 之后能打开该页，标题正确，正文有内容，首页和归档都有链接
 - [ ] 发布命令用 `timeout` 包住
 - [ ] 临时 gitconfig 用完删掉
