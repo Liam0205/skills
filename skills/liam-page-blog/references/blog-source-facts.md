@@ -130,6 +130,24 @@ exit $rc
 - 推送后约 40 秒才从 404 变 200，轮询 6 次 ×20 秒足够
 - 最终页面 `<title>给 AI 去去味儿 | 始终</title>`
 
+## 2026-11-07 macOS 发布机实测
+
+同一套仓库在 macOS（APFS，大小写不敏感）上的发布记录，和上面 Linux 机的差异都写在这里。
+
+- 仓库在 `/Users/Liam/BLOG/liam.page`，不是 `~/projects/blog-source`
+- **SSH 可用**：`ssh -T git@github.com` 回 `Hi Liam0205!`。`gh auth login` 把 token 存在 Keychain，`~/.config/gh/hosts.yml` 里只有 `user:`，所以 `scripts/publish.sh` 直接以 `no token` 失败。最终没用脚本，直接 `timeout 600 ./hexod`，提交身份用 `GIT_AUTHOR_*` / `GIT_COMMITTER_*` 环境变量设成 `Liam <liamhuang0205@gmail.com>`（全局 `user.name` 是 `Liam Huang`）
+- 发布前 5 个子模块的 checkout 都落后于根仓库记录的指针（`git diff --submodule=log` 显示 rewind / commits not present）。先 `git submodule update --init --remote --recursive` 对齐，否则 `./sync` 会提交一个让指针倒退的 commit
+- `zh/.deploy_git` 走 SSH fetch 8 分 19 秒没有任何输出（pack 509 MiB，本地已有 9 个 tmp_pack 垃圾）。改 HTTPS + `https_proxy=http://127.0.0.1:7890` 后几十秒拉完；随后 `git checkout master && merge --ff-only origin/master`
+- 第一次跑 hexod，`git -C zh` 仓库已经是干净的，sync 只提交了那一篇新文章（`b28ec594..0b6ee602`，1 file changed）
+- nvm 里只有 12 / 18 / 19，没有 24，`./hexo` 退回 Node 12 后报 `Cannot find module 'fs/promises'`。`nvm install 24` 装上 24.22.2，`nvm alias default` 保持 12 没动
+- `zh/node_modules` 与 lock 不一致（`hexo-generator-feed` 装的 1.2.2，lock 要 3.0.0），Hexo 启动时报 `Plugin load failed` / `Cannot find module 'hexo/lib/plugins/helper/gravatar'`。Node 24 下 `npm ci` 修好，`package.json` / lock 没有变化
+- 生成 2374 个文件、5–7 秒（Node 24.22.2）
+- **部署失败**：`fatal: will not add file alias 'tags/CODE/index.html' ('tags/Code/index.html' already exists in index)`。站内有 10 对只差大小写的标签：Code/CODE、CTeX/ctex、Data/DATA、Hyperref/hyperref、MacTeX/macTeX、Random/random、Sort/sort、Thread Safe/Thread-safe、Tmux/tmux、VIM/Vim。mac 上每对只生成了一个目录
+- 处理：统一 front matter（软件名按官方写法 `Vim`、`tmux`、`hyperref`，其余按多数写法），改了 16 篇旧文；重生成后撞车清零。部署仓里旧大小写的 7 个目录用两段式 `git mv` 改名，再提交推送，根仓库补一次指针提交
+- 改了大小写的标签页旧 URL 立即 404，新的要等 Pages 构建完成才 200：`/tags/Vim/`、`/tags/tmux/`、`/tags/hyperref/`、`/tags/Sort/`、`/tags/Random/`、`/tags/Data/`、`/tags/Thread-safe/` 在第二次推送后第一次轮询就已全部 200
+- 校验部署仓内容时不加 `-c core.quotepath=false` 会把所有中文路径显示成八进制转义，看起来像大面积缺失；对比时还要排除 `CNAME` 与 `apt*/deb/.gitkeep`
+- 结尾状态：源码仓 4 个提交、部署仓 2 个提交都推完，`git status` 干净；`en` 与 `attachment` 子模块在这一轮 `--remote` 里一并拉到了远端最新（detached HEAD 属于正常）
+
 ## 该站写作规范
 
 写文章本身（语气、结构、引号、人称）走 `liam-page-writing` skill，本文件只管发布链路。
