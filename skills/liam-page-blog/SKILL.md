@@ -1,6 +1,6 @@
 ---
 name: liam-page-blog
-description: 在 Liam Huang 的博客源码仓库（Liam0205/blog-source，zh 与 en 两个 Hexo 站点）里新建文章、本地生成验证、发布上线。含递归子模块与发布前的指针对齐、被包装脚本按 .nvmrc 钉死的 Node 版本、中文标题的 slug 处理、frontmatter 与十六个既有分类、hexod 的九步流程、SSH 与 token 两种凭证方式、macOS 上标签大小写撞车导致部署失败、GitHub Pages 的构建延迟。 Use when publishing a post to liam.page, deploying the site, or maintaining the blog-source repo.
+description: 在 Liam Huang 的博客源码仓库（Liam0205/blog-source，zh 与 en 两个 Hexo 站点）里新建文章、本地生成验证、发布上线，以及从源路径更新已发布的文章（看差异、修悬空引用、同步回源稿）。含递归子模块与发布前的指针对齐、被包装脚本按 .nvmrc 钉死的 Node 版本、中文标题的 slug 处理、frontmatter 与十六个既有分类、hexod 的九步流程、SSH 与 token 两种凭证方式、macOS 上标签大小写撞车导致部署失败、GitHub Pages 的构建延迟。 Use when publishing or updating a post on liam.page, deploying the site, or maintaining the blog-source repo.
 ---
 
 # liam.page 博客发布
@@ -8,6 +8,7 @@ description: 在 Liam Huang 的博客源码仓库（Liam0205/blog-source，zh �
 ## 什么时候用
 
 - 「发一篇博客」「把这篇文章发到博客上」「部署站点」「更新博客」
+- 「源路径的文章有更新」「看看改了什么」「更新吧」：更新已发布的文章，见「更新已发布的文章」一节
 - 博客源码仓库的日常操作：新建文章、本地生成、发布
 
 不适用于 WordPress、Hugo，或者不带 `./hexo`、`./hexod` 包装脚本的手写静态站。
@@ -244,6 +245,67 @@ done
 
 轮询六次、每次间隔二十秒足够。等不到就去查 Pages 的构建状态，不要急着改文章内容。
 
+更新已发布的文章时，状态码一直是 200，测不出新版是否生效。改成 grep 一个**只在新版里出现**的词（新加的小节标题最合适），URL 加 `?v=$i` 绕开缓存：
+
+```bash
+for i in 1 2 3 4 5 6; do
+  n=$(curl -sL "https://liam.page/YYYY/MM/DD/<slug>/?v=$i" | grep -c '新版才有的小节标题')
+  echo "第 $i 次：$n"; [ "$n" -gt 0 ] && break; sleep 20
+done
+```
+
+## 更新已发布的文章
+
+作者常在站外的源路径（如 `~/manage/<slug>.md`）改稿，然后说「源路径的文章有更新」。流程分三步：先看差异，再修正，最后发布。
+
+### 先看改了什么
+
+```bash
+P=zh/source/_posts/YYYY/MM/DD/<slug>.md
+S=<源路径>/<slug>.md
+ls -la "$S" "$P"          # 对比修改时间，确认源稿确实更新了
+diff -u "$P" "$S"
+```
+
+向作者汇报时按节归纳，不要把 diff 原样贴回去。要说清楚四件事：
+
+- front matter、`date`、`<!-- more -->` 是否变化。date 变了，permalink 就变了，URL 会跟着变
+- 结构变化：哪些节新增、合并、删除
+- 删掉了哪些内容：作者删得多的时候，最容易出现悬空引用
+- 前后数字是否还对得上：同一组数据换了时间窗口（10 秒、1 分钟）重新表述时，换算要一致
+
+### 悬空引用：大幅改稿后最常见的问题
+
+作者压缩或重组正文时，常会删掉某段命令或某一节，后文却仍在引用它。2026-11 lsd 那篇改稿就有三处：
+
+| 症状 | 例子 | 修法 |
+| --- | --- | --- |
+| 后文用到的文件，生成它的命令被删了 | 「成因」用 `/tmp/lsdump.txt`，但 `-dump > /tmp/lsdump.txt` 那行随「排查」一起删了 | 在第一次用到的位置之前补回命令 |
+| 文件或概念第一次出现就直接使用 | `/tmp/lsdump2.txt` 前文从未出现 | 在代码块前用一句话交代它的来历（何时、在哪一步之后导出） |
+| 「先前」「上文」指向一个已删除的段落 | 「先前我退出过一次 Setapp」，可「退出 Setapp」一节已经删掉 | 改写成不依赖前文的句子，并顺手补出这句话真正想说的结论 |
+
+逐项核对的办法：先把新稿里的文件名、变量（`$LSREG`）、「先前 / 上文 / 前面 / 后文 / 下一节」这类指代词都 grep 出来，再逐个确认前文有定义、指向的节确实存在。
+
+```bash
+grep -nE '/tmp/|\$[A-Z_]+|先前|上文|前面|后文|上一节|下一节|前一节' "$S"
+```
+
+### 修正的边界
+
+- 只修**确实不成立**的地方：悬空引用、前后矛盾、数字对不上。措辞、结构、取舍属于作者，不动
+- 写作风格的问题不在这里处理，交给 `liam-page-writing`；修正时只补最少的字，口吻跟着原文走
+- 哪怕作者说了「把你认为不合理的也修正了」，也要在汇报里逐条列出改了哪里、为什么改。没改的地方也要说明核对过、没问题，例如「`$LSREG` 有定义，337 与 339 的差异文中已解释」
+
+### 同步回源路径
+
+修正写在 `zh/source/_posts/` 里的副本上。发布之前，**把改好的版本拷回源路径**，否则作者下次从源路径更新时，这次的修正会被冲掉。拷回之前先 `ls -l "$S"`，确认源稿在这期间没有再被改过。如果改过，就先 diff，不要直接覆盖。
+
+```bash
+cp "$P" "$S"
+```
+
+之后照常 `./hexo g` 抽查，再跑 `./hexod`。sync 提交里应当只有这一篇文章的改动。
+
 ## 检查清单
 
 - [ ] clone 带 `--recursive`，`git submodule status` 三个子模块都非空
@@ -257,6 +319,7 @@ done
 - [ ] 本机 SSH 是否可用已确认（通则不注入 token），发布命令用 `timeout` 包住
 - [ ] 临时 gitconfig 用完删掉
 - [ ] 线上返回 200 且标题正确；改动过的标签页 URL 也逐个 200
+- [ ] 更新已发布的文章时：没有悬空引用；修正逐条汇报；改好的版本已拷回源路径；线上能 grep 到只在新版里出现的词
 - [ ] 源码仓库与 deploy 仓库都已推送，`git status` 干净
 
 ## 常见坑
@@ -278,3 +341,6 @@ done
 - `.deploy_git` 这类子模块通常停在 detached HEAD，`git push origin HEAD:master` 比先 checkout 更省事
 - nvm 里没装 `.nvmrc` 要求的版本时，`./hexo` 会静默退回一个更老的 node 然后报各种模块找不到，先看 `./hexo version` 的 `node:` 行
 - 标签只差大小写会让 macOS 上的 `hexo deploy` 直接失败，见上文专节
+- 更新文章后只拿状态码验证线上，200 测不出新旧版本，要 grep 新版独有的内容
+- 修正只改了 `_posts` 里的副本、没拷回源路径，作者下次从源路径更新时，修正会被悄悄覆盖掉
+- 改 skill 本身：`~/.claude/skills/<name>` 只是指向 `~/.cc-switch/skills/<name>` 的符号链接，不是 git 仓库。在固定工作副本 `~/projects/skills`（`gh repo clone Liam0205/skills`）里改、提交、推送，再同步回 `~/.cc-switch/skills/<name>`。cc-switch 的仓库模式只拉不推
