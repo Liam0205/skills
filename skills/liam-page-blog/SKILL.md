@@ -105,6 +105,41 @@ grep -c "阅读全文" public/index.html                 # 首页每篇都该有
 
 最后两条确认文章进了首页和归档，且首页只显示摘要。没有出现说明日期、draft 状态有问题，或者正文漏了 `<!-- more -->`。
 
+### 排版：过长的行内代码
+
+正文是两端对齐（NexT 默认 `text_align: justify`）。很长、中间没有空格的行内代码（典型是 `/System/Library/...` 这类绝对路径）放不进当前行时，会整段被挤到下一行，前一行只剩几个字，被拉开到整行宽，字距大得很难看；代码本身也只能在最后一个字符硬断（`bir|d`）。
+
+2026-11 起两个站点在站点层加了 `source/_data/styles.styl`（经 `next.yml` 的 `custom_file_path.style` 引入），让正文里的行内代码可以在任意字符处断行，并且每段折行都保留内边距与圆角：
+
+```styl
+.post-body :not(pre) > code {
+  word-break: break-all;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+```
+
+所以写稿时不必为了排版把长路径改成代码块。是否改成独立代码块由作者决定，不要自作主张。验证过的性质：复制出来的文本与原文一致、不含换行；`<pre>` 代码块不受影响；只在 Chrome 上截图验证过。
+
+`styles.styl` 和 `next.yml` 在 `zh/`、`en/` 各有一份，改样式时两边要一起改。样式改动要用浏览器渲染确认，不要只看 CSS 有没有生成，见下文「用浏览器截图验证排版」。
+
+### 用浏览器截图验证排版
+
+看排版问题要实际渲染，不要凭经验判断。本机有 Google Chrome，用 `puppeteer-core` 驱动它即可，不用下载浏览器：
+
+```bash
+mkdir -p /tmp/shot && cd /tmp/shot && npm init -y >/dev/null
+PUPPETEER_SKIP_DOWNLOAD=1 npm i puppeteer-core@23 --silent
+cd zh && ./hexo server -p 9227 &        # 或者直接截线上页面
+```
+
+两个坑：
+
+- NexT 有入场动画，headless 下 `.post-block` / `.post-body` 会一直停在 `opacity: 0`，截出来是空白。截图前注入一段样式强制显示：`page.addStyleTag({content: '.post-block,.post-body,.post-header{opacity:1 !important;transform:none !important}'})`
+- 截线上页面别用 `waitUntil: 'networkidle0'`，第三方脚本会让它超时，用 `'load'` 加 60 秒超时
+
+宽度至少截两档：桌面 1280、手机 375。除了截图，再用 `getComputedStyle` 确认规则真的生效，用 `getClientRects()` 数折行，用 `Selection` 校验复制出来的文本不变。
+
 ## 发布
 
 ### 发布前：先对齐子模块
@@ -245,6 +280,31 @@ done
 
 轮询六次、每次间隔二十秒足够。等不到就去查 Pages 的构建状态，不要急着改文章内容。
 
+### Pages 构建失败
+
+`hexod` 退出码 0 只说明推送成功，Pages 可能在之后构建失败，线上就一直停在旧版本。等不到新内容时先查构建状态：
+
+```bash
+gh api repos/Liam0205/liam0205.github.io/pages/builds --jq '.[0:3][] | "\(.created_at) \(.status) \(.commit[0:10]) \(.error.message // "")"'
+gh run list -R Liam0205/liam0205.github.io -L 3
+gh run view <run-id> -R Liam0205/liam0205.github.io --log-failed | tail
+```
+
+en 站把仓库名换成 `Liam0205/en`。
+
+2026-11-07 遇到过一次：部署步骤卡在 `Current status: syncing_files` 约 11 分钟，然后 `Timeout reached, aborting!`，是 GitHub 侧的问题，跟站点内容无关。
+
+- **不要** `gh run rerun`：重跑会沿用同一个部署 ID，被 GitHub 直接以 `Deployment cancelled` 拒掉
+- 改为针对当前 master 重新请求一次构建，一两分钟就好：
+
+  ```bash
+  gh api -X POST repos/Liam0205/liam0205.github.io/pages/builds
+  ```
+
+### 验证样式改动
+
+CSS 改动通过轮询 `main.css` 确认。`next.yml` 的 `minify: true` 并没有压缩 `main.css`，规则在线上仍是多行格式，所以 grep `box-decoration-break: clone`（带空格），不要 grep 压缩后的写法。`main.css` 的 `cache-control: max-age=600`，加 `?v=` 绕开 CDN 缓存。
+
 更新已发布的文章时，状态码一直是 200，测不出新版是否生效。改成 grep 一个**只在新版里出现**的词（新加的小节标题最合适），URL 加 `?v=$i` 绕开缓存：
 
 ```bash
@@ -310,6 +370,7 @@ cp "$P" "$S"
 
 - [ ] clone 带 `--recursive`，`git submodule status` 三个子模块都非空
 - [ ] 发布前 `git diff --submodule=log` 没有 `(rewind)` / `(commits not present)`，子模块不落后于记录的指针
+- [ ] 两个 `.deploy_git` 的 `HEAD`、远端 `master`、根仓库记录的指针三者一致，避免部署时强推覆盖远端提交
 - [ ] `./hexo version` 打印的 `node:` 大版本等于站点 `.nvmrc`（2026-11 起是 24）
 - [ ] 文件名是英文 slug，与站内既有文章一致
 - [ ] frontmatter 字段齐，分类在十六个既有分类里，正文没有重复的 H1
@@ -318,7 +379,8 @@ cp "$P" "$S"
 - [ ] `hexo g` 之后能打开该页，标题正确，正文有内容，首页和归档都有链接
 - [ ] 本机 SSH 是否可用已确认（通则不注入 token），发布命令用 `timeout` 包住
 - [ ] 临时 gitconfig 用完删掉
-- [ ] 线上返回 200 且标题正确；改动过的标签页 URL 也逐个 200
+- [ ] 线上返回 200 且标题正确；改动过的标签页 URL 也逐个 200；等不到新内容时先查 Pages 构建状态
+- [ ] 改了样式：zh / en 两份 `styles.styl` 一致，桌面与手机两档截图确认过
 - [ ] 更新已发布的文章时：没有悬空引用；修正逐条汇报；改好的版本已拷回源路径；线上能 grep 到只在新版里出现的词
 - [ ] 源码仓库与 deploy 仓库都已推送，`git status` 干净
 
@@ -341,6 +403,16 @@ cp "$P" "$S"
 - `.deploy_git` 这类子模块通常停在 detached HEAD，`git push origin HEAD:master` 比先 checkout 更省事
 - nvm 里没装 `.nvmrc` 要求的版本时，`./hexo` 会静默退回一个更老的 node 然后报各种模块找不到，先看 `./hexo version` 的 `node:` 行
 - 标签只差大小写会让 macOS 上的 `hexo deploy` 直接失败，见上文专节
+- **部署仓库落后会被强推覆盖**：`hexo-deployer-git` 每次都用 `git push --force`。如果 `hexod` 第二步把 `.deploy_git` 检出到的提交比远端旧（本地记录的远端位置过期时会这样），部署就会把远端最新的那次提交挤掉，日志里出现 `(forced update)`。线上内容不受影响（每次都是全站重新生成），但 Pages 仓库会丢一条历史，根仓库里记录的那个指针也就不在任何分支上了。发布前用 HTTPS + 代理 fetch 一下两个 `.deploy_git`，确认 `HEAD`、`origin/master`、根仓库记录的指针三者一致：
+
+  ```bash
+  for s in zh en; do r=$([ $s = zh ] && echo liam0205.github.io || echo en)
+    git -C $s/.deploy_git fetch -q https://github.com/Liam0205/$r.git +master:refs/remotes/origin/master
+    echo "$s remote=$(git -C $s/.deploy_git rev-parse --short origin/master) HEAD=$(git -C $s/.deploy_git rev-parse --short HEAD) root=$(git ls-tree HEAD $s/.deploy_git | awk '{print substr($3,1,9)}')"
+  done
+  ```
+- **en 站的 `node_modules` 也可能过期**：和 zh 一样，feed 插件加载失败（`hexo/lib/plugins/helper/gravatar`）时 `hexo g` 不会退出，只是少生成 `atom.xml`（实测 165 vs 166 个文件）。要看日志里有没有 `ERROR Plugin load failed`，不能只看最后的文件数
+- **en 站部署要作者点名**：作者说「zh 和 en 都加上」指的是改源码；只要作者没明确说发布 en，就只跑 zh 的 `hexod`。zh 的 `./sync` 会把 en 的源码改动一起提交推送，en 的线上站点则保持不动
 - 更新文章后只拿状态码验证线上，200 测不出新旧版本，要 grep 新版独有的内容
 - 修正只改了 `_posts` 里的副本、没拷回源路径，作者下次从源路径更新时，修正会被悄悄覆盖掉
 - 改 skill 本身：`~/.claude/skills/<name>` 只是指向 `~/.cc-switch/skills/<name>` 的符号链接，不是 git 仓库。在固定工作副本 `~/projects/skills`（`gh repo clone Liam0205/skills`）里改、提交、推送，再同步回 `~/.cc-switch/skills/<name>`。cc-switch 的仓库模式只拉不推

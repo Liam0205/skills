@@ -159,6 +159,23 @@ exit $rc
 - 修正后拷回源路径，再发布：sync 只带这一篇（113+/98−），部署仓 `780273d3..a7a02139`
 - 线上验证用 grep 新增小节标题「枚举为什么被频繁触发」，第一次轮询就命中
 
+### 同日 18:26 发布 iCloud 缓存一文
+
+- 原稿直接发布，没改任何字。标签 `macOS`、`iCloud` 沿用站内已有写法，`Cache` 是新标签
+- 部署推送出现 `+ a7a0213995...fb510198bf HEAD -> master (forced update)`：`hexod` 第二步把 `zh/.deploy_git` 检出到了 `780273d3`，不是远端最新的 `a7a02139`。`hexo-deployer-git` 带 `--force`，于是把 `a7a02139` 挤出了历史。线上内容不受影响，只是 Pages 仓库少了一条历史
+
+### 同日 18:52 行内代码断行样式
+
+- 起因：作者截图，iCloud 一文「bird 的完整路径是」那一行被拉开成「bird　的　完　整　路　径　是」，路径在 `bir|d` 处硬断。原因是 `text_align: justify` 加上 84 字符、中间没有空格的行内代码
+- 全站正文里 ≥45 字符、中间没有空格的行内代码共 22 篇、32 处
+- 方案：在 `zh/`、`en/` 的 `source/_data/styles.styl` 里写 `.post-body :not(pre) > code { word-break: break-all; box-decoration-break: clone }`，`next.yml` 加 `custom_file_path.style`。路径相对站点根目录（`injects.js` 里用 `path.resolve(base_dir, file)`）
+- 对比过三种做法：只加 `break-all` 时，跨行代码第一段的行尾没有内边距和圆角；加上 `clone` 后最整齐；在 `/`、`.` 后插入 `<wbr>` 断点最自然，但手机上仍有行被拉开，而且要改生成的 HTML
+- Chrome 下验证：73 处行内代码，桌面 11 处折行、手机 17 处折行，复制出来的文本全部不变；`<pre>` 的 `word-break` 仍是 `normal`
+- 作者要求两个站点都加样式，但 en 站暂不部署；源码改动由 zh 的 sync 一起推上去
+- en 的 `node_modules` 也过期了（feed 插件 1.x 对 lock 里的 3.0.0），用 Node 24 `npm ci` 修好
+- zh 推送成功，但 Pages 构建失败：部署卡在 `syncing_files` 11 分钟后 `Timeout reached`。`gh run rerun` 因为部署 ID 相同被拒（`Deployment cancelled`）；改用 `gh api -X POST repos/Liam0205/liam0205.github.io/pages/builds`，约 1 分钟构建成功
+- headless 截图的坑：NexT 入场动画让 `.post-body` 停在 `opacity: 0`，截出来是空白；截线上页面时 `networkidle0` 会超时
+
 ## 该站写作规范
 
 写文章本身（语气、结构、引号、人称）走 `liam-page-writing` skill，本文件只管发布链路。
